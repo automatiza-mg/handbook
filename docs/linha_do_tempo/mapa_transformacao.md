@@ -24,7 +24,7 @@ timeline
     Setembro : Início do projeto
              : Formalização pedido acesso banco Portal MG
              : Inicio revisão lista de outros documentos
-    Outubro  : Inclusão demanda retirada botão sprint
+    Outubro  : Retirada botão "Outros documentos" concluída
              : Revisão materiais de treinamento
 ```
 
@@ -48,5 +48,8 @@ timeline
     02/10 a 06/10 : Criação texto para nova tela sem botão
                   : Inclusão demanda retirada botão sprint PRODEMGE
                   : Revisão material treinamentos
+    09/10 a 13/10 : Análise de APIs do Governo Federal concluída
+    16/10 a 27/10 : Retirada botão "Outros documentos" concluído
+                  : 2% de "Outros documentos" cadastrados analisados
 ```
 [^1]: Exigência [§6º Art. 7º Lei 13.460](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm#:~:text=%C2%A7%206%C2%BA-,Compete,-a%20cada%20ente).
