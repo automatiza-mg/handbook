@@ -5,6 +5,15 @@ repo_name: lab-mg/handbook
 repo_url: https://github.com/lab-mg/handbook
 edit_uri: edit/main/docs/
 
+nav:
+  - index.md
+  - Apresentações:
+    - apresentacoes/index.md
+  - Blog:
+    - blog/index.md
+  - Linha do Tempo:
+    - linha_do_tempo/index.md
+
 # Configuration
 theme:
   name: material
@@ -85,6 +94,8 @@ extra_css:
 extra_javascript:
   - assets/style.js
   - https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js
+version:
+    provider: mike
 
 # extra: # Footer
 #   social:
@@ -114,4 +125,6 @@ plugins:
       categories_toc: true
       post_excerpt: required
   - tags:
-      tags_file: tags.md
+      tags_file: index.md
+  - mike:
+      version_selector: true
