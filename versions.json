@@ -1,0 +1,9 @@
+[
+  {
+    "version": "prod",
+    "title": "prod",
+    "aliases": [
+      "latest"
+    ]
+  }
+]
