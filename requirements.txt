@@ -1,6 +1,7 @@
-ipdb==0.13.9
-mkdocs==1.5.2
-pymdown-extensions==10.2.1
-mkdocs-material==9.2.6
-mkdocs-git-revision-date-localized-plugin==1.2.0
-tzdata==2023.3
+ipdb==0.13.13
+mkdocs==1.5.3
+pymdown-extensions==10.7
+mkdocs-material==9.5.4
+mkdocs-git-revision-date-localized-plugin==1.2.2
+tzdata==2023.4
+mike==2.0.0
