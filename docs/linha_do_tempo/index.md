@@ -15,6 +15,7 @@ Em resumo, a construção rotineira destas linhas do tempo visa deixar o gestor 
 
 ## Linhas disponíveis
 
+- [Automatiza-MG](../linha_do_tempo/automatiza_mg).
 - [Mapa de transformação](../linha_do_tempo/mapa_transformacao).
 
 [^1]: Criado com auxílio de [Mermaid timelines](https://mermaid.js.org/syntax/timeline.html).

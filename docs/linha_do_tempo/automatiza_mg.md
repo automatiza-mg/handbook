@@ -1,0 +1,59 @@
+---
+comments: true
+hide:
+  - navigation
+tags:
+  - Automatiza-MG
+---
+
+# Linha do Tempo Projeto Automatiza-MG
+
+O projeto [Automatiza-MG](https://automatiza-mg.github.io/automatizacoes/) consiste em uma séria de ações para disseminar a utilização de ferramentas de Automatizações de processos do Estado de Minas Gerais. Principais entregas:
+
+- Curso EAD de Power Automate.
+- [Biblioteca de robôs](https://automatiza-mg.github.io/automatizacoes/robos/).
+- Divulgação ampla do projeto, potencial de utilização e resultados.
+
+Documentos relacionados ao projeto, como atas de reunião e apresentações, são organizados pela tag [Automatiza-MG](../../tags/#automatiza-mg).
+
+Todas as ações desenvolvidas e planejadas podem ser acompanhadas neste [GitHub Project Board](https://github.com/orgs/automatiza-mg/projects/1/views/15).
+
+## Visão Geral
+
+```mermaid
+timeline
+    title Ano 2024
+    Fevereiro: Início formal do projeto.
+             : Cria padrão visual do projeto.
+             : Divulga resultados de robôs criados em 2023.
+    Março    : Apresenta projeto para Governador
+             : Grava curso EAD Power Automate.
+             : Cria formulário pedidos de apoio.
+             : Melhora desempenho site.
+```
+
+# Visão Detalhada
+
+```mermaid
+timeline
+    title Fevereiro 2024
+    01/02 a 09/02 : Inicio formal do projeto.
+                  : Criação do padrão visual do projeto.
+                  : Divulga resultados de robôs criados em 2023.
+    12/02 a 16/02 : Adaptações iniciais site ao padrão visual.
+                  : Início planejamento curso EAD Power Automate.
+                  : Finaliza apresentação do projeto para Governador.
+    18/02 a 29/02 : Finalização scripts curso EAD Power Automate.
+                  : Gravações teste curso EAD Power Automate.
+```
+
+```mermaid
+timeline
+    title Março 2024
+    01/03 a 08/03 : Apresentação projeto para Governador.
+                  : Gravações curso EAD Power Automate estúdio TCE.
+                  : Definição de indicador para priorização de pedidos de apoio.
+    11/03 a 15/03 : Implementação de melhorias no desempenho site.
+                  : Finalização de formulário de pedidos de apoio.
+                  : Inclusão formulário de pedidos de apoio no site.
+```
