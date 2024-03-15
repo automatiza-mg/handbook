@@ -14,9 +14,11 @@ O projeto [Automatiza-MG](https://automatiza-mg.github.io/automatizacoes/) consi
 - [Biblioteca de robôs](https://automatiza-mg.github.io/automatizacoes/robos/).
 - Divulgação ampla do projeto, potencial de utilização e resultados.
 
-Documentos relacionados ao projeto, como atas de reunião e apresentações, são organizados pela tag [Automatiza-MG](../../tags/#automatiza-mg).
+A documentação que detalha todas as ações e produtos finais pode ser encontrada:
 
-Todas as ações desenvolvidas e planejadas podem ser acompanhadas neste [GitHub Project Board](https://github.com/orgs/automatiza-mg/projects/1/views/15).
+- Na tag [Automatiza-MG](../../tags/#automatiza-mg).
+- No [repositório GitHub](https://github.com/automatiza-mg/automatizacoes) criado para hospedar o site do projeto.
+- Neste [GitHub Project Board](https://github.com/orgs/automatiza-mg/projects/1/views/15).
 
 ## Visão Geral
 
