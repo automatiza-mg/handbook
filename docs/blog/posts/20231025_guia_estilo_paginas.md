@@ -3,13 +3,13 @@ date: 2023-10-25
 authors: [gabrielbdornas]
 comments: true
 categories:
-  - ferramentas
+  - Ferramentas
 ---
 
 # Guia de estilo de nossas páginas
 
 Neste post definiremos algumas regras simples, mas muito efetivas, para manter o padrão entre as páginas deste ou qualquer outro site sob nossa responsabilidade.
-Criado com auxílio da ferramenta [MkDocs](https://www.mkdocs.org/) e um de seus temas mais famosos, [Material](https://squidfunk.github.io/mkdocs-material/)[^2], este conteúdo está, quase que exclusivamente, em arquivos de texto no formato [Markdown](https://www.markdownguide.org/basic-syntax/) (`.md`).
+Criados com auxílio da ferramenta [MkDocs](https://www.mkdocs.org/) e um de seus temas mais famosos, [Material](https://squidfunk.github.io/mkdocs-material/)[^2], estes conteúdos estão, quase que exclusivamente, em arquivos de texto no formato [Markdown](https://www.markdownguide.org/basic-syntax/) (`.md`).
 
 <!-- more -->
 
@@ -17,21 +17,18 @@ Neste sentido, proponho as seguintes regras durante a elaboração de conteúdo 
 
 ## Blog post
 
-- Escrito em arquivo `index.md` dentro de uma pasta principal que deverá ser criada com a seguinte estrutura:
+- Escritos em arquivos `.md` dentro de uma pasta principal `docs/blog/posts`:
 
 ```yml
 - docs
   - blog
     - posts
-      - yyyymmaa_nome_post_reduzido
-        - assets
-          - .gitkeep
-          # apropriado para armazenar imagens e caminho de arquivos
-        - index.md
+      - yyyymmaa_nome_post_reduzido.md
 ```
 
-- Nome da pasta principal deverá sempre iniciar com data no padrão `yyyymmaa`[^3].
-- Imagens e outros materiais utilizados na elaboração de um post deverão ser incluídas dentro da pasta `assets`, criada dentro da pasta principal do post.
+- Nome da arquivo do post deverá sempre iniciar com data no padrão `yyyymmaa`[^3].
+- Imagens deverão ser incluídas em formato `.webp` na [conta](https://github.com/automatiza-mg/acessos) [Cloudinary](https://cloudinary.com/users/login) da diretoria.
+- Vídeos deveráo ser incluídos no canal [YouTube](https://www.youtube.com/channel/UCZU69STFD8lrtuZ5rdl0fuA) da diretoria.
 - Posts não finalizados deverão ser marcados com a [propriedade `draft: true`](https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/?h=blog#writing-your-first-post:~:text=Create%20a%20new%20file%20called):
 
 > If you mark a post as a draft, a red marker appears next to the post date on index pages. When the site is built, drafts are not included in the output. This behavior can be changed, e.g. for rendering drafts when building deploy previews.
@@ -52,6 +49,7 @@ Neste sentido, proponho as seguintes regras durante a elaboração de conteúdo 
 ## Navbar
 
 - Inclusão de itens na navbar ocorrerá sempre pela propriedade `nav` do arquivo `mkdocs.yml`:
+- Isso visa garantir a inclusão de acentos e caracteres especiais nos títulos das páginas.
 
 ```yml
 # Arquivo mkdocs.yml na raiz do repositório
@@ -72,6 +70,7 @@ Neste sentido, proponho as seguintes regras durante a elaboração de conteúdo 
 
 ## Robôs
 
+- Especificamente para páginas de robôs do site [Automatiza.MG](https://automatiza-mg.github.io/automatizacoes/robos/).
 - Criado em arquivo `index.md` dentro de uma pasta principal que deverá ser criada com a seguinte estrutura:
 
 ```yml
@@ -79,24 +78,22 @@ Neste sentido, proponho as seguintes regras durante a elaboração de conteúdo 
   - robos
     - nome_robo
       - assets
-        - codigo_fonte.txt
         - fluxo.md
-        - arquivo_auxiliar_1.xlsx
-        - arquivo_auxiliar_2.csv
-        - arquivo_auxiliar_3.xls
+        - arquivo_auxiliar_1.csv
+        - arquivo_auxiliar_2.pdf
       - index.md
 ```
 
-- Arquivo `index.md` deverá seguir padrão do [modelo para criação de robôs](../../../robos/modelo/index.md).
-- Pasta `assets` deverá conter com, no mínimo `codigo_fonte.txt`.
+- Pasta `assets` deverá conter com, no mínimo `fluxo.md` do robô.
+- Imagens deverão ser incluídas em formato `.webp` na [conta](https://github.com/automatiza-mg/acessos) [Cloudinary](https://cloudinary.com/users/login) da diretoria.
+- Vídeos deveráo ser incluídos no canal [YouTube](https://www.youtube.com/channel/UCZU69STFD8lrtuZ5rdl0fuA) da diretoria.
 
 ## Tags
 
-- Tags são categorias padronizadas de nosso [catálogo de robôs](../../../robos/index.md)[^4].
-- Deverão ser evitadas tags com duas palavras. Tente utilizar apenas uma palavra, sempre que possível, englobando todas as características principais de um grupo de robôs.
-- Robôs com mais de uma característica principal poderão receber, no máximo, duas tags.
+- Tags são categorias padronizadas para facilitar a busca de conteúdo em cada site.
+- Deverão ser evitadas tags com duas palavras. Tente utilizar apenas uma palavra, sempre que possível, englobando todas as características principais de um grupo de robôs[^4].
 
 [^1]: Com exceção de nomes próprios e ou siglas.
 [^2]: Use e abuse da documentação do tema [Material](https://squidfunk.github.io/mkdocs-material/) para criar páginas cada vez mais atrativas.
 [^3]: Ano com quatro dígitos, mês e dia com do dois. Exemplo `20231025`.
-[^4]: O [Issue número 5](https://github.com/automatiza-mg/automatizacoes/issues/5) do repositório [automatizações](https://github.com/automatiza-mg/automatizacoes) contém a discussão inicial para a criação deste guia de estilo das tags.
+[^4]: O [Issue número 5](https://github.com/automatiza-mg/automatizacoes/issues/5) do repositório [automatizações](https://github.com/automatiza-mg/automatizacoes) contém discussão inicial para a criação de guia de estilo para tags.
