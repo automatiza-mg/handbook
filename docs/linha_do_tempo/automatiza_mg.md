@@ -58,4 +58,7 @@ timeline
     11/03 a 15/03 : Implementação de melhorias no desempenho site.
                   : Finalização de formulário de pedidos de apoio.
                   : Inclusão formulário de pedidos de apoio no site.
+    18/03 a 23/03 : Validação vídeos editados curso EAD Power Automate.
+                  : Recebimento primeiros formulários de pedido de apoio.
+                  : Autorização para utilizar domínio personalizado mg.gov.br.
 ```
