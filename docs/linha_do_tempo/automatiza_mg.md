@@ -34,7 +34,7 @@ timeline
              : Melhora desempenho site.
 ```
 
-## Visão Detalhada
+## Visão mensal detalhada
 
 ```mermaid
 timeline
