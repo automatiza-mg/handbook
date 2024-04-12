@@ -70,6 +70,8 @@ timeline
 timeline
     title Abril 2024
     01/04 a 05/04 : Início apoio equipe SEJUSP.
+                  : Acesso API CFM
     08/04 a 12/04 : Início oficial do curso EAD Power Automate.
                   : Evento de apresentação Automatiza.MG.
+                  : Acesso API correios
 ```
