@@ -32,6 +32,8 @@ timeline
              : Grava curso EAD Power Automate.
              : Cria formulário pedidos de apoio.
              : Melhora desempenho site.
+    Abril    : Início oficial do curso EAD Power Automate.
+             : Evento de apresentação Automatiza.MG
 ```
 
 ## Visão mensal detalhada
@@ -58,7 +60,16 @@ timeline
     11/03 a 15/03 : Implementação de melhorias no desempenho site.
                   : Finalização de formulário de pedidos de apoio.
                   : Inclusão formulário de pedidos de apoio no site.
-    18/03 a 22/03 : Validação vídeos editados curso EAD Power Automate.
+    18/03 a 29/03 : Validação vídeos editados curso EAD Power Automate.
                   : Recebimento primeiros formulários de pedido de apoio.
                   : Autorização para utilizar domínio personalizado mg.gov.br.
+```
+
+
+```mermaid
+timeline
+    title Abril 2024
+    01/04 a 05/04 : Início apoio equipe SEJUSP.
+    08/04 a 12/04 : Início oficial do curso EAD Power Automate.
+                  : Evento de apresentação Automatiza.MG.
 ```
