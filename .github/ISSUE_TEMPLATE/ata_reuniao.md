@@ -1,10 +1,13 @@
 ---
-comments: true
-tags:
-  - Modelos
+name: Ata de reunião
+about: O objetivo principal deste issue template é auxiliar na elaboração de atas de reunião.
+title: 'Reunião XXXXX - DD/MM/AAAA'
+labels: 'reuniao'
+assignees: ''
 ---
 
-# Modelo Ata Reunião
+Assunto
+===
 
 - **Data:** DD/MM/20AA
 
