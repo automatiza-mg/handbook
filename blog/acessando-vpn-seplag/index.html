@@ -508,6 +508,8 @@
       
         
       
+        
+      
     
     
     
@@ -578,6 +580,29 @@
   
   <span class="md-ellipsis">
     Ferramentas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../category/webnar-automatizamg/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Webnar Automatiza.MG
   </span>
   
 
@@ -807,7 +832,7 @@
   
 
 
-<h1 id="acessando-vpn-seplag">Acessando VPN SEPLAG<a class="headerlink" href="#acessando-vpn-seplag" title="Permanent link">⚓︎</a></h1>
+<div><h1 id="acessando-vpn-seplag">Acessando VPN SEPLAG<a class="headerlink" href="#acessando-vpn-seplag" title="Permanent link">⚓︎</a></h1>
 <p>Neste post pretendo mostrar os passos seguidos para acessar a VPN da SEPLAG na <abbr title="Cidade Adminsitrativa do Estado de Minas Gerais">CAMG</abbr>.
 Os tutoriais utilizados estavam, na maioria dos casos, voltados para utilização com Windows.
 Como este não era meu caso, faço este registro para instalação e utilização em sistemas operacionais Linux<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</p>
@@ -818,11 +843,11 @@ Como este não era meu caso, faço este registro para instalação e utilizaçã
 <p>Próximo passo solicita entrar <a href="https://stsad.prodemge.gov.br/vpn/PROD_SEPLAG_VDI/vpn-n2.html">neste link</a><sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>.
 Após autenticação será possível acessar o manual de <a href="https://stsad.prodemge.gov.br/vpn/Manual-OpenVPN-Linux.pdf">instalação</a> da ferramenta OpenVPN e os arquivos necessários para seu funcionamento.
 Para facilitar a ligação da VPN eu criei o seguinte alias:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">vpn</span><span class="o">=</span><span class="s1">&#39;cd /home/&lt;user&gt;/vpnserver-UDP4-1237-User-1237/ </span><span class="se">\</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="s1">     &amp;&amp; sudo openvpn vpnserver-UDP4-1237-User-1237.ovpn&#39;</span> <span class="c1"># (1)</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">vpn</span><span class="o">=</span><span class="s1">'cd /home/&lt;user&gt;/vpnserver-UDP4-1237-User-1237/ </span><span class="se">\</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="s1">     &amp;&amp; sudo openvpn vpnserver-UDP4-1237-User-1237.ovpn'</span> <span class="c1"># (1)</span>
 </span></code></pre></div>
 <ol>
-<li><img alt="🙋‍♂️" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f64b-200d-2642-fe0f.svg" title=":man_raising_hand:" /> Os arquivos baixados foram salvos em uma pasta dentro de meu usuário e o comando de acionamento da VPN incluído posteriormente à mudança para este diretório.</li>
+<li><img alt="🙋‍♂️" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f64b-200d-2642-fe0f.svg" title=":man_raising_hand:"> Os arquivos baixados foram salvos em uma pasta dentro de meu usuário e o comando de acionamento da VPN incluído posteriormente à mudança para este diretório.</li>
 </ol>
 <p>VPN no ar, entrar <a href="https://vdi.prodemge.gov.br/ovirt-engine">neste link</a> e clique no Portal da VM"<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. Clique em "Console SPICE" e no arquivo que será baixado. Realize o último login e a máquina será acessada.</p>
 <h2 id="vpn-fisica">VPN física<a class="headerlink" href="#vpn-fisica" title="Permanent link">⚓︎</a></h2>
@@ -841,22 +866,22 @@ Para facilitar a ligação da VPN eu criei o seguinte alias:</p>
 <p>Com a VPN conectada via Cisco AnyConnect basta acessar a máquina utilizando o número da estação iniciado com <code>D</code>.</p>
 <p>Em caso de dúvidas, consultar também <a href="https://gist.github.com/gabrielbdornas/3e1455e0097879f56d58efca1368a3b0">este</a> tutorial.</p>
 <div class="footnote">
-<hr />
+<hr>
 <ol>
 <li id="fn:1">
-<p>Distribuição <a href="https://pop.system76.com/">Pop!_OS</a>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>Distribuição <a href="https://pop.system76.com/">Pop!_OS</a>. <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
 </li>
 <li id="fn:2">
-<p>Será solicitado login e senha da rede SEPLAG.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p>Será solicitado login e senha da rede SEPLAG. <a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">↩</a></p>
 </li>
 <li id="fn:3">
-<p>Usuário no padrão <code>usuario@ca.mg.gov.br</code>.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+<p>Usuário no padrão <code>usuario@ca.mg.gov.br</code>. <a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">↩</a></p>
 </li>
 <li id="fn:4">
-<p>Usuário com padrão <code>@ca.mg.gov.br</code>.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+<p>Usuário com padrão <code>@ca.mg.gov.br</code>. <a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">↩</a><a class="footnote-backref" href="#fnref2:4" title="Jump back to footnote 4 in the text">↩</a></p>
 </li>
 </ol>
-</div>
+</div></div>
 
 
 
