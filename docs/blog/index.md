@@ -1,3 +1,5 @@
 ---
-title: Blog SUGES-MG
+title: Blog Automatiza.MG
 ---
+
+# Blog Automatiza.MG

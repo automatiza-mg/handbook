@@ -128,5 +128,9 @@ plugins:
       post_excerpt: required
   - tags:
       tags_file: index.md
+  - mkdocs-video:
+      video_muted: True
+      video_controls: True
+      video_autoplay: False
   - mike:
       version_selector: true
