@@ -1,5 +1,5 @@
 ---
-date: 2024-05-222
+date: 2024-05-22
 authors: [gabrielbdornas]
 comments: true
 categories:
@@ -10,7 +10,8 @@ categories:
 
 Acriação de novos repositórios no GitHub é tão simples como apertar um botão.
 Neste post explicarei algumas alternativas que vão simplificar, ainda mais, este processo.
-Vamos que vamos 🚀🚀🚀
+Além disso teremos total integração de nosso novo repositório com projeto [planner](https://github.com/orgs/automatiza-mg/projects/1).
+Vamos que vamos 🚀🚀🚀!!!!
 
 <!-- more -->
 
@@ -21,20 +22,20 @@ Como exemplo, incluo abaixo, a tela da organização [automatiza-mg](https://git
 
 ![image](https://github.com/automatiza-mg/handbook/assets/49699290/e4d20ecd-895c-409b-9d75-3ac4e5af7336)
 
-A tela a seguir servirá para configurações básicas deste novo repositório:
+A tela a seguir servirá para configurações básicas deste novo repositório[^1]:
 
 ![image](https://github.com/automatiza-mg/handbook/assets/49699290/2119aec3-a310-4d05-9cc3-3d096e6d29f2)
 
 Repositório criado é hora de começarmos a incluir nossos arquivos.
 Foi exatamente pensando nisso que o GitHub criou os templates de repositórios.
 Com eles, é possível, criar repositórios já com os arquivos mínimos desejados para nosso futuro projeto.
-Pensando nisso, criei o nosso [repositorio-template](https://github.com/automatiza-mg/repositorio-template).
+Neste sentido, criei o nosso [repositorio-template](https://github.com/automatiza-mg/repositorio-template).
 Sua utilização é tão simples quanto a mostrada inicialmente, com o benefício de já criarmos um repositório com:
 
 - Arquivo `.gitignore`, que auxilia na utilização local da ferramenta `git`.
 - Arquivo `CHANGELOG.md`, que auxilia na documentação, resumida, das modificações ocorridas no projeto.
 - Arquivo `README.md`, que poderá ser utilizada como documentação inicial sobre aquele repositório.
-- Pasta `.github/workflows` com GitHub actions para integração do novo repositório com nosso [planner](https://github.com/orgs/automatiza-mg/projects/1)
+- Pasta `.github/workflows` com GitHub actions para integração do novo repositório com nosso [planner](https://github.com/orgs/automatiza-mg/projects/1).
 
 ## Criação turbinada
 
@@ -50,7 +51,7 @@ Depois realize as configurações iniciais:
 
 Prontinho.
 Repositório criado e pronto para ser utilizado.
-Caso queira levar o mesmo para seu computador basta fazer o clone[^1] com o endereço do novo repositório criado[^2]:
+Caso queira levar o mesmo para seu computador basta fazer o clone[^2] com o endereço do novo repositório criado[^3]:
 
 ![image](https://github.com/automatiza-mg/handbook/assets/49699290/61968a19-b9d7-4b5d-a8c4-9fce747421bd)
 
@@ -58,7 +59,7 @@ Caso queira levar o mesmo para seu computador basta fazer o clone[^1] com o ende
 
 Bom, estamos quase lá.
 Para que nossos actions reutilizáveis funcionem precisamos cadastrar secrets nas configurações do projeto.
-Acesse as configurações gerais do GitHub utilizando o usuário admin [dcd-github-admin](https://github.com/dcd-github-admin)[^3]:
+Acesse as configurações gerais do GitHub utilizando o usuário admin [dcd-github-admin](https://github.com/dcd-github-admin)[^4]:
 
 ![image](https://github.com/automatiza-mg/handbook/assets/49699290/00c3902b-bbfc-4ff6-8b67-65577418ccad)
 
@@ -79,28 +80,34 @@ E inclua as configurações necessárias para o novo token:
 ![image](https://github.com/automatiza-mg/handbook/assets/49699290/364b7be6-d2b6-43e5-aaba-e8afb6de9c8b)
 
 Como padrão:
-- Campo `Note` deverá ser preenchido no padrão `organizacao-repo-name`.
-- Campo `Expiration` deverá ser preenchido como `No expiration`.
-- Opções `repo` e `project` deverão ser marcadas antes de clicar em `Generate token` no final da página.
+
+  - Campo `Note` deverá ser preenchido no padrão `organizacao-repo-name`.
+  - Campo `Expiration` deverá ser preenchido como `No expiration`.
+  - Opções `repo` e `project` deverão ser marcadas antes de clicar em `Generate token` no final da página.
 
 **O token criado é mostrado apenas uma vez, então não se esqueça de anotar**.
 
-Token criado, basta voltar nas configurações do novo repositório criado e cadastrar um novo `Secret`.
+Agora, basta voltar nas configurações do novo repositório criado e cadastrar um novo `Secret`.
 
 ![image](https://github.com/automatiza-mg/handbook/assets/49699290/8829faa1-fc0f-471a-a15e-e80eaee087ab)
 
 ![image](https://github.com/automatiza-mg/handbook/assets/49699290/c68a017e-508b-419b-972a-f11be1257e57)
 
-Para integração com nosso planner precisamos cadastrar o `Secret` `GH_TOKEN`[^4]:
+Para integração com nosso planner precisamos cadastrar o `Secret` `GH_TOKEN`[^5]:
 
 ![image](https://github.com/automatiza-mg/handbook/assets/49699290/a7730cd2-5422-4534-b667-a3218d514682)
 
-Por fim, cadastra o `Secret` `PROJECT_NUMBER`, conforme print abaixo[5]:
+Por fim, cadastra o `Secret` `PROJECT_NUMBER`, conforme print abaixo[^6]:
 
 ![image](https://github.com/automatiza-mg/handbook/assets/49699290/f8c2b564-1ea1-4b03-93e9-40482b01d45e)
 
-[^1]: `git clone <endereco-novo-repositorio>`
-[^2]: Máquinas da Cidade Administrativa podem não aceitar endereços `SSH`.
-[^3]: Credenciais disponíveis no nosso dataset de [acessos](https://github.com/automatiza-mg/acessos/blob/main/data/acessos.csv). Caso seja solicitado autenticação em dois fatores peça auxílio para algum colega que já acessa este usuário.
-[^4]: Orientações também disponíveis [aqui](https://github.com/o-futuro-ja-comecou/github-actions-reutilizaveis?tab=readme-ov-file#adicionar-projeto-em-um-novo-issue).
-[^5]: Número do projeto planner é 1, conforme pode ser observado no final da [url do projeto](https://github.com/orgs/automatiza-mg/projects/1).
+## Prontinho
+
+Bom, você poderia ter parado na criação do novo repositório via template. Mas como somos muito organizados e queremos manter todo nosso trabalho sincronizado no [planner](https://github.com/orgs/automatiza-mg/projects/1) vamos sempre preferir perder 5 minutinhos configurando nossos [actions](#actions-reutilizaveis), certo? 😀😀😀
+
+[^1]: Tente, ao máximo, criar repositórios públicos. Pense sempre se haverá alguma informação sensível e, caso haja, matenha o repositório privado.
+[^2]: `git clone <endereco-novo-repositorio>`
+[^3]: Máquinas da Cidade Administrativa podem não aceitar endereços `SSH`.
+[^4]: Credenciais disponíveis no nosso dataset de [acessos](https://github.com/automatiza-mg/acessos/blob/main/data/acessos.csv). Caso seja solicitado autenticação em dois fatores peça auxílio para algum colega que já acessa este usuário.
+[^5]: Orientações também disponíveis [aqui](https://github.com/o-futuro-ja-comecou/github-actions-reutilizaveis?tab=readme-ov-file#adicionar-projeto-em-um-novo-issue).
+[^6]: Número do projeto planner é `1`, conforme pode ser observado no final da [url do projeto](https://github.com/orgs/automatiza-mg/projects/1).
