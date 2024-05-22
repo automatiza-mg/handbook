@@ -108,6 +108,6 @@ Bom, você poderia ter parado na criação do novo repositório via template. Ma
 [^1]: Tente, ao máximo, criar repositórios públicos. Pense sempre se haverá alguma informação sensível e, caso haja, matenha o repositório privado.
 [^2]: `git clone <endereco-novo-repositorio>`
 [^3]: Máquinas da Cidade Administrativa podem não aceitar endereços `SSH`.
-[^4]: Credenciais disponíveis no nosso dataset de [acessos](https://github.com/automatiza-mg/acessos/blob/main/data/acessos.csv). Caso seja solicitado autenticação em dois fatores peça auxílio para algum colega que já acessa este usuário.
+[^4]: Credenciais disponíveis no nosso dataset de [acessos](https://github.com/automatiza-mg/acessos/blob/main/data/acessos.csv). Caso seja solicitado autenticação em dois fatores peça auxílio para algum colega que já acessa este usuário. Para entender melhor porque utilizar este usuário leia o post [Criação de usuário para adminstração geral GitHub]('criação-de-usuário-para-adminstração-geral-github')
 [^5]: Orientações também disponíveis [aqui](https://github.com/o-futuro-ja-comecou/github-actions-reutilizaveis?tab=readme-ov-file#adicionar-projeto-em-um-novo-issue).
 [^6]: Número do projeto planner é `1`, conforme pode ser observado no final da [url do projeto](https://github.com/orgs/automatiza-mg/projects/1).
