@@ -24,4 +24,5 @@ No encontro do dia 24/05/2024 falamos, principalmente sobre Markdown, GitHub e a
 ## Referências
 
 - [Why write plain text?](https://icornelius.github.io/posts/2023/12/why-plain-text/).
-- [Exemplo de Issue aberto por Felipe](https://github.com/automatiza-mg/handbook/issues/111)
+- [Exemplo de Issue aberto por Felipe](https://github.com/automatiza-mg/handbook/issues/111).
+- [Download sublime text](https://www.sublimetext.com/download).
