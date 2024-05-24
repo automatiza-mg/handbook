@@ -19,7 +19,7 @@ Não perca essa oportunidade de contribuir para o crescimento de nossa equipe, s
 
 No encontro do dia 24/05/2024 falamos, principalmente sobre Markdown, GitHub e a gestão de nosso projeto [planner](https://github.com/orgs/automatiza-mg/projects/1).
 
-![type:video](https://www.youtube.com/embed/P0IKA6XhOyA)
+![type:video](https://www.youtube.com/embed/_6Q9dBzq7c4)
 
 ## Referências
 
