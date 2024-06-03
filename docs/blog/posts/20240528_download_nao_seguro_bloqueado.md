@@ -8,8 +8,9 @@ categories:
 
 # Fazer download bloqueado de documento em sites classificados como não seguros
 
-Na seção de **Tira-Dúvidas**, foi colocada a situação de realizar download de documento no site classificado como não seguro. Quando o robô era executado para realizar essa tarefa, não conseguia. O motivo era pelo site ser não seguro, abria um pop-up que perguntava ao usuário, confirmando se ele gostaria de realizar o download do documento. Essa dificuldade pode ser comum, pois a tarefa de baixar arquivos de sites não seguros e salvá-los localmente é muito praticada entre os servidores. 
+Na seção de **Tira-Dúvidas**, foi colocada a situação de realizar download de documento no site classificado como não seguro. Quando o robô era executado para realizar essa tarefa, não conseguia. O motivo era pelo site ser não seguro, abria um pop-up que perguntava ao usuário, confirmando se ele gostaria de realizar o download do documento. Essa dificuldade pode ser comum, pois a tarefa de baixar arquivos de sites não seguros e salvá-los localmente é muito praticada entre os servidores.
 
+<!-- more -->
 
 O seguinte pop-up é aberto, impedindo que o download seja concluído:
 
