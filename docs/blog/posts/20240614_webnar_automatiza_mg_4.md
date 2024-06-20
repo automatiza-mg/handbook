@@ -20,7 +20,3 @@ Não perca essa oportunidade de contribuir para o crescimento de nossa equipe, s
 No encontro do dia 14/06/2024 falamos, principalmente sobre o uso de Inteligência Artificial no Power Automate.
 
 ![type:video](https://www.youtube.com/embed/mpY_fmW4GZ0)
-
-## Referências
-
-- [Título da referência](link da referência).
