@@ -63,6 +63,8 @@ theme:
     logo: logo
 
 markdown_extensions:
+  - admonition
+  - pymdownx.details
   - abbr
   - footnotes
   - attr_list
