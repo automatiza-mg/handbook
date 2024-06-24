@@ -159,3 +159,4 @@ $ git push
 - [practice-git GitHub repositorio](https://github.com/grayghostvisuals/practice-git).
 - [git-practice](https://github.com/PIC16B/git-practice).
 - [YouTube video Braico.Me | Terminal, Git & GitHub #1](https://youtu.be/bKJtCLuAp_g)
+- [YouTube video Braico.Me | Terminal, Git & GitHub #2](https://youtu.be/_EmJhGWEEL0)
