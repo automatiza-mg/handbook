@@ -137,7 +137,7 @@ $ git commit
 # volta no tempo
 # vai para o futuro
 # necessita do número do commit (hash)
-# git checkou hasDoCommit
+# git checkout hashDoCommit
 # hint: git checkout main vai para a versão atual
 $ git checkout
 
