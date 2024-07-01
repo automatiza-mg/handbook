@@ -19,7 +19,9 @@ Não perca essa oportunidade de contribuir para o crescimento de nossa equipe, s
 
 No encontro do dia 28/06/2024 entendemos o funcionamento do sistema PROBPMS da PRODEMGE.
 
-![type:video](https://www.youtube.com/embed/ZB5VbmytL38)
+<!-- ![type:video](https://www.youtube.com/embed/ZB5VbmytL38) -->
+
+<div style="max-width: 640px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cecad365-my.sharepoint.com/personal/m7522667_ca_mg_gov_br/_layouts/15/embed.aspx?UniqueId=17fb003e-2829-4d7a-ae8c-ae8080ed5fef&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="Treinamento DCD-20240628_100655-Meeting Recording.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
 ## Referências
 
