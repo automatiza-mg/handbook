@@ -53,7 +53,6 @@ Preencha o campo `Assunto` e `Mensagem` e clique em agendar.
 
 **Pronto! Seu BO está programado para enviar relatório automaticamente.**
 
-
 ### **Extra**
 
 Caso deseje que seu relatório tenha o nome do arquivo renomeado como uma variável data, você consegue fazer. Para isso, no menu `Destinos` (do passo 5),
