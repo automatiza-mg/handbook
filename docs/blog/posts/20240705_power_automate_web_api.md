@@ -68,4 +68,4 @@ Este tutorial demonstra como chamar APIs e extrair informações relevantes util
 
 ## Referências
 
-- [Link para artigo andré]()
+- [Link para artigo andré](aqui vai o link do andré)
