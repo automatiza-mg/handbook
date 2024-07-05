@@ -26,12 +26,12 @@ entre outros. Nesse post, será mostrado o passo a passo de como programá-lo pa
 
     ![image](https://github.com/automatiza-mg/handbook/assets/65547646/805b3096-bddb-43c3-90a3-9b1b9d826259)
 
-2. Clique em `Recorrência` no menu a esquerda. Neste caso, vamos programar para ser semanal. Então, em `Executar objeto:`, selecione por semana. Caso o desejo seja
-diário, mensal, entre outros, selecione a opção que melhor atenda seus objetivo.
+2. Clique em `Recorrência` no menu a esquerda. Neste caso, vamos programar para ser semanal. Então, em `Executar objeto:`, selecione por semana.
+Caso o desejo seja diário, mensal, entre outros, selecione a opção que melhor atenda seus objetivo.
 
     ![image](https://github.com/automatiza-mg/handbook/assets/65547646/52c60402-1269-4787-a84e-6e53d86f66ef)
 
-3. Nas configurações de recorrência, coloquei para exportar toda segunda-feira. Caso fosse mais de um dia da semana, só selecionar os demais dias.
+4. Nas configurações de recorrência, coloquei para exportar toda segunda-feira. Caso fosse mais de um dia da semana, só selecionar os demais dias.
 Em `Data/hora inicial` e `Data/hora final` coloquei 7:00 e 7:30, respectivamente. Quer dizer que é nessa janela que será feita a exportação.
 
     **Dica:** O BO é atualizado todos os dias entre 00:00 até 5:00 da manhã. Então, colocar a data início depois desse horário, que é quando ele
@@ -40,11 +40,11 @@ Em `Data/hora inicial` e `Data/hora final` coloquei 7:00 e 7:30, respectivamente
 
     ![image](https://github.com/automatiza-mg/handbook/assets/65547646/e431e6b7-372c-418f-90f0-5491decaab84)
 
-- 4. Em `Formatos`, desejo arquivo CSV padrão UTF-8.
+5. Em `Formatos`, desejo arquivo CSV padrão UTF-8.
 
     ![image](https://github.com/automatiza-mg/handbook/assets/65547646/04a0b6f4-87d4-4874-b1d4-a720f33afc30)
 
-- 5. Após configurar `Formatos`, vá em `Destinos`. Na lista, está aparecendo *Local corporativo padrão*. Troque para *E-mail*.
+6. Após configurar `Formatos`, vá em `Destinos`. Na lista, está aparecendo *Local corporativo padrão*. Troque para *E-mail*.
 Em remetente do e-mail, coloque sempre **bimg@prodemge.gov.br**. Em destinatário, coloque o endereço de e-mail que deseja que seja enviado o relatório.
 Preencha o campo `Assunto` e `Mensagem` e clique em agendar.
 
