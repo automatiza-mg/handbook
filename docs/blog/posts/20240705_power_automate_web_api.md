@@ -1,71 +1,109 @@
 ---
 date: 2024-07-05
 authors: [gabrielbdornas]
-draft: true
+draft: false
 comments: true
 categories:
-  - Webnar Automatiza.MG
+  - Ferramentas
 ---
 
 # Como utilizar Power Automate web para chamadas de APIs
 
-Neste post, vamos explorar como utilizar o Power Automate Desktop para chamar APIs e extrair informações relevantes. Usaremos como exemplo a API nativa do Portal de Dados Abertos do Estado de Minas Gerais, construída na plataforma open source CKAN.
+Neste post, vamos explorar como utilizar o Power Automate Web para chamar APIs e extrair informações relevantes. Usaremos como exemplo a API nativa do Portal de Dados Abertos do Estado de Minas Gerais, construída na plataforma open source CKAN.
 
 <!-- more -->
 
 ![type:video](https://www.youtube.com/embed/QZFgOFXQ9Ew)
 
-**1. Compreendendo a API:**
+## Compreendendo a API
 
-* **Conjunto de dados:** Utilizaremos o conjunto de dados "Cirurgias 2024" como exemplo.
-* **Documentação:** A documentação da API está disponível no portal, detalhando como acessá-la.
-* **Consulta:** No nosso caso, usaremos uma query RL para o RL, que acionará a API.
-* **Exemplo de consulta:** Para recuperar o registro com ID 1, utilizaremos a seguinte consulta: `SELECT * FROM cirurgias WHERE id = 1`.
+- **Conjunto de dados:** Utilizaremos o conjunto de dados [Cirurgias por Porte](https://dados.mg.gov.br/dataset/cirurgias) como exemplo, recurso [Cirurgias por porte - 2024](https://dados.mg.gov.br/dataset/cirurgias/resource/1f30ddd1-c9c8-4771-a21f-97f543f21ade).
+- **Documentação:** A documentação da API está disponível na própria página do recurso [Cirurgias por porte - 2024](https://dados.mg.gov.br/dataset/cirurgias/resource/1f30ddd1-c9c8-4771-a21f-97f543f21ade).
+- **Consulta:** No nosso caso, adaptamos o end-point `datastore_search_sql` para buscar a cirurgia de `_id` igual a `1`[^1].
 
-**2. Construindo o Fluxo no Power Automate Desktop:**
 
-* **Criação do fluxo:**
-    * Acesse o Power Automate Desktop e crie um novo fluxo instantâneo com gatilho manual.
-    * Desative o "New Design" (opcional).
-* **Ação HTTP:**
-    * Adicione a ação "HTTP" e configure-a conforme as instruções da documentação da API.
-    * **Método:** GET
-    * **URL:** [https://dados.mg.gov.br/](https://dados.mg.gov.br/)
-    * **Query:** SQL (no nosso caso, a consulta `SELECT * FROM cirurgias WHERE id = 1`)
-* **Verificação do fluxo:**
-    * Salve o fluxo e execute-o para verificar se a API está sendo chamada com sucesso.
-    * O resultado deve ser um JSON contendo as informações do registro recuperado.
+## Construindo o Fluxo no Power Automate Desktop
 
-**3. Extraindo Informações do Resultado da API:**
+- **Criação do fluxo:**
+    * Acesse o Power Automate Web e crie um novo fluxo instantâneo com gatilho manual.
+    * Desative o "New Design" (canto superior direito).
+- **Ação HTTP:** Adicione a ação "HTTP" e configure-a conforme instruções:
+    - **Método:** GET
+    - **URL:** `https://dados.mg.gov.br/api/3/action/datastore_search_sql`
+    - **Query:** Enter key `sql` e Enter value `SELECT * FROM cirurgias WHERE _id = 1`.
+- **Verificação do fluxo:** Salve o fluxo e execute-o para verificar se a API está sendo chamada com sucesso.
 
-* **Variáveis:**
-    * Crie uma variável chamada "body" para armazenar o corpo da resposta da API.
-    * Crie variáveis adicionais para armazenar cada campo de interesse do registro (por exemplo, "unidade", "porte").
-* **Expressões:**
-    * Utilize expressões para extrair os valores dos campos desejados do JSON.
-    * Por exemplo, para extrair o valor do campo "unidade", utilize a seguinte expressão: `variable(body)[`result`][`records`][0][`unidade`]`.
-* **Teste e refinamento:**
-    * Teste as expressões para garantir que os valores corretos estejam sendo extraídos.
-    * Refine as expressões e adicione variáveis conforme necessário para extrair todos os campos desejados.
+    ??? "O resultado deve conter um JSON com as informações do registro recuperado (body)."
 
-**4. Considerações Adicionais:**
+          ```json
+          {
+            "help": "https://dados.mg.gov.br/api/3/action/help_show?name=datastore_search_sql",
+            "success": true,
+            "result": {
+              "sql": "SELECT * from \"1f30ddd1-c9c8-4771-a21f-97f543f21ade\" WHERE _id = 1",
+              "records": [
+                {
+                  "_id": 1,
+                  "_full_text": "'0':6,10 '2':8 '2024':3 'cssfa':1 'hora':9 'janeiro':2 'port':4",
+                  "unidade": "CSSFA",
+                  "mes": "Janeiro",
+                  "ano": "2024",
+                  "porte": "PORTE I (0 A 2 HORAS)",
+                  "quantidade": "0"
+                }
+              ],
+              "fields": [
+                {
+                  "id": "_id",
+                  "type": "int4"
+                },
+                {
+                  "id": "_full_text",
+                  "type": "tsvector"
+                },
+                {
+                  "id": "unidade",
+                  "type": "text"
+                },
+                {
+                  "id": "mes",
+                  "type": "text"
+                },
+                {
+                  "id": "ano",
+                  "type": "text"
+                },
+                {
+                  "id": "porte",
+                  "type": "text"
+                },
+                {
+                  "id": "quantidade",
+                  "type": "text"
+                }
+              ]
+            }
+          }
+          ```
 
-* **Licença:** A ação HTTP no Power Automate Desktop requer uma licença premium.
+## Extraindo Informações do Resultado da API
+
+- **Variáveis:**
+    * Crie uma variável chamada `body` para armazenar o corpo da resposta da API.
+    * Crie variáveis adicionais para armazenar cada campo de interesse do registro (por exemplo, `unidade`, `porte`).
+- **Expressões:** Utilize expressões para extrair os valores dos campos desejados do JSON. Por exemplo, para extrair o valor do campo `unidade`, utilize a expressão: `variable(body)?['result']?['records']?[0]['unidade']`.
+- **Teste e refinamento:** Teste as expressões para garantir que os valores corretos estejam sendo extraídos.
+
+## Considerações Adicionais
+
+* **Licença:** A ação HTTP no Power Automate Web requer uma licença premium. Você pode ativar esta versão como teste.
 * **Autenticação:** APIs mais complexas podem exigir autenticação adicional, como tokens de acesso ou chaves API.
-* **Manipulação de Dados:** O Power Automate Desktop oferece diversas ferramentas para manipular e analisar os dados extraídos da API.
 
-**Conclusão:**
+## Conclusão
 
-Este tutorial demonstra como chamar APIs e extrair informações relevantes utilizando o Power Automate Desktop. O exemplo do Portal de Dados Abertos de Minas Gerais serve como base para aplicações em diversos outros cenários. Com prática e conhecimento da API em questão, é possível automatizar tarefas complexas e integrar dados de diversas fontes.
+Este tutorial demonstra o básico de como chamar APIs e extrair informações relevantes utilizando o Power Automate Web.
+O exemplo do Portal de Dados Abertos de Minas Gerais serve como base para aplicações em diversos outros cenários.
+**Sendo assim, este post serve como ponto de partida.
+É fundamental consultar a documentação da API específica que você deseja utilizar para obter informações detalhadas sobre seus recursos e requisitos antes de partir para a montagem do fluxo no Power Automate Web**.
 
-**Recursos Adicionais:**
-
-* [Vídeo de referência](URL como usar api no power automate desktop ON YouTube youtube.com): Este vídeo demonstra o processo passo a passo de chamar a API do Portal de Dados Abertos de Minas Gerais no Power Automate Desktop.
-* Documentação do Power Automate Desktop [URL inválido removido]: A documentação oficial do Power Automate Desktop oferece informações detalhadas sobre todas as ações e funcionalidades disponíveis.
-* Portal de Dados Abertos de Minas Gerais [URL inválido removido]: O portal oferece diversos conjuntos de dados públicos e documentação para suas APIs.
-
-**Lembre-se:** Este tutorial serve como ponto de partida. É fundamental consultar a documentação da API específica que você deseja utilizar para obter informações detalhadas sobre seus recursos e requisitos.
-
-## Referências
-
-- [Link para artigo andré](aqui vai o link do andré)
+[^1]: `https://dados.mg.gov.br/api/3/action/datastore_search_sql?sql=SELECT * from "1f30ddd1-c9c8-4771-a21f-97f543f21ade" WHERE _id = 1`
