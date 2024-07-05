@@ -862,43 +862,49 @@
 
 
 <div><h1 id="como-programar-o-bo-para-emitir-relatorios">Como programar o BO para emitir relatórios?<a class="headerlink" href="#como-programar-o-bo-para-emitir-relatorios" title="Permanent link">⚓︎</a></h1>
-<p>No dia a dia do servidor, os relatórios do BO (BI do SAP BusinessObjects) são ferramentas essenciais para o monitoramento de eventos e atividades, 
-análise de dados e tomada de decisões estratégicas. Sua frequência de emissão, inclusive diária para alguns casos, torna a exportação manual uma tarefa 
-repetitiva e que consome tempo valioso do servidor. </p>
+<p>No dia a dia do servidor, os relatórios do BO (BI do SAP BusinessObjects) são ferramentas essenciais para o monitoramento de eventos e atividades,
+análise de dados e tomada de decisões estratégicas. Sua frequência de emissão, inclusive diária para alguns casos, torna a exportação manual uma tarefa
+repetitiva e que consome tempo valioso do servidor.</p>
 <!-- more -->
 
-<p>A emissão dos relatórios pode ser programada, automatizando o processo e otimizando o tempo do servidor. Esse post tem como objetivo mostrar 
+<p>A emissão dos relatórios pode ser programada, automatizando o processo e otimizando o tempo do servidor. Esse post tem como objetivo mostrar
 o passo a passo de como programar o BO para emitir o relatório automaticamente.</p>
-<p>O BO oferece a opção de programar a exportação do relatório e enviar por e-mail, enviar para servidor FPT (uma espécie de pastinha na rede), 
+<p>O BO oferece a opção de programar a exportação do relatório e enviar por e-mail, enviar para servidor FPT (uma espécie de pastinha na rede),
 entre outros. Nesse post, será mostrado o passo a passo de como programá-lo para exportar e enviar via e-mail.</p>
 <h2 id="passo-a-passo">Passo a passo<a class="headerlink" href="#passo-a-passo" title="Permanent link">⚓︎</a></h2>
 <ol>
-<li>Com o botão direito do mouse, clique sobre o relatório que deseja programar. Depois, clique em programar.</li>
-</ol>
+<li>
+<p>Com o botão direito do mouse, clique sobre o relatório que deseja programar. Depois, clique em programar.</p>
 <p><img alt="image" src="https://github.com/automatiza-mg/handbook/assets/65547646/805b3096-bddb-43c3-90a3-9b1b9d826259"></p>
-<ol>
-<li>Clique em <code>Recorrência</code> no menu a esquerda. Neste caso, vamos programar para ser semanal. Então, em <code>Executar objeto:</code>, selecione por semana. Caso o desejo seja
-diário, mensal, entre outros, selecione a opção que melhor atenda seus objetivo.</li>
-</ol>
+</li>
+<li>
+<p>Clique em <code>Recorrência</code> no menu a esquerda. Neste caso, vamos programar para ser semanal. Então, em <code>Executar objeto:</code>, selecione por semana. Caso o desejo seja
+diário, mensal, entre outros, selecione a opção que melhor atenda seus objetivo.</p>
 <p><img alt="image" src="https://github.com/automatiza-mg/handbook/assets/65547646/52c60402-1269-4787-a84e-6e53d86f66ef"></p>
-<ol>
-<li>Nas configurações de recorrência, coloquei para exportar toda segunda-feira. Caso fosse mais de um dia da semana, só selecionar os demais dias.
-Em <code>Data/hora inicial</code> e <code>Data/hora final</code> coloquei 7:00 e 7:30, respectivamente. Quer dizer que é nessa janela que será feita a exportação.</li>
-</ol>
+</li>
+<li>
+<p>Nas configurações de recorrência, coloquei para exportar toda segunda-feira. Caso fosse mais de um dia da semana, só selecionar os demais dias.
+Em <code>Data/hora inicial</code> e <code>Data/hora final</code> coloquei 7:00 e 7:30, respectivamente. Quer dizer que é nessa janela que será feita a exportação.</p>
 <p><strong>Dica:</strong> O BO é atualizado todos os dias entre 00:00 até 5:00 da manhã. Então, colocar a data início depois desse horário, que é quando ele
 terá feito suas atualizações. As datas já vem preenchidas por default, com intervalo de 10 anos entre elas. Isso quer dizer que ele estará programado
 para realizar essa exportação de forma automática por 10 anos. Caso seja o desejo colocar outra data, só alterar. No exemplo abaixo, será mantida a data padrão.</p>
 <p><img alt="image" src="https://github.com/automatiza-mg/handbook/assets/65547646/e431e6b7-372c-418f-90f0-5491decaab84"></p>
+</li>
+<li>
 <ol>
 <li>Em <code>Formatos</code>, desejo arquivo CSV padrão UTF-8.</li>
 </ol>
 <p><img alt="image" src="https://github.com/automatiza-mg/handbook/assets/65547646/04a0b6f4-87d4-4874-b1d4-a720f33afc30"></p>
+</li>
+<li>
 <ol>
 <li>Após configurar <code>Formatos</code>, vá em <code>Destinos</code>. Na lista, está aparecendo <em>Local corporativo padrão</em>. Troque para <em>E-mail</em>.
 Em remetente do e-mail, coloque sempre <strong>bimg@prodemge.gov.br</strong>. Em destinatário, coloque o endereço de e-mail que deseja que seja enviado o relatório.
-Preencha o campo <code>Assunto</code> e <code>Mensagem</code> e clique em agendar. </li>
+Preencha o campo <code>Assunto</code> e <code>Mensagem</code> e clique em agendar.</li>
 </ol>
 <p><img alt="image" src="https://github.com/automatiza-mg/handbook/assets/65547646/3ff523ae-31d5-4b13-a7d7-bb5f34c7188c"></p>
+</li>
+</ol>
 <p><strong>Pronto! Seu BO está programado para enviar relatório automaticamente.</strong></p>
 <h3 id="extra"><strong>Extra</strong><a class="headerlink" href="#extra" title="Permanent link">⚓︎</a></h3>
 <p>Caso deseje que seu relatório tenha o nome do arquivo renomeado como uma variável data, você consegue fazer. Para isso, no menu <code>Destinos</code> (do passo 5),
@@ -927,7 +933,7 @@ AAAA/MM/DD e ela que dará nome ao seu arquivo. Você pode usá-la também no as
     <span class="md-icon" title="Última atualização">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 5, 2024 17:43:03</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 5, 2024 18:15:24</span>
   </span>
 
     
