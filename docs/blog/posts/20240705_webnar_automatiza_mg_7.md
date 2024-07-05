@@ -17,7 +17,7 @@ Nesses encontros, mergulhamos no universo da tecnologia, desvendando os segredos
 
 Não perca essa oportunidade de contribuir para o crescimento de nossa equipe, seja participando como ouvinte ou como tutor!
 
-No encontro do dia 05/07/2024 entendemos o funcionamento do sistema PROBPMS da PRODEMGE.
+No encontro do dia 05/07/2024 entendemos como criar um novo post em nossos sites [handbook](https://automatiza-mg.github.io/handbook/) e [automatizações](https://automatiza-mg.github.io/automatizacoes/).
 
 ![type:video](https://www.youtube.com/embed/)
 
@@ -41,15 +41,21 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 
 # veririfcar pacotes instalados
-# pip list
+$ pip list
+
+# ligar servidor local mkdocs
+$ mkdocs serve
 ```
-
-## Referências
-
-- [Documentação Material Mkdocs](https://squidfunk.github.io/mkdocs-material/) - **You must read it**!!!
 
 ## Para casa
 
 - Criação de posts aos longo da semana.
 - Entender funcionamento do arquivo `.gitignore`.
 - Descobrir comando para remover arquivos e pastas enviando-os para a lixeira (`rm` deleta definitivamente).
+
+## Referências
+
+- [Documentação Material Mkdocs](https://squidfunk.github.io/mkdocs-material/) - **You must read it**!!!
+- [Simples script para converter audio/video em texto](https://github.com/gabrielbdornas/open-reprex/tree/c85ebf2d1090804cf17884ae26f5a0fa2496806b/202407011440_converter_audio_texto).
+- [Por que ainda escrever em tempos de inteligência artificial?](https://www.dw.com/pt-br/por-que-ainda-escrever-em-tempos-de-intelig%C3%AAncia-artificial/a-69549699)
+- [Consulta Gemini resumo post API Power Automate Web.](https://g.co/gemini/share/6bc81656cd89)
