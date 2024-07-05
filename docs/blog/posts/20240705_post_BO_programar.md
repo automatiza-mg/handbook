@@ -26,7 +26,6 @@ entre outros. Nesse post, será mostrado o passo a passo de como programá-lo pa
    
 ![image](https://github.com/automatiza-mg/handbook/assets/65547646/805b3096-bddb-43c3-90a3-9b1b9d826259)
 
-
 2. Clique em `Recorrência` no menu a esquerda. Neste caso, vamos programar para ser semanal. Então, em `Executar objeto:`, selecione por semana. Caso o desejo seja
 diário, mensal, entre outros, selecione a opção que melhor atenda seus objetivo.
    
@@ -39,7 +38,7 @@ Em `Data/hora inicial` e `Data/hora final` coloquei 7:00 e 7:30, respectivamente
 terá feito suas atualizações. As datas já vem preenchidas por default, com intervalo de 10 anos entre elas. Isso quer dizer que ele estará programado
 para realizar essa exportação de forma automática por 10 anos. Caso seja o desejo colocar outra data, só alterar. No exemplo abaixo, será mantida a data padrão.
 
- ![image](https://github.com/automatiza-mg/handbook/assets/65547646/e431e6b7-372c-418f-90f0-5491decaab84)
+![image](https://github.com/automatiza-mg/handbook/assets/65547646/e431e6b7-372c-418f-90f0-5491decaab84)
 
 4. Em `Formatos`, desejo arquivo CSV padrão UTF-8.
 
@@ -51,7 +50,9 @@ Preencha o campo `Assunto` e `Mensagem` e clique em agendar.
 
 ![image](https://github.com/automatiza-mg/handbook/assets/65547646/3ff523ae-31d5-4b13-a7d7-bb5f34c7188c)
 
-Pronto! Seu BO está programado para enviar relatório automaticamente.
+
+**Pronto! Seu BO está programado para enviar relatório automaticamente.**
+
 
 ### **Extra**
 
