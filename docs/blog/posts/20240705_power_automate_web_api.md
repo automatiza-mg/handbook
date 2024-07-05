@@ -67,3 +67,5 @@ Este tutorial demonstra como chamar APIs e extrair informações relevantes util
 **Lembre-se:** Este tutorial serve como ponto de partida. É fundamental consultar a documentação da API específica que você deseja utilizar para obter informações detalhadas sobre seus recursos e requisitos.
 
 ## Referências
+
+- [Link para artigo andré]()
