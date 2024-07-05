@@ -34,6 +34,7 @@ diário, mensal, entre outros, selecione a opção que melhor atenda seus objeti
 
 3. Nas configurações de recorrência, coloquei para exportar toda segunda-feira. Caso fosse mais de um dia da semana, só selecionar os demais dias.
 Em `Data/hora inicial` e `Data/hora final` coloquei 7:00 e 7:30, respectivamente. Quer dizer que é nessa janela que será feita a exportação.
+
 **Dica:** O BO é atualizado todos os dias entre 00:00 até 5:00 da manhã. Então, colocar a data início depois desse horário, que é quando ele
 terá feito suas atualizações. As datas já vem preenchidas por default, com intervalo de 10 anos entre elas. Isso quer dizer que ele estará programado
 para realizar essa exportação de forma automática por 10 anos. Caso seja o desejo colocar outra data, só alterar. No exemplo abaixo, será mantida a data padrão.
@@ -52,7 +53,7 @@ Preencha o campo `Assunto` e `Mensagem` e clique em agendar.
 
 Pronto! Seu BO está programado para enviar relatório automaticamente.
 
-### Extra
+### **Extra**
 
 Caso deseje que seu relatório tenha o nome do arquivo renomeado como uma variável data, você consegue fazer. Para isso, no menu `Destinos` (do passo 5),
 clique em `Usar nome específico`. Na lista `Adicionar espaço reservado`, clique em `Data`. A variável **%SI_DATE%** será exatamente a data preenchida no formato
