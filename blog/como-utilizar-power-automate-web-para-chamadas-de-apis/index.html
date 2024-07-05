@@ -9,8 +9,10 @@
       
       
       
-        <link rel="prev" href="../como-utilizar-power-automate-web-para-chamadas-de-apis/">
+        <link rel="prev" href="../webnar-automatizamg-6/">
       
+      
+        <link rel="next" href="../como-programar-o-bo-para-emitir-relat%C3%B3rios/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -18,7 +20,7 @@
     
     
       
-        <title>Como programar o BO para emitir relatórios? - Handbook Diretoria Central de Desburocratização</title>
+        <title>Como utilizar Power Automate web para chamadas de APIs - Handbook Diretoria Central de Desburocratização</title>
       
     
     
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#como-programar-o-bo-para-emitir-relatorios" class="md-skip">
+        <a href="#como-utilizar-power-automate-web-para-chamadas-de-apis" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -115,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Como programar o BO para emitir relatórios?
+              Como utilizar Power Automate web para chamadas de APIs
             
           </span>
         </div>
@@ -737,26 +739,47 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#passo-a-passo" class="md-nav__link">
+  <a href="#compreendendo-a-api" class="md-nav__link">
     <span class="md-ellipsis">
-      Passo a passo
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Passo a passo">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#extra" class="md-nav__link">
-    <span class="md-ellipsis">
-      Extra
+      Compreendendo a API
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#construindo-o-fluxo-no-power-automate-desktop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Construindo o Fluxo no Power Automate Desktop
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extraindo-informacoes-do-resultado-da-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extraindo Informações do Resultado da API
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideracoes-adicionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Considerações Adicionais
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão
+    </span>
+  </a>
   
 </li>
       
@@ -789,12 +812,12 @@
                 
                   <div class="md-profile md-post__profile">
                     <span class="md-author md-author--long">
-                      <img src="https://avatars.githubusercontent.com/u/65547646?v=4" alt="Isabelle Fernandes de Oliveira">
+                      <img src="https://avatars.githubusercontent.com/u/49699290" alt="Gabriel Braico Dornas">
                     </span>
                     <span class="md-profile__description">
                       <strong>
                         
-                          Isabelle Fernandes de Oliveira
+                          Gabriel Braico Dornas
                         
                       </strong>
                       <br>
@@ -827,7 +850,7 @@
                           <span class="md-ellipsis">
                             em
                             
-                              <a href="../category/dcd/">DCD</a></span>
+                              <a href="../category/ferramentas/">Ferramentas</a></span>
                         </div>
                       </li>
                     
@@ -861,52 +884,114 @@
   
 
 
-<div><h1 id="como-programar-o-bo-para-emitir-relatorios">Como programar o BO para emitir relatórios?<a class="headerlink" href="#como-programar-o-bo-para-emitir-relatorios" title="Permanent link">⚓︎</a></h1>
-<p>No dia a dia do servidor, os relatórios do BO (BI do SAP BusinessObjects) são ferramentas essenciais para o monitoramento de eventos e atividades,
-análise de dados e tomada de decisões estratégicas. Sua frequência de emissão, inclusive diária para alguns casos, torna a exportação manual uma tarefa
-repetitiva e que consome tempo valioso do servidor.</p>
+<div><h1 id="como-utilizar-power-automate-web-para-chamadas-de-apis">Como utilizar Power Automate web para chamadas de APIs<a class="headerlink" href="#como-utilizar-power-automate-web-para-chamadas-de-apis" title="Permanent link">⚓︎</a></h1>
+<p>Neste post, vamos explorar como utilizar o Power Automate Web para chamar APIs e extrair informações relevantes. Usaremos como exemplo a API nativa do Portal de Dados Abertos do Estado de Minas Gerais, construída na plataforma open source CKAN.</p>
 <!-- more -->
 
-<p>A emissão dos relatórios pode ser programada, automatizando o processo e otimizando o tempo do servidor. Esse post tem como objetivo mostrar
-o passo a passo de como programar o BO para emitir o relatório automaticamente.</p>
-<p>O BO oferece a opção de programar a exportação do relatório e enviar por e-mail, enviar para servidor FPT (uma espécie de pastinha na rede),
-entre outros. Nesse post, será mostrado o passo a passo de como programá-lo para exportar e enviar via e-mail.</p>
-<h2 id="passo-a-passo">Passo a passo<a class="headerlink" href="#passo-a-passo" title="Permanent link">⚓︎</a></h2>
+<p><div class="video-container"><iframe src="https://www.youtube.com/embed/QZFgOFXQ9Ew" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div></p>
+<h2 id="compreendendo-a-api">Compreendendo a API<a class="headerlink" href="#compreendendo-a-api" title="Permanent link">⚓︎</a></h2>
+<ul>
+<li><strong>Conjunto de dados:</strong> Utilizaremos o conjunto de dados <a href="https://dados.mg.gov.br/dataset/cirurgias">Cirurgias por Porte</a> como exemplo, recurso <a href="https://dados.mg.gov.br/dataset/cirurgias/resource/1f30ddd1-c9c8-4771-a21f-97f543f21ade">Cirurgias por porte - 2024</a>.</li>
+<li><strong>Documentação:</strong> A documentação da API está disponível na própria página do recurso <a href="https://dados.mg.gov.br/dataset/cirurgias/resource/1f30ddd1-c9c8-4771-a21f-97f543f21ade">Cirurgias por porte - 2024</a>.</li>
+<li><strong>Consulta:</strong> No nosso caso, adaptamos o end-point <code>datastore_search_sql</code> para buscar a cirurgia de <code>_id</code> igual a <code>1</code><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</li>
+</ul>
+<h2 id="construindo-o-fluxo-no-power-automate-desktop">Construindo o Fluxo no Power Automate Desktop<a class="headerlink" href="#construindo-o-fluxo-no-power-automate-desktop" title="Permanent link">⚓︎</a></h2>
+<ul>
+<li><strong>Criação do fluxo:</strong><ul>
+<li>Acesse o Power Automate Web e crie um novo fluxo instantâneo com gatilho manual.</li>
+<li>Desative o "New Design" (canto superior direito).</li>
+</ul>
+</li>
+<li><strong>Ação HTTP:</strong> Adicione a ação "HTTP" e configure-a conforme instruções:<ul>
+<li><strong>Método:</strong> GET</li>
+<li><strong>URL:</strong> <code>https://dados.mg.gov.br/api/3/action/datastore_search_sql</code></li>
+<li><strong>Query:</strong> Enter key <code>sql</code> e Enter value <code>SELECT * FROM cirurgias WHERE _id = 1</code>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Verificação do fluxo:</strong> Salve o fluxo e execute-o para verificar se a API está sendo chamada com sucesso.</p>
+<details>
+<summary>O resultado deve conter um JSON com as informações do registro recuperado (body).</summary>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">{</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nt">"help"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://dados.mg.gov.br/api/3/action/help_show?name=datastore_search_sql"</span><span class="p">,</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nt">"success"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="nt">"result"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="nt">"sql"</span><span class="p">:</span><span class="w"> </span><span class="s2">"SELECT * from \"1f30ddd1-c9c8-4771-a21f-97f543f21ade\" WHERE _id = 1"</span><span class="p">,</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="nt">"records"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">      </span><span class="p">{</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">        </span><span class="nt">"_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">        </span><span class="nt">"_full_text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"'0':6,10 '2':8 '2024':3 'cssfa':1 'hora':9 'janeiro':2 'port':4"</span><span class="p">,</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">        </span><span class="nt">"unidade"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CSSFA"</span><span class="p">,</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">        </span><span class="nt">"mes"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Janeiro"</span><span class="p">,</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">        </span><span class="nt">"ano"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2024"</span><span class="p">,</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">        </span><span class="nt">"porte"</span><span class="p">:</span><span class="w"> </span><span class="s2">"PORTE I (0 A 2 HORAS)"</span><span class="p">,</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">        </span><span class="nt">"quantidade"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0"</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">      </span><span class="p">}</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">    </span><span class="p">],</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">    </span><span class="nt">"fields"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">      </span><span class="p">{</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">        </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"_id"</span><span class="p">,</span>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"int4"</span>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="w">      </span><span class="p">},</span>
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">      </span><span class="p">{</span>
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">        </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"_full_text"</span><span class="p">,</span>
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"tsvector"</span>
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">      </span><span class="p">},</span>
+</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">      </span><span class="p">{</span>
+</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">        </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unidade"</span><span class="p">,</span>
+</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"text"</span>
+</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">      </span><span class="p">},</span>
+</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">      </span><span class="p">{</span>
+</span><span id="__span-0-31"><a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="w">        </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"mes"</span><span class="p">,</span>
+</span><span id="__span-0-32"><a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="w">        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"text"</span>
+</span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="w">      </span><span class="p">},</span>
+</span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a><span class="w">      </span><span class="p">{</span>
+</span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a><span class="w">        </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ano"</span><span class="p">,</span>
+</span><span id="__span-0-36"><a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a><span class="w">        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"text"</span>
+</span><span id="__span-0-37"><a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a><span class="w">      </span><span class="p">},</span>
+</span><span id="__span-0-38"><a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a><span class="w">      </span><span class="p">{</span>
+</span><span id="__span-0-39"><a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="w">        </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"porte"</span><span class="p">,</span>
+</span><span id="__span-0-40"><a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a><span class="w">        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"text"</span>
+</span><span id="__span-0-41"><a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a><span class="w">      </span><span class="p">},</span>
+</span><span id="__span-0-42"><a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a><span class="w">      </span><span class="p">{</span>
+</span><span id="__span-0-43"><a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a><span class="w">        </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"quantidade"</span><span class="p">,</span>
+</span><span id="__span-0-44"><a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a><span class="w">        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"text"</span>
+</span><span id="__span-0-45"><a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a><span class="w">      </span><span class="p">}</span>
+</span><span id="__span-0-46"><a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a><span class="w">    </span><span class="p">]</span>
+</span><span id="__span-0-47"><a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a><span class="w">  </span><span class="p">}</span>
+</span><span id="__span-0-48"><a id="__codelineno-0-48" name="__codelineno-0-48" href="#__codelineno-0-48"></a><span class="p">}</span>
+</span></code></pre></div>
+</details>
+</li>
+</ul>
+<h2 id="extraindo-informacoes-do-resultado-da-api">Extraindo Informações do Resultado da API<a class="headerlink" href="#extraindo-informacoes-do-resultado-da-api" title="Permanent link">⚓︎</a></h2>
+<ul>
+<li><strong>Variáveis:</strong><ul>
+<li>Crie uma variável chamada <code>body</code> para armazenar o corpo da resposta da API.</li>
+<li>Crie variáveis adicionais para armazenar cada campo de interesse do registro (por exemplo, <code>unidade</code>, <code>porte</code>).</li>
+</ul>
+</li>
+<li><strong>Expressões:</strong> Utilize expressões para extrair os valores dos campos desejados do JSON. Por exemplo, para extrair o valor do campo <code>unidade</code>, utilize a expressão: <code>variable(body)?['result']?['records']?[0]['unidade']</code>.</li>
+<li><strong>Teste e refinamento:</strong> Teste as expressões para garantir que os valores corretos estejam sendo extraídos.</li>
+</ul>
+<h2 id="consideracoes-adicionais">Considerações Adicionais<a class="headerlink" href="#consideracoes-adicionais" title="Permanent link">⚓︎</a></h2>
+<ul>
+<li><strong>Licença:</strong> A ação HTTP no Power Automate Web requer uma licença premium. Você pode ativar esta versão como teste.</li>
+<li><strong>Autenticação:</strong> APIs mais complexas podem exigir autenticação adicional, como tokens de acesso ou chaves API.</li>
+</ul>
+<h2 id="conclusao">Conclusão<a class="headerlink" href="#conclusao" title="Permanent link">⚓︎</a></h2>
+<p>Este tutorial demonstra o básico de como chamar APIs e extrair informações relevantes utilizando o Power Automate Web.
+O exemplo do Portal de Dados Abertos de Minas Gerais serve como base para aplicações em diversos outros cenários.
+<strong>Sendo assim, este post serve como ponto de partida.
+É fundamental consultar a documentação da API específica que você deseja utilizar para obter informações detalhadas sobre seus recursos e requisitos antes de partir para a montagem do fluxo no Power Automate Web</strong>.</p>
+<div class="footnote">
+<hr>
 <ol>
-<li>
-<p>Com o botão direito do mouse, clique sobre o relatório que deseja programar. Depois, clique em programar.</p>
-<p><img alt="image" src="https://github.com/automatiza-mg/handbook/assets/65547646/805b3096-bddb-43c3-90a3-9b1b9d826259"></p>
-</li>
-<li>
-<p>Clique em <code>Recorrência</code> no menu a esquerda. Neste caso, vamos programar para ser semanal. Então, em <code>Executar objeto:</code>, selecione por semana.
-Caso o desejo seja diário, mensal, entre outros, selecione a opção que melhor atenda seus objetivo.</p>
-<p><img alt="image" src="https://github.com/automatiza-mg/handbook/assets/65547646/52c60402-1269-4787-a84e-6e53d86f66ef"></p>
-</li>
-<li>
-<p>Nas configurações de recorrência, coloquei para exportar toda segunda-feira. Caso fosse mais de um dia da semana, só selecionar os demais dias.
-Em <code>Data/hora inicial</code> e <code>Data/hora final</code> coloquei 7:00 e 7:30, respectivamente. Quer dizer que é nessa janela que será feita a exportação.</p>
-<p><strong>Dica:</strong> O BO é atualizado todos os dias entre 00:00 até 5:00 da manhã. Então, colocar a data início depois desse horário, que é quando ele
-terá feito suas atualizações. As datas já vem preenchidas por default, com intervalo de 10 anos entre elas. Isso quer dizer que ele estará programado
-para realizar essa exportação de forma automática por 10 anos. Caso seja o desejo colocar outra data, só alterar. No exemplo abaixo, será mantida a data padrão.</p>
-<p><img alt="image" src="https://github.com/automatiza-mg/handbook/assets/65547646/e431e6b7-372c-418f-90f0-5491decaab84"></p>
-</li>
-<li>
-<p>Em <code>Formatos</code>, desejo arquivo CSV padrão UTF-8.</p>
-<p><img alt="image" src="https://github.com/automatiza-mg/handbook/assets/65547646/04a0b6f4-87d4-4874-b1d4-a720f33afc30"></p>
-</li>
-<li>
-<p>Após configurar <code>Formatos</code>, vá em <code>Destinos</code>. Na lista, está aparecendo <em>Local corporativo padrão</em>. Troque para <em>E-mail</em>.
-Em remetente do e-mail, coloque sempre <strong>bimg@prodemge.gov.br</strong>. Em destinatário, coloque o endereço de e-mail que deseja que seja enviado o relatório.
-Preencha o campo <code>Assunto</code> e <code>Mensagem</code> e clique em agendar.</p>
-<p><img alt="image" src="https://github.com/automatiza-mg/handbook/assets/65547646/3ff523ae-31d5-4b13-a7d7-bb5f34c7188c"></p>
+<li id="fn:1">
+<p><code>https://dados.mg.gov.br/api/3/action/datastore_search_sql?sql=SELECT * from "1f30ddd1-c9c8-4771-a21f-97f543f21ade" WHERE _id = 1</code> <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
 </li>
 </ol>
-<p><strong>Pronto! Seu BO está programado para enviar relatório automaticamente.</strong></p>
-<h3 id="extra"><strong>Extra</strong><a class="headerlink" href="#extra" title="Permanent link">⚓︎</a></h3>
-<p>Caso deseje que seu relatório tenha o nome do arquivo renomeado como uma variável data, você consegue fazer. Para isso, no menu <code>Destinos</code> (do passo 5),
-clique em <code>Usar nome específico</code>. Na lista <code>Adicionar espaço reservado</code>, clique em <code>Data</code>. A variável <strong>%SI_DATE%</strong> será exatamente a data preenchida no formato
-AAAA/MM/DD e ela que dará nome ao seu arquivo. Você pode usá-la também no assunto e corpo do seu e-mail.</p>
-<p><img alt="image" src="https://github.com/automatiza-mg/handbook/assets/65547646/6ac48c99-6b85-4b73-afd6-75f8069ffd18"></p></div>
+</div></div>
 
 
 
@@ -929,7 +1014,7 @@ AAAA/MM/DD e ela que dará nome ao seu arquivo. Você pode usá-la também no as
     <span class="md-icon" title="Última atualização">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 5, 2024 18:21:27</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 5, 2024 20:45:39</span>
   </span>
 
     
@@ -939,7 +1024,7 @@ AAAA/MM/DD e ela que dará nome ao seu arquivo. Você pode usá-la também no as
     <span class="md-icon" title="Criada">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 5, 2024 17:17:04</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 5, 2024 13:59:32</span>
   </span>
 
     
