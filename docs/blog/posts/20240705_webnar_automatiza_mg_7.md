@@ -19,7 +19,7 @@ Não perca essa oportunidade de contribuir para o crescimento de nossa equipe, s
 
 No encontro do dia 05/07/2024 entendemos como criar um novo post em nossos sites [handbook](https://automatiza-mg.github.io/handbook/) e [automatizações](https://automatiza-mg.github.io/automatizacoes/).
 
-![type:video](https://www.youtube.com/embed/)
+![type:video](https://www.youtube.com/embed/OVCJ4GFqt8A)
 
 ## Comandos novos utilizados
 
