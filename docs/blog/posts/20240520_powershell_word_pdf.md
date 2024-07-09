@@ -4,6 +4,7 @@ authors: [andrelamor]
 comments: true
 categories:
   - Tira dúvidas
+  - Ferramentas
 ---
 
 # Criando ações de conversão de arquivo com auxílio da IA e do Power Shell
