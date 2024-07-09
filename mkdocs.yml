@@ -101,21 +101,17 @@ extra_javascript:
 version:
     provider: mike
 
-# extra: # Footer
-#   social:
-#     - icon: fontawesome/solid/diagram-project
-#       name: Projeto @work-dta
-#       link: https://github.com/orgs/transparencia-mg/projects/1/views/10
-#     - icon: fontawesome/brands/youtube
-#       name: Canal Transparência no YouTube.
-#       link: https://www.youtube.com/@transparenciamg2235
-#     - icon: fontawesome/solid/flag
-#       name: Material for MkDocs Icons, Emojis.
-#       link: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
-#     - icon: fontawesome/brands/github-alt
-#       name: Repositório Handbook no GitHub.
-#       link: https://github.com/transparencia-mg/handbook
-
+extra: 
+  social: # Footer
+    - icon: fontawesome/solid/diagram-project
+      name: Projeto Automatiza-MG
+      link: https://automatiza-mg.github.io/automatizacoes/
+    - icon: fontawesome/brands/youtube
+      name: Canal automatiza-mg no YouTube.
+      link: https://www.youtube.com/@automatiza-mg
+    - icon: fontawesome/solid/flag
+      name: Material for MkDocs Icons, Emojis.
+      link: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
 plugins:
   - git-revision-date-localized:
       enable_creation_date: true
