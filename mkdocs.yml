@@ -1,8 +1,8 @@
 site_name: Handbook Diretoria Central de Desburocratização
 
 # Repository
-repo_name: lab-mg/handbook
-repo_url: https://github.com/lab-mg/handbook
+repo_name: automatiza-mg/handbook
+repo_url: https://github.com/automatiza-mg/handbook
 edit_uri: edit/main/docs/
 
 # --8<-- [start:nav]
