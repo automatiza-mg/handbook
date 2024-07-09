@@ -1,7 +1,7 @@
-Handbook da Subsecretaria de Gestão Estratégica - SEPLAG/MG
+Handbook da Diretoria Central de Desburocratização - SEPLAG/MG
 ===
 
-O objetivo deste repositório é [documentar](https://suges-mg.github.io/handbook) alguns trabalhos/achados na Subsecretaria de Gestão Estratégica - SEPLAG/MG.
+O objetivo deste repositório é documentar em [site estático](https://automatiza-mg.github.io/handbook/) os trabalhos da Diretoria Central de Desburocratização, da Superitnendência Central de Inovação e Desburocratização, da Subsecretaria de Gestão Estratégica.
 
 ## Setup :open_book:
 
@@ -27,4 +27,4 @@ $ source venv/bin/activate
 ## Contribuições
 
 Encontrou algo errado ou gostaria de enviar alguma sugestão.
-Abra um [Issue](https://github.com/suges-mg/handbook/issues) para nós.
+Abra um [Issue](https://github.com/automatiza-mg/handbook/issues) para nós.
