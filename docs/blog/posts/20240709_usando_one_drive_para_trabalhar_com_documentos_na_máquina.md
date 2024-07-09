@@ -15,16 +15,21 @@ Neste post, explico como esse processo foi feito para auxiliar colegas na mesma 
 <!-- more -->
 
 1. Inicialmente, verifique se a máquina em que você trabalha possui o aplicativo do One Drive instalado:
-![One Drive](image.png)
+![image](https://github.com/automatiza-mg/handbook/assets/146127524/610da1bd-3654-4a7c-9989-451c93e9b722)
+
 
 2. Depois, faça login no One Drive com sua conta corporativa:
-![alt text](image-1.png)
+![image](https://github.com/automatiza-mg/handbook/assets/146127524/c89eff5c-b5a2-44fb-8e59-eace2a54bafa)
+
 
 3. Desmarque as opções de "backup das pastas neste computador":
-![Backup](image-3.png)
+![image](https://github.com/automatiza-mg/handbook/assets/146127524/d2238366-6272-4757-8939-1ceb879d369e)
+
 
 Pronto! Agora, é só buscar por "One Drive" na sua máquina de trabalho que, ao clicar, estarão lá reunidos todos os arquivos que o seu SharePoint tem. 
+
 ![Pasta](image-4.png)
+
 
 A sincronização é automática, então tudo o que for alterado e salvo em um será refletido no outro. Lembre-se apenas de **deixar um arquivo fechado enquanto se edita o outro** (janela do Chrome fechada enquanto se mexe no arquivo desktop, e vice versa).
 Além disso, quando a edição for feita no documento desktop (Excel, por exemplo), não se esqueça de **clicar em "Editar pasta de trabalho"** antes de fazer as alterações:
