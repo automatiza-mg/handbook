@@ -34,7 +34,7 @@ Lista principais comandos:
 - git push -> Utilizado para “empurrar” as alterações realizadas ao github. Obs: é necessário indicar o repositório (via de regra: “origin”) e a branch (ex: “main”). Ou seja, um push fica redigido como: git push origin main
 - git pull -> Atualiza o repositório na máquina com a versão mais atual. Também é necessário indicar repositório e branch, ex: git pull origin main
 - git clone [link do repositório] -> Clona um repositório do github na máquina.
-- git restore
+- git restore -> Cuidado com a utilização do `.`.
 - git checkout [branch] -> Alterna entre as branches do repositório.
 - git checkout -b “nome_branch” -> Cria e nomeia uma nova branch.
 - git switch "nome_branch" -> Também alterna entre as branches do repositório
