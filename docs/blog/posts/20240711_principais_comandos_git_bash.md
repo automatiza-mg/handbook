@@ -24,7 +24,7 @@ Lista principais comandos:
 - ls -> Lista o conteúdo da diretório que está trabalhando no momento.
 - ls -la -> Lista o conteúdo da diretório que está trabalhando no momento, inclusive o que está oculto. Comando importante para verificar, por exemplo, se o “.git” está ativo naquele diretório.
 - rm -rf  [nome_documento] -> Remove arquivo/diretório/pasta permanentemente.
-- touch [nome_arquivo.extensao_arquivo] -> Cria um arquivo (ex: touch artigo.docx). 
+- touch [nome_arquivo.extensao_arquivo] -> Cria um arquivo (ex: touch artigo.docx).
 - mkdir [nome_pasta] -> Cria uma pasta
 - git init -> Inicializa o git no diretório em que se está trabalhando no momento. Ou seja, a partir da inicialização do git, é possível o versionamento.
 - git status -> É possível verificar se a navegação está na versão mais recente do diretório/repositório. Além disso, mostra se existe mudanças a serem commitadas.
@@ -33,7 +33,8 @@ Lista principais comandos:
 - git commit –m “[Mensagem do commit]” -> Realiza o commit com a mensagem que explica qual alteração foi feita
 - git push -> Utilizado para “empurrar” as alterações realizadas ao github. Obs: é necessário indicar o repositório (via de regra: “origin”) e a branch (ex: “main”). Ou seja, um push fica redigido como: git push origin main
 - git pull -> Atualiza o repositório na máquina com a versão mais atual. Também é necessário indicar repositório e branch, ex: git pull origin main
-- git clone [link do repositório] -> Clona um repositório do github na máquina. 
-- git restore 
+- git clone [link do repositório] -> Clona um repositório do github na máquina.
+- git restore
 - git checkout [branch] -> Alterna entre as branches do repositório.
 - git checkout -b “nome_branch” -> Cria e nomeia uma nova branch.
+- git switch "nome_branch" -> Também alterna entre as branches do repositório
