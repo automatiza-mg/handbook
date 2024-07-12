@@ -11,9 +11,9 @@ categories:
 **Não param de chegar pedidos de apoio do Automatiza.MG.**
 :fire: 
 
-Seja via formulário, pelo gabinete ou de maneira orgânica, a verdade é que a nossa equipe têm sido bastante demandada. Independente da origem da demanda, é importante que tenhamos informações básicas sobre os pedidos para que possamos avaliar se poderemos atender e qual o melhor formato de atendimento. 
+Seja via formulário, pelo gabinete ou de maneira orgânica, a verdade é que a nossa equipe tem sido bastante demandada. Independente da origem da demanda, é importante que tenhamos informações básicas sobre os pedidos para que possamos avaliar se poderemos atender e qual o melhor formato de atendimento. 
 
-Com orientação geral, sempre faremos uma reunião com os demandantes para conhecermos melhor seus processos e coletar informações básicas. **Se você foi selecionado para realizar esse primeiro contato, esse post é para te ajudar a coordenar esse processo! Vamos lá?** :rocket::rocket:
+Como orientação geral, sempre faremos uma reunião com os demandantes para conhecermos melhor seus processos e coletar informações básicas. **Se você foi selecionado para realizar esse primeiro contato, esse post é para te ajudar a coordenar esse processo! Vamos lá?** :rocket::rocket:
 
 <!-- more -->
 
