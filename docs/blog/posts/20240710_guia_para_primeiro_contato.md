@@ -51,8 +51,11 @@ Aqui temos uma sugestão para condução do encontro, mas fiquem à vontade para
 
 **Apresentação do processo:**
 
-1. Sugerir que o demandante explique o processo da melhor forma possível. Caso ele consiga reproduzir o processo em reunião, o pulo do gato aqui é solicitar a gravação desta parte da reunião caso o encontro esteja ocorrendo via MS teams! Lembre-se de perguntar o consentimento de todos antes de iniciar a gravação.
-2. Use o seu roteiro de dúvidas para ir guiando a conversa. Lembre-se de anotar as respostas :bangbang:
+1. Sugerir que o demandante explique o processo da melhor forma possível. Caso ele consiga reproduzir o processo em reunião, o pulo do gato aqui é solicitar a gravação desta parte da reunião caso o encontro esteja ocorrendo via MS teams.   
+    Lembre-se de perguntar o consentimento de todos antes de iniciar a gravação:exclamation:
+
+2. Use o seu roteiro de dúvidas para ir guiando a conversa.
+    Lembre-se de anotar as respostas para a próxima etapa:exclamation:
 
 **Encerramento:**
 
