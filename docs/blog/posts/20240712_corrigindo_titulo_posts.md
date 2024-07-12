@@ -29,6 +29,8 @@ Entretanto, quando precisamos corigir algum erro de grafia no título do post, a
 
 ## Corrigindo o título de um post com `mkdocs gh-deploy`
 
+Sem os passo 4 abaixo, ó só: ![image](https://github.com/user-attachments/assets/92555f75-0369-48eb-b99f-c241c81a9466)
+
 1. Abra o arquivo a ser corrigido no teu editor de texto de preferência e efetue a modificação necessária
 
 2. Para confirmar se a alteração ficou certinha, com o (venv) ligado, dá um `mkdocs serve` e veja lá no [http://127.0.0.1:8000/blog/](http://127.0.0.1:8000/blog/)[^1] do teu ambiente local se era isso mesmo
