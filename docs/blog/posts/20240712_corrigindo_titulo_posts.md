@@ -29,7 +29,7 @@ Entretanto, quando precisamos corigir algum erro de grafia no título do post, a
 
 ## Corrigindo o título de um post com `mkdocs gh-deploy`
 
-Sem os passo 4 abaixo, ó só: ![image](https://github.com/user-attachments/assets/92555f75-0369-48eb-b99f-c241c81a9466)
+Sem o passo 4 abaixo, ó só: ![image](https://github.com/user-attachments/assets/92555f75-0369-48eb-b99f-c241c81a9466)
 
 1. Abra o arquivo a ser corrigido no teu editor de texto de preferência e efetue a modificação necessária
 
@@ -40,5 +40,6 @@ Sem os passo 4 abaixo, ó só: ![image](https://github.com/user-attachments/asse
 4. Aqui vem a novidade, antes do `git push`, ANTEÇÃO! Chama um `mkdocs gh-deploy` pra nós, please. O que esse trem vai fazer? O que os arquivos `publish_github_pages.yml` fazem automaticamente pra gente lá nos repostiórios, quando enviamos conteúdos pra publicar. Mas, André, por que o actions do Github não resolve essa parada pra mim? Porque a URL do post já existe, ele vai procurar esse mesmo endereço e não vai entender, vai ficar perdido...tadinho do nosso OCTOCAT! Depois desse comando de **deploy**, vc vai perceber que rola um tanto de trem na linha de comando...
 
 5. ...mas não vai ficar tão claro que o **deploy** tá pronto pra ser commitado, como nas demais alterações. Bem, se a linha de comando terminar de processar e o cursor voltar a piscar, faz aquele `git push origin main` maroto, e vê lá se ficou bão agora... se der certo, vai aparecer teu nickname do github como autor de um dos commits nos históricos das branches `gh-pages`, blz?
+![image](https://github.com/user-attachments/assets/461e1698-4f19-43d9-a785-41eba97e1a54)
 
 [^1]: Já reparou que esse link é perene? Manjou a possibilidade de favoritar esse endereço pra toda vez que vc quiser ver as alterações antes de commitar? Dá um like aí embaixo se vc gostou dessa dica, vai...
