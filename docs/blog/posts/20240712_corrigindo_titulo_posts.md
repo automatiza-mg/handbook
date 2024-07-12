@@ -1,6 +1,6 @@
 ---
 date: 2024-07-12
-draft: true
+draft: false
 authors: [andrelamor]
 comments: true
 categories:
@@ -41,6 +41,23 @@ Sem o passo 4 abaixo, ó só:
 4. Aqui vem a novidade, antes do `git push`, ANTEÇÃO! Chama um `mkdocs gh-deploy` pra nós, please. O que esse trem vai fazer? O que os arquivos `publish_github_pages.yml` fazem automaticamente pra gente lá nos repostiórios, quando enviamos conteúdos pra publicar. Mas, André, por que o actions do Github não resolve essa parada pra mim? Porque a URL do post já existe, ele vai procurar esse mesmo endereço e não vai entender, vai ficar perdido...tadinho do nosso OCTOCAT! Depois desse comando de **deploy**, vc vai perceber que rola um tanto de trem na linha de comando...
 
 5. ...mas como saber se **deploy** tá pronto pra ser commitado:
+Cheque se o texto abaixo aparece
+````
+INFO    -  Documentation built in 7.95 seconds
+INFO    -  Copying 'C:\Users\Andre\Documents\SIGES-SEPLAG\handbook\site' to 'gh-pages' branch and pushing to GitHub.
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 342 bytes | 171.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/automatiza-mg/handbook
+   ed4a5ff..ada76b8  gh-pages -> gh-pages
+INFO    -  Your documentation should shortly be available at: https://automatiza-mg.github.io/handbook/
+
+````
+ ![image](https://github.com/user-attachments/assets/f69cfcc8-7cac-4eb2-ad5b-a97347faa8b4)
 
 Bem, se a linha de comando terminar de processar e o cursor voltar a piscar, faz aquele `git push origin main` maroto, e vê lá se ficou bão agora... se der certo, vai aparecer teu nickname do github como autor de um dos commits nos históricos das branches `gh-pages`, blz?
 ![image](https://github.com/user-attachments/assets/461e1698-4f19-43d9-a785-41eba97e1a54)
