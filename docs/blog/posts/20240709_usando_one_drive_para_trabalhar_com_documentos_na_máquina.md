@@ -28,12 +28,15 @@ Neste post, explico como esse processo foi feito para auxiliar colegas na mesma 
 
 Pronto! Agora, é só buscar por "One Drive" na sua máquina de trabalho que, ao clicar, estarão lá reunidos todos os arquivos que o seu SharePoint tem. 
 
-![Pasta](image-4.png)
+![image](https://github.com/automatiza-mg/handbook/assets/146127524/80e0fc5a-a026-4d67-b6c5-af7424b51657)
+
 
 
 A sincronização é automática, então tudo o que for alterado e salvo em um será refletido no outro. Lembre-se apenas de **deixar um arquivo fechado enquanto se edita o outro** (janela do Chrome fechada enquanto se mexe no arquivo desktop, e vice versa).
 Além disso, quando a edição for feita no documento desktop (Excel, por exemplo), não se esqueça de **clicar em "Editar pasta de trabalho"** antes de fazer as alterações:
-![Botão clique](image-5.png)
+
+![image](https://github.com/automatiza-mg/handbook/assets/146127524/1ad571bd-3b64-46d3-aeb3-c2b5c05eaeea)
+
 
 Assim, você conseguirá salvar seu trabalho e não haverá problemas de versão.
 
