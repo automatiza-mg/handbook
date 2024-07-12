@@ -40,7 +40,7 @@ Estude as informações que você já possui sobre a demanda e monte um roteiro 
 
 ## Passo 3: Reunião 
 
-Aqui temos uma sugestão para condução do encontro, mas fiquei à vontade para adequar ao o seu estilo pessoal! :wink:
+Aqui temos uma sugestão para condução do encontro, mas fiquem à vontade para adequar ao seu estilo pessoal! :wink:
 
 **Apresentação Inicial** 
 
@@ -61,7 +61,7 @@ Aqui temos uma sugestão para condução do encontro, mas fiquei à vontade para
 
 ## Passo 4: Documentação 
 
-Após a reunião, é importante que a sejam feitos dois registros. O primeiro é um issue que registre a reunião, para isso já temos até um até um issue template. O segundo, é inserir as informações no nosso banco de dados. Será a partir dele analisaremos o projeto quanto à sua prioridade e complexidade, para enfim definirmos quando e como poderemos atender. 
+Após a reunião, é importante que sejam feitos dois registros. O primeiro é um issue que registre a reunião, para isso já temos até um até um issue template. O segundo, é inserir as informações no nosso banco de dados. Será a partir dele analisaremos o projeto quanto à sua prioridade e complexidade, para enfim definirmos quando e como poderemos atender. 
 
 
 **Se você tem mais sugestões de como podemos melhorar esse o nosso primeiro contato com os nossos demandantes, não deixe de comentar abaixo!** :smile:
