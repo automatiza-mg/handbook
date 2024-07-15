@@ -15,7 +15,7 @@ Uma das possibilidades de erro ao publicarmos um post aqui no _Handbook_ é come
 
 ## Como funciona a publicação automatizada dos posts
 
-Quando fazemos uma postagem nos blogs do Github, usando Mkdocs, o actions dos repositórios nos dá uma ajudinha na publicação, porque eles já carregam todas as instruções necessárias para transformar os arquivos do formato `markdown`(.md) apra o formato `html` que, na prática, são os próprios _posts_ publicados. Estes arquivos contendo as instruções se cahmam `publish_github_pages.yml`e estão:
+Quando fazemos uma postagem nos blogs do Github, usando Mkdocs, o actions dos repositórios nos dá uma ajudinha na publicação, porque ele já carrega todas as instruções necessárias para transformar os arquivos do formato `markdown`(.md) para o formato `html` que, na prática, são os próprios _posts_ publicados. Estes arquivos contendo as instruções se chamam `publish_github_pages.yml`e estão:
 
 - No repositório do [Handbook](https://github.com/automatiza-mg/handbook/blob/main/.github/workflows/publish_github_pages.yml)
 
@@ -38,10 +38,10 @@ Sem o passo 4 abaixo, ó só:
 
 3. Se estiver ok, manda lá na linha de comando os procedimentos de `git add` e `git commit` habituais
 
-4. Aqui vem a novidade, antes do `git push`, ANTEÇÃO! Chama um `mkdocs gh-deploy` pra nós, please. O que esse trem vai fazer? O que os arquivos `publish_github_pages.yml` fazem automaticamente pra gente lá nos repostiórios, quando enviamos conteúdos pra publicar. Mas, André, por que o actions do Github não resolve essa parada pra mim? Porque a URL do post já existe, ele vai procurar esse mesmo endereço e não vai entender, vai ficar perdido...tadinho do nosso OCTOCAT! Depois desse comando de **deploy**, vc vai perceber que rola um tanto de trem na linha de comando...
+4. Aqui vem a novidade, antes do `git push`, ATENÇÃO! Chama um `mkdocs gh-deploy` pra nós, please. O que esse trem vai fazer? O que os arquivos `publish_github_pages.yml` fazem automaticamente pra gente lá nos repostiórios, quando enviamos conteúdos pra publicar. Mas, André, por que o actions do Github não resolve essa parada pra mim? Porque a URL do post já existe, ele vai procurar esse mesmo endereço e não vai entender, vai ficar perdido...tadinho do nosso OCTOCAT! Depois desse comando de **deploy**, vc vai perceber que rola um tanto de trem na linha de comando...
 
-5. ...mas como saber se **deploy** tá pronto pra ser commitado:
-Cheque se o texto abaixo aparece
+5. ...mas como saber se **deploy** tá pronto pra ser commitado?
+Cheque se o texto abaixo aparece:
 ````
 INFO    -  Documentation built in 7.95 seconds
 INFO    -  Copying 'C:\Users\Andre\Documents\SIGES-SEPLAG\handbook\site' to 'gh-pages' branch and pushing to GitHub.
