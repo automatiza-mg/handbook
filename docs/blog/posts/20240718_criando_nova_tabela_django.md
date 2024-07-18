@@ -1,6 +1,6 @@
 ---
 date: 2024-07-18
-authors: [gabrielbdornas]
+authors: [gabrielbdornas, raianecardoso]
 draft: false
 comments: true
 categories:
