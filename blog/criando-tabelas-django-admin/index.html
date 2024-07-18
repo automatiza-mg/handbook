@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../guia-para-o-primeiro-contato-com-demandante-do-automatizamg/">
+        <link rel="prev" href="../como-editar-t%C3%ADtulos-dos-posts-no-mkdocs/">
       
-      
-        <link rel="next" href="../criando-tabelas-django-admin/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>Como editar títulos dos posts no MKDocs - Handbook Diretoria Central de Desburocratização</title>
+        <title>Criando Tabelas Django Admin - Handbook Diretoria Central de Desburocratização</title>
       
     
     
@@ -76,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#como-editar-titulos-dos-posts-no-mkdocs" class="md-skip">
+        <a href="#criando-tabelas-django-admin" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -117,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Como editar títulos dos posts no MKDocs
+              Criando Tabelas Django Admin
             
           </span>
         </div>
@@ -739,18 +737,63 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#como-funciona-a-publicacao-automatizada-dos-posts" class="md-nav__link">
+  <a href="#criacao-de-modelos" class="md-nav__link">
     <span class="md-ellipsis">
-      Como funciona a publicação automatizada dos posts
+      Criação de Modelos
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#como-corrigir-o-titulo-de-um-post-com-mkdocs-gh-deploy" class="md-nav__link">
+  <a href="#escolha-de-campos" class="md-nav__link">
     <span class="md-ellipsis">
-      Como corrigir o título de um post com mkdocs gh-deploy
+      Escolha de Campos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#migracoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Migrações
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#painel-admin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Painel admin
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testes-e-ajustes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Testes e Ajustes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#boas-praticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Boas Práticas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#codigo-referencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Código referência
     </span>
   </a>
   
@@ -785,12 +828,12 @@
                 
                   <div class="md-profile md-post__profile">
                     <span class="md-author md-author--long">
-                      <img src="https://avatars.githubusercontent.com/u/52294411?v=4" alt="André Luiz Guimarães Amorim">
+                      <img src="https://avatars.githubusercontent.com/u/49699290" alt="Gabriel Braico Dornas">
                     </span>
                     <span class="md-profile__description">
                       <strong>
                         
-                          André Luiz Guimarães Amorim
+                          Gabriel Braico Dornas
                         
                       </strong>
                       <br>
@@ -812,7 +855,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5v-5Z"/></svg>
-                        <time datetime="2024-07-12 00:00:00" class="md-ellipsis">12 de julho de 2024</time>
+                        <time datetime="2024-07-18 00:00:00" class="md-ellipsis">18 de julho de 2024</time>
                       </div>
                     </li>
                     
@@ -823,7 +866,7 @@
                           <span class="md-ellipsis">
                             em
                             
-                              <a href="../category/tira-d%C3%BAvidas/">Tira Dúvidas</a></span>
+                              <a href="../category/dcd/">DCD</a></span>
                         </div>
                       </li>
                     
@@ -834,7 +877,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5Z"/></svg>
                           <span class="md-ellipsis">
                             
-                              4 min de leitura
+                              2 min de leitura
                             
                           </span>
                         </div>
@@ -857,68 +900,73 @@
   
 
 
-<div><h1 id="como-editar-titulos-dos-posts-no-mkdocs">Como editar títulos dos posts no MKDocs<a class="headerlink" href="#como-editar-titulos-dos-posts-no-mkdocs" title="Permanent link">⚓︎</a></h1>
-<p>Uma das possibilidades de erro ao publicarmos um post aqui no <em>Handbook</em> é cometer um deslize na grafia de alguma palavra (<em>typo</em>). Isso pode ocorrer pela ausência de corretor automático de português no seu editor de texto. Às vezes, são muitos detalhes para publicar, tanto no conteúdo, quanto na forma de operar a linha de comando, que passamos batido em um errinho de português, né? A questão aqui, diferente de uma correção nas demais partes do texto do seu post, o que é escrito no <strong>título</strong> determina o endereço (URL) da página onde a postagem vai ficar, então a correção demanda uma operação a mais na linha de comando, com o <code>deploy gh-pages</code> do Mkdocs. Vamos ver como fazer?</p>
+<div><h1 id="criando-tabelas-django-admin">Criando Tabelas Django Admin<a class="headerlink" href="#criando-tabelas-django-admin" title="Permanent link">⚓︎</a></h1>
+<p>Neste encontro discutimos a utilização da ferramenta <a href="https://www.djangoproject.com/">django</a>, mais especificamente como criar uma nova tabela em nosso painel admin. <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M11.146 0h3.924v18.166c-2.013.382-3.491.535-5.096.535-4.791 0-7.288-2.166-7.288-6.32 0-4.002 2.65-6.6 6.753-6.6.637 0 1.121.05 1.707.203zm0 9.143a3.894 3.894 0 0 0-1.325-.204c-1.988 0-3.134 1.223-3.134 3.365 0 2.09 1.096 3.236 3.109 3.236.433 0 .79-.025 1.35-.102V9.142zM21.314 6.06v9.098c0 3.134-.229 4.638-.917 5.937-.637 1.249-1.478 2.039-3.211 2.905l-3.644-1.733c1.733-.815 2.574-1.53 3.109-2.625.561-1.121.739-2.421.739-5.835V6.059h3.924zM17.39.021h3.924v4.026H17.39z"></path></svg></span> <img alt="🚀" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f680.svg" title=":rocket:"> <img alt="🚀" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f680.svg" title=":rocket:"></p>
 <!-- more -->
 
-<h2 id="como-funciona-a-publicacao-automatizada-dos-posts">Como funciona a publicação automatizada dos posts<a class="headerlink" href="#como-funciona-a-publicacao-automatizada-dos-posts" title="Permanent link">⚓︎</a></h2>
-<p>Quando fazemos uma postagem nos blogs do Github, usando Mkdocs, o actions dos repositórios nos dá uma ajudinha na publicação, porque ele já carrega todas as instruções necessárias para transformar os arquivos do formato <code>markdown</code>(.md) para o formato <code>html</code> que, na prática, são os próprios <em>posts</em> publicados. Estes arquivos contendo as instruções se chamam <code>publish_github_pages.yml</code>e estão:</p>
+<p><div class="video-container"><iframe src="https://www.youtube.com/embed/v9-fW0UfU5Q" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div></p>
+<h2 id="criacao-de-modelos">Criação de Modelos<a class="headerlink" href="#criacao-de-modelos" title="Permanent link">⚓︎</a></h2>
 <ul>
 <li>
-<p>No repositório do <a href="https://github.com/automatiza-mg/handbook/blob/main/.github/workflows/publish_github_pages.yml">Handbook</a></p>
-</li>
-<li>
-<p>No repositório do <a href="https://github.com/automatiza-mg/automatizacoes/blob/main/.github/workflows/publish_github_pages.yml">Automatiza</a></p>
+<p>Criar o modelo desejado em um novo arquivo <code>robo_models.py</code>:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="k">class</span> <span class="nc">Robo</span><span class="p">(</span><span class="n">models</span><span class="o">.</span><span class="n">Model</span><span class="p">):</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">nome</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="n">tempo_execucao</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">IntegerField</span><span class="p">(</span><span class="n">null</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="c1"># Outros campos</span>
+</span></code></pre></div>
 </li>
 </ul>
-<p>A construção da documentação da página do post no formato <code>html</code> é um processo que se denomina <strong>deploy</strong>, e pode ser visto no histórico de commits da branch <code>gh-pages</code>, seja no <a href="https://github.com/automatiza-mg/handbook/commits/gh-pages/">Handbook</a> ou no <a href="https://github.com/automatiza-mg/automatizacoes/commits/gh-pages/">Automatiza</a>.</p>
-<p>Como geralmente trabalhamos somente na branch <code>main</code>, elaborando e editando os conteúdos, não percebemos o que rola nos bastidores, mas o github-actions está lá automatizando parte das nossas ações de publicação! Se vc notar bem, a autoria dos <code>commits</code> quase sempre é do <em>bot</em>, identificado pelo ícone do OCTOCAT. </p>
-<p>Entretanto, quando precisamos corigir algum erro de grafia no título do post, aparece nosso nome como autor do deploy (olha só nesse <a href="https://github.com/automatiza-mg/automatizacoes/commit/f2705a153703fbdd4b75ca0ab548c2d9a43f3771">exemplo</a>). Mas, como fazer isso?  </p>
-<h2 id="como-corrigir-o-titulo-de-um-post-com-mkdocs-gh-deploy">Como corrigir o título de um post com <code>mkdocs gh-deploy</code><a class="headerlink" href="#como-corrigir-o-titulo-de-um-post-com-mkdocs-gh-deploy" title="Permanent link">⚓︎</a></h2>
-<p>Sem o passo 4 abaixo, ó só: 
-<img alt="image" src="https://github.com/user-attachments/assets/92555f75-0369-48eb-b99f-c241c81a9466"></p>
-<ol>
+<h2 id="escolha-de-campos">Escolha de Campos<a class="headerlink" href="#escolha-de-campos" title="Permanent link">⚓︎</a></h2>
+<ul>
+<li>Discussão sobre o campo <code>tempo_execucao</code> para armazenar a duração da execução do robô.</li>
+<li>Consideração inicial de <code>DurationField</code>, mas decidiu-se por <code>IntegerField</code> para simplificação e precisão aceitável.</li>
+<li>Uso de <code>IntegerField</code> também garantirá que o valor inserido no formulário seja sempre um número inteiro, pois o mesmo utilizará validação automática de dados,conforme as regras definidas nos modelos.</li>
 <li>
-<p>Abra o arquivo a ser corrigido no teu editor de texto de preferência e efetue a modificação necessária</p>
-</li>
-<li>
-<p>Para confirmar se a alteração ficou certinha, com o (venv) ligado, dá um <code>mkdocs serve</code> e veja lá no <a href="http://127.0.0.1:8000/blog/">http://127.0.0.1:8000/blog/</a><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> do teu ambiente local se era isso mesmo</p>
-</li>
-<li>
-<p>Se estiver ok, manda lá na linha de comando os procedimentos de <code>git add</code> e <code>git commit</code> habituais</p>
-</li>
-<li>
-<p>Aqui vem a novidade, antes do <code>git push</code>, ATENÇÃO! Chama um <code>mkdocs gh-deploy</code> pra nós, please. O que esse trem vai fazer? O que os arquivos <code>publish_github_pages.yml</code> fazem automaticamente pra gente lá nos repostiórios, quando enviamos conteúdos pra publicar. Mas, André, por que o actions do Github não resolve essa parada pra mim? Porque a URL do post já existe, ele vai procurar esse mesmo endereço e não vai entender, vai ficar perdido...tadinho do nosso OCTOCAT! Depois desse comando de <strong>deploy</strong>, vc vai perceber que rola um tanto de trem na linha de comando...</p>
-</li>
-<li>
-<p>...mas como saber se <strong>deploy</strong> tá pronto pra ser commitado?
-Cheque se o texto abaixo aparece:
-</p><div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>INFO    -  Documentation built in 7.95 seconds
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>INFO    -  Copying 'C:\Users\Andre\Documents\SIGES-SEPLAG\handbook\site' to 'gh-pages' branch and pushing to GitHub.
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>Enumerating objects: 5, done.
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>Counting objects: 100% (5/5), done.
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>Delta compression using up to 4 threads
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>Compressing objects: 100% (3/3), done.
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>Writing objects: 100% (3/3), 342 bytes | 171.00 KiB/s, done.
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>To https://github.com/automatiza-mg/handbook
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>   ed4a5ff..ada76b8  gh-pages -&gt; gh-pages
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>INFO    -  Your documentation should shortly be available at: https://automatiza-mg.github.io/handbook/
+<p><a href="https://docs.djangoproject.com/en/5.0/intro/tutorial02/#creating-models">Documentação django de referência</a>.</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">tempo_execucao</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">IntegerField</span><span class="p">(</span><span class="n">null</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </span></code></pre></div>
- <img alt="image" src="https://github.com/user-attachments/assets/f69cfcc8-7cac-4eb2-ad5b-a97347faa8b4">
 </li>
-</ol>
-<p>Bem, se a linha de comando terminar de processar e o cursor voltar a piscar, faz aquele <code>git push origin main</code> maroto, e vê lá se ficou bão agora... se der certo, vai aparecer teu nickname do github como autor de um dos commits nos históricos das branches <code>gh-pages</code>, blz?
-<img alt="image" src="https://github.com/user-attachments/assets/461e1698-4f19-43d9-a785-41eba97e1a54"></p>
-<div class="footnote">
-<hr>
-<ol>
-<li id="fn:1">
-<p>Já reparou que esse link é perene? Manjou a possibilidade de favoritar esse endereço pra toda vez que vc quiser ver as alterações antes de commitar? Dá um like aí embaixo se vc gostou dessa dica, vai... <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</ul>
+<h2 id="migracoes">Migrações<a class="headerlink" href="#migracoes" title="Permanent link">⚓︎</a></h2>
+<ul>
+<li>
+<p>Criar e aplicar migrações após definir os modelos.</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>python<span class="w"> </span>manage.py<span class="w"> </span>makemigrations
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>python<span class="w"> </span>manage.py<span class="w"> </span>migrate
+</span></code></pre></div>
 </li>
-</ol>
-</div></div>
+</ul>
+<h2 id="painel-admin">Painel admin<a class="headerlink" href="#painel-admin" title="Permanent link">⚓︎</a></h2>
+<ul>
+<li>
+<p>Registrar o novo modelo no <code>admin.py</code> para aparecer na interface administrativa do Django.</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">from</span> <span class="nn">django.contrib</span> <span class="kn">import</span> <span class="n">admin</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="kn">from</span> <span class="nn">.models</span> <span class="kn">import</span> <span class="n">Robo</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="k">class</span> <span class="nc">RoboAdmin</span><span class="p">(</span><span class="n">admin</span><span class="o">.</span><span class="n">ModelAdmin</span><span class="p">):</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>    <span class="k">pass</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="n">admin</span><span class="o">.</span><span class="n">site</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="n">Robo</span><span class="p">,</span> <span class="n">RoboAdmin</span><span class="p">)</span>
+</span></code></pre></div>
+</li>
+</ul>
+<h2 id="testes-e-ajustes">Testes e Ajustes<a class="headerlink" href="#testes-e-ajustes" title="Permanent link">⚓︎</a></h2>
+<ul>
+<li>Testar o funcionamento do servidor e verificar se a nova tabela aparece no admin.
+    <div class="language-sh highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>python<span class="w"> </span>manage.py<span class="w"> </span>runserver
+</span></code></pre></div></li>
+</ul>
+<h2 id="boas-praticas">Boas Práticas<a class="headerlink" href="#boas-praticas" title="Permanent link">⚓︎</a></h2>
+<ul>
+<li>Fazer commit das mudanças regularmente para manter o controle de versão.
+    <div class="language-sh highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>git<span class="w"> </span>add<span class="w"> </span>.
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Criar modelo Robo e registrar no admin"</span>
+</span></code></pre></div></li>
+</ul>
+<h2 id="codigo-referencia">Código referência<a class="headerlink" href="#codigo-referencia" title="Permanent link">⚓︎</a></h2>
+<p>Após todos estes pontos discutidos, chegamos <a href="https://github.com/automatiza-mg/sima/tree/7526b74f8ab3f84bc35b95595c61e86175c44c76">neste código</a>.</p></div>
 
 
 
@@ -941,7 +989,7 @@ Cheque se o texto abaixo aparece:
     <span class="md-icon" title="Última atualização">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 15, 2024 12:47:14</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 18, 2024 20:07:47</span>
   </span>
 
     
@@ -951,7 +999,7 @@ Cheque se o texto abaixo aparece:
     <span class="md-icon" title="Criada">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 12, 2024 23:20:54</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 18, 2024 20:07:47</span>
   </span>
 
     
