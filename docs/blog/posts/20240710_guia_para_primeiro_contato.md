@@ -11,9 +11,9 @@ categories:
 **Não param de chegar pedidos de apoio do Automatiza.MG.**
 :fire: 
 
-Seja via formulário, pelo gabinete ou de maneira orgânica, a verdade é que a nossa equipe têm sido bastante demandada. Independente da origem da demanda, é importante que tenhamos informações básicas sobre os pedidos para que possamos avaliar se poderemos atender e qual o melhor formato de atendimento. 
+Seja via formulário, pelo gabinete ou de maneira orgânica, a verdade é que a nossa equipe tem sido bastante demandada. Independente da origem da demanda, é importante que tenhamos informações básicas sobre os pedidos para que possamos avaliar se poderemos atender e qual o melhor formato de atendimento. 
 
-Com orientação geral, sempre faremos uma reunião com os demandantes para conhecermos melhor seus processos e coletar informações básicas. **Se você foi selecionado para realizar esse primeiro contato, esse post é para te ajudar a coordenar esse processo! Vamos lá?** :rocket::rocket:
+Como orientação geral, sempre faremos uma reunião com os demandantes para conhecermos melhor seus processos e coletar informações básicas. **Se você foi selecionado para realizar esse primeiro contato, esse post é para te ajudar a coordenar esse processo! Vamos lá?** :rocket::rocket:
 
 <!-- more -->
 
@@ -51,17 +51,22 @@ Aqui temos uma sugestão para condução do encontro, mas fiquem à vontade para
 
 **Apresentação do processo:**
 
-1. Sugerir que o demandante explique o processo da melhor forma possível. Caso ele consiga reproduzir o processo em reunião, o pulo do gato aqui é solicitar a gravação desta parte da reunião caso o encontro esteja ocorrendo via MS teams! Lembre-se de perguntar o consentimento de todos antes de iniciar a gravação.
-2. Use o seu roteiro de dúvidas para ir guiando a conversa. Lembre-se de anotar as respostas!!!  
+1. Sugerir que o demandante explique o processo da melhor forma possível. Caso ele consiga reproduzir o processo em reunião, o pulo do gato aqui é solicitar a gravação desta parte da reunião caso o encontro esteja ocorrendo via MS teams.   
+    Lembre-se de perguntar o consentimento de todos antes de iniciar a gravação:exclamation:
+
+2. Use o seu roteiro de dúvidas para ir guiando a conversa.
+    Lembre-se de anotar as respostas para a próxima etapa:exclamation:
 
 **Encerramento:**
 
-1. Se for o caso, defina encaminhamento aso final da reunião. Deixando claro quem são os responsáveis e quais resultados são esperados.
-2. Ao final, lembre-se de agradecer aos participantes pelo tempo dedicado ao encontro. 
+1. Se for o caso, defina encaminhamentos, deixando claro quem são os responsáveis e quais resultados são esperados.
+2. Por fim, lembre-se de agradecer aos participantes pelo tempo dedicado ao encontro. 
 
 ## Passo 4: Documentação 
 
-Após a reunião, é importante que sejam feitos dois registros. O primeiro é um issue que registre a reunião, para isso já temos até um até um issue template. O segundo, é inserir as informações no nosso banco de dados. Será a partir dele analisaremos o projeto quanto à sua prioridade e complexidade, para enfim definirmos quando e como poderemos atender. 
+
+Após a reunião, é importante que sejam feitos dois registros. O primeiro é um issue que registre a reunião, para isso já temos até um [issue template](https://github.com/automatiza-mg/handbook/issues/new?assignees=&labels=reuniao&projects=&template=ata_reuniao.md&title=Reuni%C3%A3o+XXXXX+-+DD%2FMM%2FAAAA). O segundo, é inserir as informações no [nosso banco de dados](https://cecad365.sharepoint.com/:x:/r/sites/LAB.mg/_layouts/15/Doc.aspx?sourcedoc=%7B691E96EE-7B1F-4BFA-A806-00E50F07D0D6%7D&file=base_projetos.xlsx&action=default&mobileredirect=true&wdsle=0). Será a partir dele analisaremos o projeto quanto à sua prioridade e complexidade, para enfim definirmos quando e como poderemos atender. 
+
 
 
 **Se você tem mais sugestões de como podemos melhorar esse o nosso primeiro contato com os nossos demandantes, não deixe de comentar abaixo!** :smile:
