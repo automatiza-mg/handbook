@@ -1,6 +1,7 @@
 ---
 date: 2024-07-18
 authors: [felpsop]
+draft: true 
 comments: true
 categories:
   - Webnar Automatiza.MG
