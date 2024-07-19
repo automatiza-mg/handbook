@@ -18,7 +18,7 @@ Nesses encontros, mergulhamos no universo da tecnologia, desvendando os segredos
 
 Não perca essa oportunidade de contribuir para o crescimento de nossa equipe, seja participando como ouvinte ou como tutor!
 
-No encontro do dia 28/06/2024 entendemos o funcionamento do sistema PROBPMS da PRODEMGE.
+No encontro do dia 19/07/2024 entendemos o funcionamento da biblioteca Mermaid.
 
 ![type:video](https://www.youtube.com/embed/)
 
