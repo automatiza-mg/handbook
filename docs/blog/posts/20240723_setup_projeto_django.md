@@ -1,7 +1,7 @@
 ---
 date: 2024-07-23
 authors: [gabrielbdornas]
-draft: true
+draft: False
 comments: true
 categories:
   - Ferramentas
