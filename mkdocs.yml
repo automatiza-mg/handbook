@@ -10,6 +10,11 @@ nav:
   - index.md
   - Apresentações:
     - apresentacoes/index.md
+  - Cursos:
+    - cursos/index.md
+    - Pythomatiza:
+      - cursos/python_w3schools/index.md
+      - Aula 001: cursos/python_w3schools/001.md
   - Blog:
     - blog/index.md
   - Linha do Tempo:
@@ -34,7 +39,7 @@ theme:
     - navigation.indexes
     # - navigation.instant
     # - navigation.prune
-    - navigation.sections
+    # - navigation.sections
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -101,7 +106,7 @@ extra_javascript:
 version:
     provider: mike
 
-extra: 
+extra:
   social: # Footer
     - icon: fontawesome/solid/diagram-project
       name: Projeto Automatiza-MG
