@@ -9,8 +9,8 @@
       
       
       
+        <link rel="prev" href="../como-utilizar-python-para-cortar-v%C3%ADdeos-material-content-cut/">
       
-        <link rel="next" href="../acessando-vpn-seplag/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -18,7 +18,7 @@
     
     
       
-        <title>Criação de usuário para adminstração geral GitHub - Handbook Diretoria Central de Desburocratização</title>
+        <title>Como modificar um commit - Handbook Diretoria Central de Desburocratização</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#criacao-de-usuario-para-adminstracao-geral-github" class="md-skip">
+        <a href="#como-modificar-um-commit" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Criação de usuário para adminstração geral GitHub
+              Como modificar um commit
             
           </span>
         </div>
@@ -755,6 +755,77 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#modificando-a-mensagem-do-ultimo-commit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modificando a mensagem do último commit
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemplo-git-commit-amend" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo git commit --amend
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modificando-a-mensagem-de-commits-anteriores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modificando a mensagem de commits anteriores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemplo-git-rebase-i" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo git rebase -i
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cuidado-ao-modificar-commits-enviados-ao-github-git-push" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cuidado ao modificar commits enviados ao GitHub (git push)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -809,7 +880,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5v-5Z"/></svg>
-                        <time datetime="2023-09-25 00:00:00" class="md-ellipsis">25 de setembro de 2023</time>
+                        <time datetime="2024-07-25 00:00:00" class="md-ellipsis">25 de julho de 2024</time>
                       </div>
                     </li>
                     
@@ -820,7 +891,7 @@
                           <span class="md-ellipsis">
                             em
                             
-                              <a href="../category/dcd/">DCD</a></span>
+                              <a href="../category/git/">Git</a></span>
                         </div>
                       </li>
                     
@@ -831,7 +902,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5Z"/></svg>
                           <span class="md-ellipsis">
                             
-                              1 min de leitura
+                              3 min de leitura
                             
                           </span>
                         </div>
@@ -854,21 +925,79 @@
   
 
 
-<div><h1 id="criacao-de-usuario-para-adminstracao-geral-github">Criação de usuário para adminstração geral GitHub<a class="headerlink" href="#criacao-de-usuario-para-adminstracao-geral-github" title="Permanent link">⚓︎</a></h1>
-<p>Quando a organização <a href="https://github.com/suges-mg/">SUGES-MG</a> foi criada apenas meu usuário GitHub (<code>gabrielbdornas</code>) estava ligado a mesma como <code>owner</code>.
-Após minha experiência na <a href="https://cge.mg.gov.br/a-cge/quem-e-quem/subcontroladoria-de-transparencia-e-integridade#:~:text=DIRETORIA%20DE%20TRANSPAR%C3%8ANCIA%20ATIVA">Diretoria Central de Transparência Ativa - DCTA/CGE</a> entendi que deixar contas de organizações vinculadas apenas a servidores não é uma boa prática, <strong>principalmente no quisito troca de equipe</strong>.</p>
+<div><h1 id="como-modificar-um-commit">Como modificar um commit<a class="headerlink" href="#como-modificar-um-commit" title="Permanent link">⚓︎</a></h1>
+<p>Às vezes, depois de fazer um commit, você percebe que cometeu um erro na mensagem ou que a mensagem não está clara o suficiente. Felizmente, o Git fornece maneiras de corrigir isso. Vamos explorar duas maneiras de modificar mensagens de commit: usando <code>git commit --amend</code> para o último commit e <code>git rebase -i</code> para commits anteriores.</p>
 <!-- more -->
 
-<p>Se uma organização estiver vinculada a apenas um <code>owner</code> (como era o caso da <a href="https://github.com/suges-mg/">SUGES-MG</a>) caso este saia da equipe a transição da adminstração da conta será muito mais difícil.
-Criar uma conta geral para isso deixa os processos de transição de servidores mais suaves.
-Nestes casos, no lugar de indicar novo(s) <code>onwer</code> basta remover (se for o caso) o acesso do servidor que está deixando a equipe.</p>
-<p>Outro ponto a ser destacado é a criação e utilização de <code>tokens</code>, principalmente para rodar <code>actions</code>, em contas pessoais.
-Caso um servidor saia da equipe, por medida de segurança, o mais correto a ser feito e que este revogue todos os <code>tokens</code> de sua conta que estejam sendo utilizados na organização que ele não mais fará parte.
-Quando isso ocorrer <code>actions</code> que dependem destes <code>tokens</code> não mais funcionarão, quebrando assim rotinas já estáveis.
-Sendo assim, a proposta é gerar <code>tokens</code> no novo usuário criado para este fim e não não mais em contas pessoais.</p>
-<p>O usuário <a href="https://github.com/dcd-github-admin">dcd-github-admin</a> foi criado para esta finalidade.
-Ele está vinculado a conta de e-mail <code>simplificacao</code>.
-Pessoas da equipe que precisem gerenciar este usuário devem pedir acesso a essa caixa enviando um e-mail para <code>suporteti.ca@lanlink.com.br</code>.</p></div>
+<p><div class="video-container"><iframe src="https://www.youtube.com/embed/" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div></p>
+<h2 id="modificando-a-mensagem-do-ultimo-commit">Modificando a mensagem do último commit<a class="headerlink" href="#modificando-a-mensagem-do-ultimo-commit" title="Permanent link">⚓︎</a></h2>
+<p>Se você precisa alterar a mensagem do commit mais recente, o comando <code>git commit --amend</code> é a ferramenta certa. Aqui está como você pode fazer isso:</p>
+<ul>
+<li>Abra o terminal e navegue até o seu repositório Git.</li>
+<li>Execute o comando <code>git commit --amend</code>.</li>
+</ul>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git<span class="w"> </span>commit<span class="w"> </span>--amend
+</span></code></pre></div>
+<ul>
+<li>O editor padrão será aberto com a mensagem do último commit. Edite a mensagem conforme necessário.</li>
+<li>Salve e feche o editor para aplicar a nova mensagem.</li>
+</ul>
+<h2 id="exemplo-git-commit-amend">Exemplo <code>git commit --amend</code><a class="headerlink" href="#exemplo-git-commit-amend" title="Permanent link">⚓︎</a></h2>
+<p>Suponha que você fez um commit com a seguinte mensagem:</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Corrigindo bug no login"</span>
+</span></code></pre></div>
+<p>Mas você queria incluir mais detalhes na mensagem. Para modificar, você faria:</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>git<span class="w"> </span>commit<span class="w"> </span>--amend
+</span></code></pre></div>
+<p>O editor padrão abrirá com:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Corrigindo bug no login
+</span></code></pre></div>
+<p>Você pode editar para:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>Corrigindo bug no login que ocorria ao inserir senha incorreta
+</span></code></pre></div>
+<p>Depois de salvar e fechar o editor, a mensagem do commit será atualizada.</p>
+<h2 id="modificando-a-mensagem-de-commits-anteriores">Modificando a mensagem de commits anteriores<a class="headerlink" href="#modificando-a-mensagem-de-commits-anteriores" title="Permanent link">⚓︎</a></h2>
+<p>Para alterar a mensagem de commits que não sejam o mais recente, você pode usar <code>git rebase -i</code>. Este comando permite reescrever o histórico de commits de maneira interativa.</p>
+<ul>
+<li>Execute o comando <code>git rebase -i HEAD~n</code>, onde <code>n</code> é o número de commits que você deseja revisar.</li>
+</ul>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>git<span class="w"> </span>rebase<span class="w"> </span>-i<span class="w"> </span>HEAD~3
+</span></code></pre></div>
+<ul>
+<li>O editor padrão será aberto com uma lista de commits recentes. Cada linha começará com a palavra <code>pick</code> seguida pelo hash do commit e a mensagem do commit.</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>pick e6f1bde Corrigindo bug no login
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>pick a3c6f8e Adicionando testes unitários
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>pick f7c3a4d Atualizando README
+</span></code></pre></div>
+<ul>
+<li>Mude <code>pick</code> para <code>reword</code> para o commit cuja mensagem você deseja modificar.</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>reword e6f1bde Corrigindo bug no login
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>pick a3c6f8e Adicionando testes unitários
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>pick f7c3a4d Atualizando README
+</span></code></pre></div>
+<ul>
+<li>Salve e feche o editor. Outro editor abrirá para cada commit selecionado para permitir que você altere a mensagem do commit selecionado. Faça as alterações necessárias, salve e feche o editor.</li>
+</ul>
+<h2 id="exemplo-git-rebase-i">Exemplo <code>git rebase -i</code><a class="headerlink" href="#exemplo-git-rebase-i" title="Permanent link">⚓︎</a></h2>
+<p>Suponha que você quer modificar a mensagem do segundo commit na lista acima. Após alterar <code>pick</code> para <code>reword</code>, o editor abrirá novamente com a mensagem original do commit:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>Corrigindo bug no login
+</span></code></pre></div>
+<p>Você pode alterar para:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>Corrigindo bug no login que ocorria ao inserir senha incorreta
+</span></code></pre></div>
+<p>Depois de salvar e fechar o editor, a rebase continuará aplicando os commits subsequentes, preservando suas alterações.</p>
+<h2 id="cuidado-ao-modificar-commits-enviados-ao-github-git-push">Cuidado ao modificar commits enviados ao GitHub (<code>git push</code>)<a class="headerlink" href="#cuidado-ao-modificar-commits-enviados-ao-github-git-push" title="Permanent link">⚓︎</a></h2>
+<p>Modificar a mensagem de commits que já foram enviados ao GitHub pode causar problemas. Quando você altera a mensagem de um commit, o Git cria um novo commit com um novo hash. Se esse commit já foi enviado para um repositório remoto e compartilhado com outros colaboradores, isso pode resultar em um histórico de commits divergente.</p>
+<p>Por exemplo, se você usar <code>git commit --amend</code> ou <code>git rebase -i</code> e depois fizer um <code>git push --force</code> para enviar as alterações ao GitHub, os outros colaboradores terão um histórico de commits diferente do seu. Isso pode causar confusão e conflitos, tornando a colaboração mais difícil.</p>
+<p>Portanto, é recomendável evitar a modificação de commits que já foram compartilhados com outras pessoas. Se você realmente precisa alterar a mensagem de um commit já enviado, comunique-se com sua equipe e certifique-se de que todos estejam cientes das mudanças. Além disso, use <code>git push --force</code> com cuidado e apenas se for absolutamente necessário.</p>
+<h2 id="conclusao">Conclusão<a class="headerlink" href="#conclusao" title="Permanent link">⚓︎</a></h2>
+<p>Modificar a mensagem de um commit no Git é um processo simples, mas poderoso. O uso de <code>git commit --amend</code> permite corrigir rapidamente o último commit, enquanto <code>git rebase -i</code> oferece a flexibilidade de editar mensagens de commits anteriores. Esses comandos são ferramentas valiosas para manter um histórico de commits limpo e significativo.</p>
+<h2 id="referencias">Referências<a class="headerlink" href="#referencias" title="Permanent link">⚓︎</a></h2>
+<ul>
+<li><a href="https://stackoverflow.com/questions/179123/how-to-modify-existing-unpushed-commit-messages">How to modify existing, unpushed commit messages?</a></li>
+</ul></div>
 
 
 
@@ -891,7 +1020,7 @@ Pessoas da equipe que precisem gerenciar este usuário devem pedir acesso a essa
     <span class="md-icon" title="Última atualização">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">September 27, 2023 17:02:25</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 25, 2024 14:54:29</span>
   </span>
 
     
@@ -901,7 +1030,7 @@ Pessoas da equipe que precisem gerenciar este usuário devem pedir acesso a essa
     <span class="md-icon" title="Criada">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">September 25, 2023 15:51:24</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 25, 2024 14:54:29</span>
   </span>
 
     
