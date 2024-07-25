@@ -20,7 +20,7 @@ Não perca essa oportunidade de contribuir para o crescimento de nossa equipe, s
 
 No encontro do dia 19/07/2024 entendemos o funcionamento da biblioteca Mermaid.
 
-![type:video](https://www.youtube.com/embed/)
+![type:video](https://www.youtube.com/embed/N7oEjDQQ7hk)
 
 ## Mostrando utilização do Mermaid
 
@@ -46,3 +46,5 @@ No encontro do dia 19/07/2024 entendemos o funcionamento da biblioteca Mermaid.
     ```
 
 ## Referências
+
+- [Mermaid Flowcharts - Basic Syntax](https://mermaid.js.org/syntax/flowchart.html).
