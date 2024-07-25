@@ -7,7 +7,7 @@ categories:
   - Git
 ---
 
-# Como modificar um commit
+# Como modificar um commit :simple-git:
 
 Às vezes, depois de fazer um commit, você percebe que cometeu um erro na mensagem ou que a mensagem não está clara o suficiente. Felizmente, o Git fornece maneiras de corrigir isso. Vamos explorar duas maneiras de modificar mensagens de commit: usando `git commit --amend` para o último commit e `git rebase -i` para commits anteriores.
 
