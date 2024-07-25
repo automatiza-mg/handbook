@@ -1,7 +1,7 @@
 ---
 date: 2024-07-19
 authors: [gabrielbdornas]
-draft: true
+draft: false
 comments: true
 categories:
   - Webnar Automatiza.MG
