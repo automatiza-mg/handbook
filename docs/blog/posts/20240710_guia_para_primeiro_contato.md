@@ -59,8 +59,18 @@ Aqui temos uma sugestão para condução do encontro, mas fiquem à vontade para
 
 **Encerramento:**
 
-1. Se for o caso, defina encaminhamentos, deixando claro quem são os responsáveis e quais resultados são esperados.
-2. Por fim, lembre-se de agradecer aos participantes pelo tempo dedicado ao encontro. 
+Se for o caso, **defina encaminhamentos**, deixando claro quem são os responsáveis e quais resultados são esperados. 
+
+É possível que durante a reunião já seja definido se iremos, ou não, atender o projeto. Em caso positivo, podemos eleger qual o formato de atendimento. Hoje, temos definidos 04 formatos de atendimento, quais sejam:
+
+  - Imersão Automatiza.MG, na qual os membros da nossa equipe executam 100% do projeto;
+  - Equipes volantes, executado por um membro da área demandante que passa a compor a nossa equipe, dedicando parcialmente ou integralmente a sua carga horária para execução do projeto do seu órgão e outros projetos em curso no Automatiza.
+  - Curso e mentoria, quando um servidor da área demandante executa o projeto, após realizar o nosso curso EAD, e é acompanhado diretamente por uma dos membros da nossa equipe, que orienta e supervisiona o desenvolvimento do projeto; e
+  - Projeto de extensão FJP, cuja execução do projeto é realizado por um aluno da Fudação João Pinheiro tutorado pela equipe do Automatiza.
+
+  Independente do formato definido, é importante alertamos a equipe demandante da necessidade de **uma pessoa da sua equipe ser capaz de realizar a manutenção no robô** desenvolvido. A nossa sugestão é que algum membro da equipe seja indicado para realizar o nosso curso EAD (80 horas). Caso a área não indique este indivíduo, deixe claro que é possível que a manutenção do robô ficará prejudicada, a depender da disponibilidade da nossa equipe.
+
+Por fim, lembre-se de **agradecer aos participantes** pelo tempo dedicado ao encontro.
 
 ## Passo 4: Documentação 
 
