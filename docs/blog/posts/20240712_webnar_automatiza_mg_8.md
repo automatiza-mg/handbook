@@ -22,3 +22,5 @@ No encontro do dia 12/07/2024 focamos, basicamente, em criar um novo post em nos
 ![type:video](https://www.youtube.com/embed/M_pwvhxsixs)
 
 ## Referências
+
+- [Como utilizar Python para cortar vídeos](./20240725_como_utilizar_python_para_cortar_videos.md)
