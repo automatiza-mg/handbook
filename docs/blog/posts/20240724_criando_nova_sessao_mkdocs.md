@@ -1,7 +1,7 @@
 ---
 date: 2024-07-24
 authors: [gabrielbdornas, augustacora]
-draft: True
+draft: False
 comments: true
 categories:
   - DCD
