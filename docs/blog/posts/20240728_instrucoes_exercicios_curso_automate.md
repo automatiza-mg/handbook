@@ -1,7 +1,7 @@
 ---
 date: 2024-07-24
 authors: [augustacora]
-draft: True
+draft: False
 comments: true
 categories:
   - DCD
@@ -13,66 +13,71 @@ Nosso curso de Power Automate desktop está a todo vapor, e, junto com ele, vêm
 
 <!-- more -->
 
-[Link para nossa planilha de controle](Orientações para correção de exercícios - curso Power Automate desktop)
+### 1. Atribuição 
 
-```python
-from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
-ffmpeg_extract_subclip("video1.mp4", t1, t2, targetname="test.mp4")
-```
+Quando atribuído/a à correção do código de algum cursista, o/a corretor/a tem o prazo de uma semana, a partir da atribuição, para verificar o código e atribuir a nota.  
+As atribuições serão dadas por meio da [planilha de controle](https://cecad365.sharepoint.com/:x:/r/sites/LAB.mg/Documentos%20Compartilhados/General/7.%20DCD/Automatiza.MG/N%C3%BAcleo%20de%20dissemina%C3%A7%C3%A3o%20e%20capacita%C3%A7%C3%A3o/Iniciativas%20de%20dissemina%C3%A7%C3%A3o/Curso%20PA%20EaD/Corre%C3%A7%C3%A3o%20de%20exerc%C3%ADcios/Corre%C3%A7%C3%A3o%20de%20exerc%C3%ADcios.xlsx?d=w432bd6cb550e4b9abd3428aae9fe4d9c&csf=1&web=1&e=hUm0Uh), onde a avaliação deve ser inserida, e também avisadas individualmente a cada corretor.  
 
-Busquei então a lib `moviepy` no [Pypi](https://pypi.org) e encontrei a versão [1.0.3](https://pypi.org/project/moviepy/1.0.3/), atualizada pela última vez em 07/05/2020. Resolvi utilizar esta versão pois o post stackoverflow citado acima foi escrito em 2018, então tentei utilizar a versão mais próxima para evitar erros.
+ 
+### 2. Envio de e-mail de contato inicial
 
-Fiz pequenas modificações no código, incluindo variáveis para os caminhos dos arquivos de entrada e saída e o resultado foi:
+O/a corretor/a a quem a correção foi atribuída deve enviar um e-mail para o cursista dizendo que recebemos o exercício dele e que ele será corrigido em breve.  
 
-```python
-from pathlib import Path
-from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
+Modelo / sugestão de e-mail: 
 
-path = Path(__file__).parent
-video_name = 'webnar_8.mp4' # mudar nome do audio
-video_path = path / 'arquivos' / video_name
-cut_video_path = path / 'webnar_8_cortado.mp4'
-# in seconds
-time_start = 0
-time_end = 10
-```
+> Prezado/a [nome], bom dia/boa tarde/boa noite! 
+> Meu nome é [nome], sou integrante da equipe do Automatiza.MG. Recebemos seu exercício referente ao curso de Power Automate Desktop, que em breve será corrigido. 
+> Agradecemos o interesse e o envio!  
+> 
+> Atenciosamente,  
+> 
+> [corretor].  
 
-Por fim, melhorei as variáveis `time_start` e `time_end` para não precisar fazer a conta manual do número de segundos, tendo em vista que a informação que tinha estava no formato de hora `hh:mm:ss` (Neste ponto pedi uma ajudinha p chatGPT). Código revisado:
 
-```python
-from pathlib import Path
-from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
-from datetime import datetime, timedelta
+### 3. Correção da atividade 
 
-def time_to_seconds(time_str):
-    time_obj = datetime.strptime(time_str, '%H:%M:%S')
-    delta = timedelta(hours=time_obj.hour, minutes=time_obj.minute, seconds=time_obj.second)
-    return delta.total_seconds()
+**Critérios:**
 
-path = Path(__file__).parent
-video_name = 'webnar_8.mp4' # mudar nome do audio
-video_path = path / 'arquivos' / video_name
-cut_video_path = path / 'webnar_8_cortado.mp4'
-# hh:mm:ss
-time_start = time_to_seconds('00:00:00')
-time_end = time_to_seconds('02:40:00')
+- Envio da descrição; 
+- Envio do txt com o código; 
+- Robô funcional (por mais que tenha algum erro ou que não consigamos vê-lo rodando por conta de acesso a sistema ou especificidade do processo, não é ctrl c ctrl v de algum código).  
 
-ffmpeg_extract_subclip(
-    video_path,
-    time_start,
-    time_end,
-    targetname=cut_video_path)
-```
+Se necessário esclarecer algum ponto ou pedir o reenvio de alguma parte da atividade, podem entrar em contato com o cursista pelo e-mail que está também na planilha.  
 
-Deste modo, da próxima vez que precisar utilizar o código basta trocar os caminhos de entrada e saída, bem como os tempos iniciais e finais do vídeo.
+ 
+### 4. Transcrição da avaliação na planilha e atribuição da nota 
 
-Uma observação importante a ser feita é a utilização de um container docker para rodar o script, tendo em vista a necessidade de instalação da ferramenta `ffmpeg`, que não queria fazer diretamente na minha máquina.
+Caso o cursista tenha cumprido todos esses requisitos, sua nota será 100 e ele poderá emitir o certificado. A avaliação deve ser inserida na planilha de controle como “Pendente” para que fique registrado que ela foi finalizada e já deve ser postada.  
+Se o avaliador achar necessário, pode incluir também algum comentário na coluna “Feedback”, que ele também será enviado ao cursista. 
 
-Para rodar, acionei o container via `task container`[^1] e dentro do container[^2] rodei `pip install -r requirements.txt` e `python main.py`.
+Para quaisquer dúvidas ou comentários sobre os casos de avaliação, podemos nos comunicar via issue do GitHub! 
 
-## Referência
 
-- [Código gerado](https://github.com/gabrielbdornas/open-reprex/tree/9fad0d09256d3a8d5a3320cf957410f9e45fb6c5/202407251440_cortar_video).
+### 5. Coleta de informações sobre o robô corrigido - métrica de capacitação 
 
-[^1]: Task criada com auxílio da biblioteca [taskipy](https://pypi.org/project/taskipy/).
-[^2]: Caso seja a primeira vez utilizando o script, poderá ser necessário rodar `task image` antes de `task container`.
+Para contabilizarmos o robô que foi corrigido na nossa métrica de capacitação, é interessante coletarmos algumas informações sobre ele (lógica de “o que foi construído com o curso?” “qual impacto estamos causando”?). Para isso, entre em contato com o cursista para a coleta dessas informações, informando que seu robô já foi corrigido e que a nota será atribuída. Ressalte a finalidade de estarmos fazendo as perguntas (controle e métrica internas, não tendo influência sobre a nota do curso). 
+
+Depois de coletadas as informações, preencha: 
+- A segunda aba da planilha de controle (se já for possível pela descrição enviada para a atividade, os campos “Nome do robô” e “Descrição” já podem ser preenchidos pelo/a corretor/a de antemão);  
+- Nossa planilha de listagem de robôs, enquanto um robô advindo do curso.  
+
+_Observação: caso necessário, a explicação das métricas está na “Planilha1” da [planilha de listagem de robôs](https://cecad365.sharepoint.com/:x:/r/sites/LAB.mg/Documentos%20Compartilhados/General/7.%20DCD/Automatiza.MG/N%C3%BAcleo%20de%20Imers%C3%B5es/base_projetos.xlsx?d=w691e96ee7b1f4bfaa80600e50f07d0d6&csf=1&web=1&e=TNoVDc)._
+
+ 
+
+Exemplo de e-mail sobre métricas: 
+
+> Prezado [cursista], 
+>
+> Informo que o seu robô já foi corrigido e a nota lançada no sistema. Agradecemos mais uma vez pelo envio e parabenizamos pela finalização do curso.  
+> Oportunamente, gostaríamos de entender um pouco mais sobre o processo automatizado. Segundo o texto explicativo enviado, tratava-se de um [processo]. Este é um processo recorrente no seu setor? Se sim, você poderia compartilhar algumas informações com a gente?  
+>
+> - Qual a periodicidade de execução do processo? Ex: semanal 
+> - Quantas vezes ocorre nesse período? Ex: 2x semana 
+> - Quantos e-mails, em média, são enviados nesse período? Ex: 50 e-mails por semana 
+> - Quanto tempo, em minutos, uma pessoa demora para realizar as ações que o robô realiza para um e-mail? Isto é, consulta a planilha, escrever o e-mail e envia. 
+> - Quanto tempo, em minutos, que o robô leva para realizar estas ações para um e-mail?  
+> 
+> Muito obrigada, estas informações serão muito importantes para as métricas internas do Automatiza.MG! 
+> 
+> Atenciosamente, 
