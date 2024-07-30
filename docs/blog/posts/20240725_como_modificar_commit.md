@@ -13,7 +13,7 @@ categories:
 
 <!-- more -->
 
-![type:video](https://youtu.be/PogpxfdZkPg)
+![type:video](https://www.youtube.com/embed/PogpxfdZkPg)
 
 ## Modificando a mensagem do último commit
 
