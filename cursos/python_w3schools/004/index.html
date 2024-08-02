@@ -12,7 +12,7 @@
         <link rel="prev" href="../003/">
       
       
-        <link rel="next" href="../../../blog/">
+        <link rel="next" href="../005/">
       
       
       <link rel="icon" href="../../../assets/favicon.png">
@@ -550,6 +550,8 @@
       
         
       
+        
+      
     
     
     
@@ -706,6 +708,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#o-que-foi-abordado" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que foi abordado
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#referencias" class="md-nav__link">
     <span class="md-ellipsis">
       Referências
@@ -718,6 +729,27 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../005/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aula 005
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1060,6 +1092,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#o-que-foi-abordado" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que foi abordado
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#referencias" class="md-nav__link">
     <span class="md-ellipsis">
       Referências
@@ -1104,6 +1145,130 @@
 <!-- more -->
 
 <p><div class="video-container"><iframe src="https://www.youtube.com/embed/Ln_muRe3_YE" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div></p>
+<h2 id="o-que-foi-abordado">O que foi abordado<a class="headerlink" href="#o-que-foi-abordado" title="Permanent link">⚓︎</a></h2>
+<p>Python oferece uma variedade de estruturas de dados para organizar e manipular informações. Dentre elas, as <strong>listas</strong> e os <strong>dicionários</strong> são as mais utilizadas e versáteis. Neste encontro, exploramos um pouco essas duas estruturas, compreendendo suas características, como utilizá-las e quando escolher cada uma delas.</p>
+<ul>
+<li>
+<p><strong>Listas: Sequências Ordenadas:</strong></p>
+<ul>
+<li>
+<p>Uma lista em Python é como uma caixa onde podemos guardar diversos objetos, em uma ordem específica. Cada objeto dentro da lista tem um índice, começando em <code>0</code>.</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># Criando uma lista de frutas</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">frutas</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"maçã"</span><span class="p">,</span> <span class="s2">"banana"</span><span class="p">,</span> <span class="s2">"laranja"</span><span class="p">]</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="c1"># Acessando o segundo elemento (índice 1)</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="n">segunda_fruta</span> <span class="o">=</span> <span class="n">frutas</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>  <span class="c1"># segunda_fruta será "banana"</span>
+</span></code></pre></div>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Características das listas:</strong></p>
+<ul>
+<li><strong>Ordenadas:</strong> A ordem dos elementos é preservada.</li>
+<li><strong>Mutáveis:</strong> Podemos modificar os elementos, adicionar ou remover itens.</li>
+<li><strong>Índices:</strong> Cada elemento tem um índice numérico, iniciando em <code>0</code>.</li>
+<li><strong>Heterogêneas:</strong> Podem conter elementos de diferentes tipos (inteiros, strings, etc.), embora não seja recomendado.</li>
+</ul>
+</li>
+<li>
+<p><strong>Dicionários: Chaves e Valores:</strong></p>
+<ul>
+<li>
+<p>Dicionários são estruturas de dados que armazenam pares chave-valor. Cada chave deve ser única e imutável (geralmente uma string), e está associada a um valor.</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1"># Criando um dicionário de contatos</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">contatos</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"João"</span><span class="p">:</span> <span class="s2">"12345678"</span><span class="p">,</span> <span class="s2">"Maria"</span><span class="p">:</span> <span class="s2">"98765432"</span><span class="p">}</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="c1"># Acessando o telefone de João</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="n">telefone_joao</span> <span class="o">=</span> <span class="n">contatos</span><span class="p">[</span><span class="s2">"João"</span><span class="p">]</span>
+</span></code></pre></div>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Características dos dicionários:</strong></p>
+<ul>
+<li><strong>Não ordenados:</strong> A ordem dos elementos não é garantida.</li>
+<li><strong>Mutáveis:</strong> Podemos adicionar, modificar ou remover pares chave-valor.</li>
+<li><strong>Chaves únicas:</strong> Cada chave deve ser única dentro do dicionário.</li>
+<li><strong>Heterogêneos:</strong> Chaves e valores podem ser de diferentes tipos.</li>
+</ul>
+</li>
+<li>
+<p><strong>Quando usar listas e dicionários?</strong></p>
+<ul>
+<li><strong>Listas:</strong><ul>
+<li>Quando a ordem dos elementos é importante.</li>
+<li>Para armazenar coleções de itens semelhantes.</li>
+<li>Para realizar operações de iteração e indexação.</li>
+</ul>
+</li>
+<li><strong>Dicionários:</strong><ul>
+<li>Quando você precisa mapear chaves para valores.</li>
+<li>Para representar dados estruturados como registros.</li>
+<li>Quando a ordem dos elementos não é relevante.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Operações comuns:</strong></p>
+<ul>
+<li>
+<p><strong>Listas:</strong></p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1"># Obter um elemento</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">lista</span><span class="p">[</span><span class="n">index_elemento</span><span class="p">]</span> <span class="c1"># iniciando em 0</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c1"># Adicionar elementos:</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="n">lista</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">elemento</span><span class="p">)</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="c1"># Remover elementos:</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="n">lista</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">elemento</span><span class="p">)</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="c1"># Obter o comprimento:</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="nb">len</span><span class="p">(</span><span class="n">lista</span><span class="p">)</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="c1"># Iterar sobre os elementos:</span>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="k">for</span> <span class="n">elemento</span> <span class="ow">in</span> <span class="n">lista</span><span class="p">:</span>
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>  <span class="nb">print</span><span class="p">(</span><span class="n">elemento</span><span class="p">)</span>
+</span></code></pre></div>
+</li>
+<li>
+<p><strong>Dicionários:</strong></p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># Obter o valor de um elemento</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">dicionario</span><span class="p">[</span><span class="n">chave</span><span class="p">]</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c1"># Adicionar um par chave-valor</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="n">dicionario</span><span class="p">[</span><span class="n">chave</span><span class="p">]</span> <span class="o">=</span> <span class="n">valor</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="c1"># Remover um par</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="k">del</span> <span class="n">dicionario</span><span class="p">[</span><span class="n">chave</span><span class="p">]</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="c1"># Verificar se uma chave existe</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="k">if</span> <span class="n">chave</span> <span class="ow">in</span> <span class="n">dicionario</span><span class="p">:</span>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="c1"># Iterar sobre as chaves</span>
+</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="k">for</span> <span class="n">chave</span> <span class="ow">in</span> <span class="n">dicionario</span><span class="p">:</span>
+</span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>  <span class="nb">print</span><span class="p">(</span><span class="n">chave</span><span class="p">)</span>
+</span></code></pre></div>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Exemplo prático: Cadastro de alunos</strong></p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c1"># Criando um dicionário para representar um aluno</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">aluno</span> <span class="o">=</span> <span class="p">{</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>    <span class="s2">"nome"</span><span class="p">:</span> <span class="s2">"João Silva"</span><span class="p">,</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>    <span class="s2">"idade"</span><span class="p">:</span> <span class="mi">20</span><span class="p">,</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>    <span class="s2">"notas"</span><span class="p">:</span> <span class="p">[</span><span class="mi">8</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="p">}</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="c1"># Calculando a média das notas</span>
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="n">media</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">aluno</span><span class="p">[</span><span class="s2">"notas"</span><span class="p">])</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">aluno</span><span class="p">[</span><span class="s2">"notas"</span><span class="p">])</span>
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"A média do aluno </span><span class="si">{</span><span class="n">aluno</span><span class="p">[</span><span class="s1">'nome'</span><span class="p">]</span><span class="si">}</span><span class="s2"> é </span><span class="si">{</span><span class="n">media</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</span></code></pre></div>
+</li>
+</ul>
 <h2 id="referencias">Referências<a class="headerlink" href="#referencias" title="Permanent link">⚓︎</a></h2>
 <ul>
 <li><a href="https://www.w3schools.com/python/python_variables_multiple.asp">W3schools Python Variables - Assign Multiple Values</a>.</li>
@@ -1133,7 +1298,7 @@
     <span class="md-icon" title="Última atualização">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 31, 2024 14:05:17</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">August 2, 2024 16:55:15</span>
   </span>
 
     
@@ -1195,13 +1360,13 @@
         
         
           
-          <a href="../../../blog/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Blog Automatiza.MG">
+          <a href="../005/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Aula 005">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Próximo
               </span>
               <div class="md-ellipsis">
-                Blog Automatiza.MG
+                Aula 005
               </div>
             </div>
             <div class="md-footer__button md-icon">
