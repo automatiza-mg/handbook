@@ -28,6 +28,6 @@ O [projeto SEJUSP-SULOT](https://github.com/automatiza-mg/projeto-sejusp-sulot) 
     timeline
         01/05 a 15/05 : Definição de automatiazar o processo de leitura de fatura de energia (baixa tensão).
                       : Definição de automatizar processo de lançamento de faltas, em dias e horas, dos servidores.
-        15/05 a 31/05 :Treinamento da Inteligência Artificial para leitura de faturas de energia.
+        15/05 a 31/05 : Treinamento da Inteligência Artificial para leitura de faturas de energia.
                       : Análise do fluxo informação no processo de lançamento de faltas.          
     ```
