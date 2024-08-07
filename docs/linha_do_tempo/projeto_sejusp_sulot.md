@@ -38,6 +38,6 @@ O [projeto SEJUSP-SULOT](https://github.com/automatiza-mg/projeto-sejusp-sulot) 
     timeline
         01/06 a 15/06 : Criação de planilha automatizada para receber os dados da Inteligência Artificial e ajustes no treinamento da IA.
                       : Reuniões para alinhamento dos ajustes necessários no processo de taxação de faltas injustificadas.
-        15/06 a 30/06 : Treinamento da Inteligência Artificial para leitura de faturas de energia.
-                      : Análise do fluxo informação no processo de lançamento de faltas.          
+        15/06 a 30/06 : Aprimoramento do funcionamento da IA e da planilha automatizada.
+                      : Alinhamentos junto à Diretoria de Sistemas de Informação dos ajustes necessários no Sistema de Taxação utilizado pela SEJUSP.          
     ```
