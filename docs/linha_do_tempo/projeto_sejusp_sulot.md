@@ -36,8 +36,20 @@ O [projeto SEJUSP-SULOT](https://github.com/automatiza-mg/projeto-sejusp-sulot) 
 
     ```mermaid
     timeline
-        01/06 a 15/06 : Criação de planilha automatizada para receber os dados da Inteligência Artificial e ajustes no treinamento da IA.
+        01/06 a 15/06 : Criação de planilha automatizada para receber os dados da Inteligência Artificial e ajustes no treinamento da IA de leitura de faturas de energia.
                       : Reuniões para alinhamento dos ajustes necessários no processo de taxação de faltas injustificadas.
-        15/06 a 30/06 : Aprimoramento do funcionamento da IA e da planilha automatizada.
+        15/06 a 30/06 : Aprimoramento do funcionamento da IA e da planilha automatizada de leitura de faturas de energia.
                       : Alinhamentos junto à Diretoria de Sistemas de Informação dos ajustes necessários no Sistema de Taxação utilizado pela SEJUSP.          
+    ```
+
+??? "Julho 2024"
+
+    ```mermaid
+    timeline
+        01/07 a 15/07 : Envio de consulta a SCAP acerca da utilização de código validador para autenticação das informações de frequência.
+                      : Reunião com equipe do LAB.MG para buscar ideias de como reformular a página do sistema de lançamento de faltas.
+                      : Realizada conexão do Power Automate com a base de dados do Sistema de Taxação(MySQL) com sucesso.
+                      : Realizados testes iniciais da IA e do fluxo de leitura de faturas, sendo necessárias adequações.
+        15/07 a 30/07 : Fechada proposta de alteração na forma de lançamento de faltas no sistema.
+                      : Aprimoramento do funcionamento da IA e da planilha automatizada de leitura de faturas de energia.         
     ```
