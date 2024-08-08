@@ -4,7 +4,7 @@ comments: true
 
 # Linha do Tempo Projeto SEJUSP-SULOT
 
-O [projeto SEJUSP-SULOT](https://github.com/automatiza-mg/projeto-sejusp-sulot) consiste em uma série de ações para automatizar processos na  da área meio da Secretaria de Estado de Justiça e Segurança Públicade Minas Gerais. Principais entregas:
+O [projeto SEJUSP-SULOT](https://github.com/automatiza-mg/projeto-sejusp-sulot) consiste em uma série de ações para automatizar processos na área meio da Secretaria de Estado de Justiça e Segurança Pública de Minas Gerais. Principais entregas:
 
 - [Automatizar o processo de taxação de frequência](https://github.com/automatiza-mg/projeto-sejusp-sulot/issues/3).
 - [Automatizar o processo de controle e de pagamento de faturas de energia e água](https://github.com/automatiza-mg/projeto-sejusp-sulot/issues/4).
