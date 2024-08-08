@@ -27,5 +27,30 @@ O [projeto SEPLAG - CET](https://github.com/automatiza-mg/projeto-seplag-cet) co
 
     ```mermaid
     timeline
-        01/05 a 31/05 : Desenvolvimento de robôs
+        01/05 a 15/05 : Desenvolvimento de robôs.
+        15/05 a 31/05 : Robô de montagem de protocolos recebidos (passivo) finalizado.
+    ```
+
+??? "Junho 2024"
+
+    ```mermaid
+    timeline
+        01/06 a 15/06 : Desenvolvimento de robôs.
+                      : Aguardando disponibilização de máquinas para instalação de robôs.
+        15/06 a 30/06 : Robô de recepção de novos protocolos digitais finalizado.
+    ```
+
+??? "Julho 2024"
+
+    ```mermaid
+    timeline
+        01/07 a 31/07 : Desenvolvimento de robôs.
+                      : Aguardando disponibilização de máquinas para instalação de robôs.
+    ```
+    
+??? "Agosto 2024"
+
+    ```mermaid
+    timeline
+        01/08 a 15/08 : Realizadas adaptações nos robôs de recepção digital de defesa.
     ```
