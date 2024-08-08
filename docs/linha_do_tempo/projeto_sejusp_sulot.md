@@ -18,8 +18,8 @@ O [projeto SEJUSP-SULOT](https://github.com/automatiza-mg/projeto-sejusp-sulot) 
     timeline
         01/04 a 15/04 : Reunião para aprsentar o Lab.MG e Automatiza.MG.  
                       : Levantamento de possíveis projetos de automação. 
-        15/07 a 30/04 : Primeiro contato: diretoria de Serviços Gerais.
-                      : Primeiro contato: diretoria de Pagamentos(RH).
+        15/07 a 30/04 : Primeiro contato com diretoria de Serviços Gerais.
+                      : Primeiro contato com a diretoria de Pagamentos(RH).
     ```
 
 ??? "Maio 2024"
