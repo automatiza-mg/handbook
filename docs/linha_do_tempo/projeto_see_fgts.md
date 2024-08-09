@@ -4,7 +4,7 @@ comments: true
 
 # Linha do Tempo Projeto FGTS-SEE
 
-O [projeto FGTS da SEE](https://github.com/automatiza-mg/projeto-see-fgts) consiste na automatização do processo de geração e entrega das chaves aos professores que têm direito a receber parcelas do FGTS. 
+O [projeto FGTS da SEE](https://github.com/automatiza-mg/projeto-see-fgts) consiste na automatização do processo de geração e entrega das chaves eletrônicas (tipo tokens) aos professores que têm direito a receber parcelas do FGTS, segundo acordo da AGE. 
 
 A estruturação do desenvolvimento deste projeto está explicitada nos documentos do repositório próprio:  
 
