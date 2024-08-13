@@ -39,6 +39,7 @@ Principais entregas:
         01/07 a 15/07 : Compreensão de como acessar a base de cálculo de cada verba no Sisap.
                       : Diante da impossibilidade de extrair essa informação do B.O, ficou definido que seria criado um robô para extrair a base de cálculo de cada verba todos os meses.
         15/07 a 31/07 : Esclarecer com a equipe da Scap como funciona a classificação das verbas de cada servidor.
+	              : Construção do robô que extrai as bases de cálculo de cada verba.  		
                       : Construção de fluxo de classificação de verbas. 
     ```
 
