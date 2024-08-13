@@ -27,7 +27,7 @@ Principais entregas:
     ```mermaid
     timeline
         01/06 a 15/06 : Ficou definido que seria utilizada uma base de dados extraída do B.O para a conferência dos dados dos servidores.
-                      : Esclarecido junto à equipe da SCAP as regras de classificação de verbas para cada servidor que adere à Prevcm.
+                      : Esclarecido junto à equipe da SCAP as regras de classificação de verbas para cada servidor que adere à Prevcom.
         15/06 a 30/06 : Definido o esqueleto do B.O junto à equipe da SCAP.
                       : Acordado junto à equipe responsável a necessidade de extração mensal do relatório do B.O.          
     ```
