@@ -28,6 +28,8 @@ O [projeto FHEMIG](https://github.com/automatiza-mg/projeto-fhemig) consiste em 
 
     ```mermaid
     timeline
-        04/08 a 11/08 : Aguardando acesso base de dados SQL relatórios custos.
+        05/08 a 11/08 : Aguardando acesso base de dados SQL relatórios custos.
                       : Aguardando análise campos BO promoção e progressão.
+        12/08 a 18/08 : Fhemig solicitou Prodemge liberação faixa IP para acesso base de dados SQL relatórios custos. Finalização script que realiza apontamentos de inconsistência.
+                      : Análise BO feita e constatação de dados discondantes com os do Sisap.
     ```
