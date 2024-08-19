@@ -47,6 +47,7 @@ Principais entregas:
 
     ```mermaid
     timeline
-        01/08 a 12/08 : Padronização da lista de movimentações mensais.
+        01/08 a 11/08 : Padronização da lista de movimentações mensais.
                       : Construção do fluxo de ações no terminal com base em cada hipótese de movimentação.
+        12/08 a 18/08 : Construção da planilha base a ser utilizada pelo robô a partir das demais planilhas (Movimentações, Posição Prevcom e B.O Sisap).
     ```
