@@ -53,3 +53,10 @@ O [projeto SEJUSP-SULOT](https://github.com/automatiza-mg/projeto-sejusp-sulot) 
         15/07 a 30/07 : Fechada proposta de alteração na forma de lançamento de faltas no sistema.
                       : Aprimoramento do funcionamento da IA e da planilha automatizada de leitura de faturas de energia.         
     ```
+??? "Agosto 2024"
+
+    ```mermaid
+    timeline
+        01/08 a 31/08 : Conclusão do projeto automatização do processo de leitura de faturas de energia.
+                      : Realizados ajustes no sistema de taxação do RH Sejusp.         
+    ```
