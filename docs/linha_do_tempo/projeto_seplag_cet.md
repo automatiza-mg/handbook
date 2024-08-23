@@ -53,4 +53,6 @@ O [projeto SEPLAG - CET](https://github.com/automatiza-mg/projeto-seplag-cet) co
     ```mermaid
     timeline
         01/08 a 15/08 : Realizadas adaptações nos robôs de recepção digital de defesa.
+        15/08 a 31/08 : Transferência do robô de montagem de protocolos recebidos (passivo) para máquina da Cet.
+                      : Testes e ajustes nos robôs.
     ```
