@@ -2,13 +2,12 @@
 comments: true
 ---
 
-# Linha do Tempo Projeto Seplag-SCAP-Prevcom
+# Linha do Tempo Projeto SEPLAG-SCAP-Prevcom
 
-O [projeto SCAP-Prevcom](https://github.com/automatiza-mg/projeto-seplag-scap) consiste em uma série de ações para automatizar processos na Superintendência Central de Administração Pessoal. 
+O [projeto SCAP-Prevcom](https://github.com/automatiza-mg/projeto-seplag-scap) consiste em uma série de ações para automatizar processos da PREVCOM na Superintendência Central de Administração Pessoal da SEPLAG. 
 
 Principais entregas: 
 
-- [Promoção e Progressão](https://github.com/automatiza-mg/projeto-seplag-scap/issues/13)
 - [Prevcom](https://github.com/automatiza-mg/projeto-seplag-scap/issues/20)
 
 
