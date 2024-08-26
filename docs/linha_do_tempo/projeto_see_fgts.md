@@ -33,6 +33,9 @@ A estruturação do desenvolvimento deste projeto está explicitada nos document
 
     ```mermaid
     timeline
-        01/08 a 09/08 : Reecpção e testes no relatório do B.O.
-                      : Aguardando disponibilização da máquina virtual na SEE
+        01/08 a 09/08 : Recepção e testes no relatório do B.O.
+        10/08 a 18/08 : Aguardando disponibilização da máquina virtual na SEE
+        19/08 a 23/08 : Busca de fontes alternativas para filtrar emails inválidos
+                      : Inserção de motivos de erro em cópia do código utilizado
+                      : Configuração e primeiro acesso na máquina virtual da SEE              
     ```
