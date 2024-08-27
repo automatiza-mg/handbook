@@ -8,8 +8,6 @@ edit_uri: edit/main/docs/
 # --8<-- [start:nav]
 nav:
   - index.md
-  - Apresentações:
-    - apresentacoes/index.md
   - Cursos:
     - cursos/index.md
     - Pythomatiza:
