@@ -30,6 +30,8 @@ O primeiro passo é o contato com o demandante para agendar a reunião. Sinta-se
  - O envio de legislações pertinentes ao processo; e 
  - Que, se possível, o processo seja reproduzido na reunião.
 
+ O demandante não respondeu ao seu contato? Deixei no final desse post orientações de como prosseguir. 
+
 ## Passo 2: Preparação 
 
 Estude as informações que você já possui sobre a demanda e monte um roteiro para reunião com as suas dúvidas.  
@@ -80,7 +82,20 @@ Após a reunião, é importante que sejam feitos dois registros.
   - O primeiro é um issue que registre a reunião no repositório do núcleo de imersões. Para isso, você pode se basear no  já  [issue template](https://github.com/automatiza-mg/handbook/issues/new?assignees=&labels=reuniao&projects=&template=ata_reuniao.md&title=Reuni%C3%A3o+XXXXX+-+DD%2FMM%2FAAAA) do nosso handbook ou em registros anteriores dos nossos colegas. 
   - O segundo, é inserir as informações no [nosso banco de dados](https://cecad365.sharepoint.com/:x:/r/sites/LAB.mg/_layouts/15/Doc.aspx?sourcedoc=%7B691E96EE-7B1F-4BFA-A806-00E50F07D0D6%7D&file=base_projetos.xlsx&action=default&mobileredirect=true&wdsle=0). Será a partir dele analisaremos o projeto quanto à sua prioridade e complexidade, para enfim definirmos quando e como poderemos atender. 
 
+## O que fazer se o demandante não responder o seu contato
+No caso do demandante não responder ao seu contato, orientamos que, após uma semana, seja feita uma segunda tentativa de estabelecer comunicação.
 
+Se, após mais uma semana, esta tentativa também for sem sucesso, ou seja, já se passaram 15 dias da primeira tentativa de contato, vamos encerrar a demanda e orientar que o demandante encaminhe novo pedido se assim julgar oportuno. Deixo abaixo uma sugestão de comunicação a ser enviada.
+
+Modelo / sugestão de e-mail:
+> Prezado [inserir nome do demandante],
+>
+>Considerando que não houve retorno em relação à demanda de automação [inserir nome do projeto/processo enviado pelo demandante], enecerraremos o presente atendimento.
+>
+> Sinta-se à vontade para nos contactar novamente através do nosso [site](https://automatiza-mg.github.io/automatizacoes/apoio_form/). 
+> Agradecemos o interesse e o envio!
+> Atenciosamente, 
+> [seu nome]
 
 **Se você tem mais sugestões de como podemos melhorar esse o nosso primeiro contato com os nossos demandantes, não deixe de comentar abaixo!** :smile:
 

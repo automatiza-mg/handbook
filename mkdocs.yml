@@ -8,8 +8,6 @@ edit_uri: edit/main/docs/
 # --8<-- [start:nav]
 nav:
   - index.md
-  - Apresentações:
-    - apresentacoes/index.md
   - Cursos:
     - cursos/index.md
     - Pythomatiza:
@@ -21,12 +19,17 @@ nav:
       - Aula 005: cursos/python_w3schools/005.md
       - Aula 006: cursos/python_w3schools/006.md
       - Aula 007: cursos/python_w3schools/007.md
+      - Aula 008: cursos/python_w3schools/008.md
   - Blog:
     - blog/index.md
   - Linha do Tempo:
     - linha_do_tempo/index.md
     - Projeto FHEMIG: linha_do_tempo/projeto_fhemig.md
     - Projeto SEPLAG - CET: linha_do_tempo/projeto_seplag_cet.md
+    - Projeto SEJUSP: linha_do_tempo/projeto_sejusp_sulot.md
+    - Projeto SCAP: linha_do_tempo/projeto_seplag_scap.md
+    - Projeto SCPMSO: linha_do_tempo/projeto_seplag_scpmso.md
+    - Projeto SEE: linha_do_tempo/projeto_see_fgts.md
 # --8<-- [end:nav]
 
 # Configuration
