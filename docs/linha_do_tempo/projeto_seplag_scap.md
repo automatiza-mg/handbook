@@ -50,4 +50,5 @@ Principais entregas:
                       : Construção do fluxo de ações no terminal com base em cada hipótese de movimentação.
         12/08 a 18/08 : Construção da planilha base a ser utilizada pelo robô a partir das demais planilhas (Movimentações, Posição Prevcom e B.O Sisap).
 	19/08 a 25/08 : Aprimoramento da planilha base e levantamento de dúvidas.
+ 	26/08 a 30/08 : Validação base robô Prevcom. Solicitação de padronização das movimentações Prevcom. Solicitação de login no Sisap perfil taxador homologa.
     ```
