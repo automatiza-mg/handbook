@@ -1,7 +1,6 @@
 ---
 date: 2024-07-09
 authors: [henriquesiqr]
-draft: false
 comments: true
 categories:
   - DCD
