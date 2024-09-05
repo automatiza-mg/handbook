@@ -56,3 +56,9 @@ O [projeto SEPLAG - CET](https://github.com/automatiza-mg/projeto-seplag-cet) co
         15/08 a 31/08 : Transferência do robô de montagem de protocolos recebidos (passivo) para máquina da Cet.
                       : Testes e ajustes nos robôs.
     ```
+??? "Setembro 2024"
+
+    ```mermaid
+    timeline
+        01/09 a 15/09 : Transferência do robô recepção de novos protocolos digitais para máquina da Cet
+    ```
