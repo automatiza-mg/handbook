@@ -65,6 +65,6 @@ O [projeto SEPLAG-Perícia](https://github.com/automatiza-mg/projeto-seplag-peri
 
     ```mermaid
     timeline
-        01/07 a 15/09 : Teste de 50 atestados lidos pela IA
+        01/09 a 15/09 : Teste de 50 atestados lidos pela IA
                       : Conclusão de 14,5 mil processos com erro no SEI.
     ```
