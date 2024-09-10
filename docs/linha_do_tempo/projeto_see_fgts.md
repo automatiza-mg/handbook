@@ -37,5 +37,6 @@ A estruturação do desenvolvimento deste projeto está explicitada nos document
         10/08 a 18/08 : Aguardando disponibilização da máquina virtual na SEE
         19/08 a 23/08 : Busca de fontes alternativas para filtrar emails inválidos
                       : Inserção de motivos de erro em cópia do código utilizado
-                      : Configuração e primeiro acesso na máquina virtual da SEE              
+                      : Configuração e primeiro acesso na máquina virtual da SEE
+        24/08 a 31/08 : Inserção de envio de emails em código para chaves geradas              
     ```
