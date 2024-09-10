@@ -58,4 +58,13 @@ O [projeto SEPLAG-Perícia](https://github.com/automatiza-mg/projeto-seplag-peri
     timeline
         15/08 a 23/08 : Retomada das ferramentas anteriores após tentativas frustradas de soluções alternativas.
                       : Dataframe reduzido extraído do BO para correspondência entre CPF (SEI) e MASP (SISAP).
+        24/08 a 31/08 : Retomada das reuniões, foco redirecionado para IA dos atestados e conclusão de processos com erro no SEI 
+    ```
+
+??? "Setembro 2024"
+
+    ```mermaid
+    timeline
+        01/07 a 15/09 : Teste de 50 atestados lidos pela IA
+                      : Conclusão de 14,5 mil processos com erro no SEI.
     ```
