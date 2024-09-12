@@ -50,6 +50,6 @@ Este tópico deverá ser dividido em duas partes:
   - já a segunda, deverá apresentar os resultados, em termos de métricas e indicadores, alcançados pela automação do processo. Isto é, tempo economizado, servidores reposicionados, dentre outros.
 
 **Código:**
-link com o código do robô a ser copiado pelo usuário. Importante lembrar de sempre colocar  a nota de que o usuário deverá abrir o link, selecionar todo o conteúdo (ctrl + a), copiá-lo (ctrl +c) e colar (ctrl+v) em um novo fluxo Power Automate Desktop. Caso o seu robô tenha subfluxos, lembre-se dos [cuidados ao códigos de subfluxo](https://automatiza-mg.github.io/automatizacoes/blog/copiando-c%C3%B3digo-de-subfluxos-de-um-rob%C3%B4/).
+link com o código do robô a ser copiado pelo usuário. Importante lembrar de sempre colocar  a nota de que o usuário deverá abrir o link, selecionar todo o conteúdo (ctrl + a), copiá-lo (ctrl +c) e colar (ctrl+v) em um novo fluxo Power Automate Desktop. Caso o seu robô tenha subfluxos, lembre-se dos [cuidados ao copiar códigos de subfluxo](https://automatiza-mg.github.io/automatizacoes/blog/copiando-c%C3%B3digo-de-subfluxos-de-um-rob%C3%B4/).
 
 Prontinho! Agora é só comemorar mais essa entrega :rocket::rocket:
