@@ -34,4 +34,5 @@ O [projeto FHEMIG](https://github.com/automatiza-mg/projeto-fhemig) consiste em 
                       : Análise BO feita e constatação de dados discondantes com os do Sisap.
         19/08 a 25/08 : Prodemge liberou faixa IP para acesso base de dados SQL relatórios custos. Criação de usuário para conexão com os bancos feitas no DBeaver.
         26/08 a 30/08 : Acesso as querys e adequação das mesmas feitas para que utilize somente a base de dados `sigh_slave`.
+        02/09 a 08/09 : Readequação script apontamento com os relatórios obtidos pela conexão e modificações solicitadas pela coordenadora de Custos. Projeto finalizado e aguardando próximo apontamento para uso/teste.
     ```
