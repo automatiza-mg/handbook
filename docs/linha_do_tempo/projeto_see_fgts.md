@@ -40,3 +40,11 @@ A estruturação do desenvolvimento deste projeto está explicitada nos document
                       : Configuração e primeiro acesso na máquina virtual da SEE
         24/08 a 31/08 : Inserção de envio de emails em código para chaves geradas              
     ```
+??? "Setembro 2024"
+
+    ```mermaid
+    timeline
+        01/09 a 20/09 : Ajustes no código do envio de emails
+                      : Resolução do problema de acesso ao site da CEF na VPN da SEE
+                      : Nova versão dos códigos após 3ª rodada de testes
+    ```
