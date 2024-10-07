@@ -68,4 +68,13 @@ O [projeto SEPLAG-Perícia](https://github.com/automatiza-mg/projeto-seplag-peri
     timeline
         01/09 a 20/09 : Aguardando análise do resultado do primeiro teste de 50 atestados lidos pela IA
                       : Conclusão de 14,5 mil processos com erro no SEI.
+        21/09 a 30/09 : Discussões dos resultados dos testes com IA             
+    ```
+
+??? "Outubro 2024"
+
+    ```mermaid
+    timeline
+        01/10 a 10/10 : Validação interna de proposta para encaminhamentos após nova rodada com IA
+                      : Conclusão de 2771 processos gerados com erro no SEI, em setembro.
     ```
