@@ -40,6 +40,7 @@ Modelo / sugestão de e-mail:
 
 - Envio da descrição; 
 - Envio do txt com o código; 
+- Atendimento aos critérios do enunciado: o robô, por mais que tenha sido feito para fins didáticos, deve resolver um caso prático do governo de Minas ou do serviço público como um todo (caso o cursista não seja de MG). Fiquem atentos a robôs que parecerem fugir de atividades de cunho administrativo;
 - Robô funcional (por mais que tenha algum erro ou que não consigamos vê-lo rodando por conta de acesso a sistema ou especificidade do processo, não é ctrl c ctrl v de algum código).  
 
 Se necessário esclarecer algum ponto ou pedir o reenvio de alguma parte da atividade, podem entrar em contato com o cursista pelo e-mail que está também na planilha.  
