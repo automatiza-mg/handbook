@@ -47,4 +47,16 @@ A estruturação do desenvolvimento deste projeto está explicitada nos document
         01/09 a 20/09 : Ajustes no código do envio de emails
                       : Resolução do problema de acesso ao site da CEF na VPN da SEE
                       : Nova versão dos códigos após 3ª rodada de testes
+        21/09 a 30/09 : Novas rodadas de geração e envio de chaves com robô
+    ```
+??? "Outubro 2024"
+
+    ```mermaid
+    timeline
+        01/10 a 15/10 : Ajustes no código de conferências prévias
+                      : Reuniões para esclarecimento de dúvidas e encaminhamentos 
+       16/10 a 31/10  : Encontros presenciais para testes de conferências
+                      : Novas rodadas de geração e envio de chaves com robô ajustado
+                      : Estabelecimento de método de conferência
+                      : Novas rodadas massivas de geração e envio de chaves após conferência   
     ```
