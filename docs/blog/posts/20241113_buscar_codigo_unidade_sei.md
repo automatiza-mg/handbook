@@ -1,7 +1,7 @@
 ---
 date: 2024-11-13
 authors: [henriquesiqr]
-draft: true
+draft: False
 comments: true
 categories:
   - Ferramentas
@@ -18,31 +18,31 @@ Para utilização do robô de baixar processos e documentos no SEI, presente na 
 ## Passo 1: Navegação no SEI
 O primeiro passo para encontrar o código da unidade SEI é entrar no sistema e clicar no botão de troca de unidade:
 
-![image](https://github.com/automatiza-mg/handbook/blob/main/docs/assets/images/pag_inicial_sei.jpeg)
+image
 
 Depois, já com a página da troca de unidade aberta, clique com o botão direito em qualquer lugar na tela e selecione a opção "Inspecionar":
 
-![image]()
+image
 
 ## Passo 2: Inspecionando a página
 Nesse momento, é como se você estivesse verificando "por debaixo do capô" de um carro. Ou seja, você está vendo como essa página da Web foi construída, com todos os seus códigos em cada elemento da página. A tela ficará dividida, com a página em si do lado esquerdo e, do lado direito, os códigos e um terminal:
 
-![image]()
+image
 
 Para buscar o ID da sua unidade, você irá clicar no botão destacado abaixo, que é uma seta na diagonal em uma retângulo pontilhado:
 
-![image]()
+image
 
 A partir desse clique, ao passar o mouse sobre cada espaço da página do SEI, ele ficará destacado e no lado direito será possível ver seu código. Com isto, basta clicar na unidade SEI que deseja obter o código:
 
-![image]()
+image
 
 Com isso, você já está próximo de descobrir o ID da unidade SEI. No lado direito, você já está vendo o código desse elemento da página da Web. Observe que já é possível ver o nome da unidade no conteúdo do elemento. Entretanto, o ID fica "escondido", portanto, você terá que clicar nessa setinha que irá abrir outra linha de código:
 
-![image]()
+image
 
 Assim, após o clique, o ID irá aparecer nas linhas de código:
 
-![image]()
+image
 
 Agora basta você copiá-lo para utilizar no seu fluxo que utiliza a API do SEI.
