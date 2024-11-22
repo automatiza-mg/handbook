@@ -18,7 +18,7 @@ Para utilização do robô de baixar processos e documentos no SEI, presente na 
 ## Documentação da API do SEI
 A API do SEI utilizada nesse fluxo possui uma documentação própria, destacando todas suas potencialidades e formas de utilização. Vale ressaltar que o fluxo criado pelo Automatiza utiliza apenas a funcionalidade de baixar PDF de um processo ou os documentos de um processo. É possível construir outras aplicações em diversas linguagens seguindo a documentação abaixo.
 
-![Link]()
+[Consulte aqui a documentação da API do SEI](https://automatiza-mg.github.io/automatizacoes/robos/consulta_procedimento_sei/#pre-requisitos)
 
 
 ## Criando um sistema no SEI
@@ -59,4 +59,4 @@ A chave estará disponível para cópia apenas no momento da geração pois é a
 
 Assim, com essas informações em mão, é possível criar as variáveis no fluxo e prosseguir para a utilização do robô que está na biblioteca de robôs.
 
-Para mais informações, consulte a documentação da API.
+Para mais informações, [consulte a documentação da API](https://automatiza-mg.github.io/automatizacoes/robos/consulta_procedimento_sei/#pre-requisitos).
