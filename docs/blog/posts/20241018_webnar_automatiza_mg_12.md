@@ -1,7 +1,7 @@
 ---
 date: 2024-10-18
 authors: [henriquesiqr]
-draft: true
+draft: false
 comments: true
 categories:
   - Webnar Automatiza.MG
