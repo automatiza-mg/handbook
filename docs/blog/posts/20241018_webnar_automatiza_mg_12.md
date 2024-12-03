@@ -20,4 +20,4 @@ Não perca essa oportunidade de contribuir para o crescimento de nossa equipe, s
 
 No encontro do dia 18/10/2024 conhecemos os usos e possibilidades de um dos procedimentos da API do SEI no Power Automate.
 
-![type:video](https://youtu.be/z9dL3rHwJLo)
+![type:video](https://www.youtube.com/embed/z9dL3rHwJLo)

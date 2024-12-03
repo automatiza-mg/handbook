@@ -20,4 +20,4 @@ Não perca essa oportunidade de contribuir para o crescimento de nossa equipe, s
 
 No encontro do dia 20/09/2024 seguimos utilizando Javascript em páginas do web e no Power Automate..
 
-![type:video](https://youtu.be/Ri-keDX16t0)
+![type:video](https://www.youtube.com/embed/Ri-keDX16t0)
