@@ -26,6 +26,7 @@ O/a corretor/a a quem a correção foi atribuída deve enviar um e-mail para o c
 Modelo / sugestão de e-mail: 
 
 > Prezado/a [nome], bom dia/boa tarde/boa noite! 
+>
 > Meu nome é [nome], sou integrante da equipe do Automatiza.MG. Recebemos seu exercício referente ao curso de Power Automate Desktop, que em breve será corrigido. 
 > Agradecemos o interesse e o envio!  
 > 
@@ -58,12 +59,7 @@ Para quaisquer dúvidas ou comentários sobre os casos de avaliação, podemos n
 
 Para contabilizarmos o robô que foi corrigido na nossa métrica de capacitação, é interessante coletarmos algumas informações sobre ele (lógica de “o que foi construído com o curso?” “qual impacto estamos causando”?). Para isso, entre em contato com o cursista para a coleta dessas informações, informando que seu robô já foi corrigido e que a nota será atribuída. Ressalte a finalidade de estarmos fazendo as perguntas (controle e métrica internas, não tendo influência sobre a nota do curso). 
 
-Depois de coletadas as informações, preencha: 
-- A segunda aba da planilha de controle (se já for possível pela descrição enviada para a atividade, os campos “Nome do robô” e “Descrição” já podem ser preenchidos pelo/a corretor/a de antemão);  
-- Nossa planilha de listagem de robôs, enquanto um robô advindo do curso.  
-
-_Observação: caso necessário, a explicação das métricas está na “Planilha1” da [planilha de listagem de robôs](https://cecad365.sharepoint.com/:x:/r/sites/LAB.mg/Documentos%20Compartilhados/General/7.%20DCD/Automatiza.MG/N%C3%BAcleo%20de%20Imers%C3%B5es/base_projetos.xlsx?d=w691e96ee7b1f4bfaa80600e50f07d0d6&csf=1&web=1&e=TNoVDc)._
-
+Depois de coletadas as informações, preencha a segunda aba da planilha de controle (se já for possível pela descrição enviada para a atividade, os campos “Nome do robô” e “Descrição” já podem ser preenchidos pelo/a corretor/a de antemão);  
  
 
 Exemplo de e-mail sobre métricas: 
