@@ -42,7 +42,7 @@ Modelo / sugestão de e-mail:
 - Envio da descrição; 
 - Envio do txt com o código; 
 - Atendimento aos critérios do enunciado: o robô, por mais que tenha sido feito para fins didáticos, deve resolver um caso prático do governo de Minas ou do serviço público como um todo (caso o cursista não seja de MG). Fiquem atentos a robôs que parecerem fugir de atividades de cunho administrativo;
-- Robô funcional (por mais que tenha algum erro ou que não consigamos vê-lo rodando por conta de acesso a sistema ou especificidade do processo, não é ctrl c ctrl v de algum código).  
+- Robô funcional (por mais que tenha algum erro ou que não consigamos vê-lo rodando por conta de acesso a sistema ou especificidade do processo, não é ctrl c ctrl v de algum código da nossa Biblioteca ou do nosso curso, por exemplo).  
 
 Se necessário esclarecer algum ponto ou pedir o reenvio de alguma parte da atividade, podem entrar em contato com o cursista pelo e-mail que está também na planilha.  
 
@@ -52,12 +52,12 @@ Se necessário esclarecer algum ponto ou pedir o reenvio de alguma parte da ativ
 Caso o cursista tenha cumprido todos esses requisitos, sua nota será 100 e ele poderá emitir o certificado. A avaliação deve ser inserida na planilha de controle como “Pendente” para que fique registrado que ela foi finalizada e já deve ser postada.  
 Se o avaliador achar necessário, pode incluir também algum comentário na coluna “Feedback”, que ele também será enviado ao cursista. 
 
-Para quaisquer dúvidas ou comentários sobre os casos de avaliação, podemos nos comunicar via issue do GitHub! 
+Para quaisquer dúvidas ou comentários sobre os casos de avaliação, podemos nos comunicar via issue do GitHub ou via Teams! 
 
 
 ### 5. Coleta de informações sobre o robô corrigido - métrica de capacitação 
 
-Para contabilizarmos o robô que foi corrigido na nossa métrica de capacitação, é interessante coletarmos algumas informações sobre ele (lógica de “o que foi construído com o curso?” “qual impacto estamos causando”?). Para isso, entre em contato com o cursista para a coleta dessas informações, informando que seu robô já foi corrigido e que a nota será atribuída. Ressalte a finalidade de estarmos fazendo as perguntas (controle e métrica internas, não tendo influência sobre a nota do curso). 
+Para contabilizarmos o robô que foi corrigido na nossa métrica de capacitação, é interessante coletarmos algumas informações sobre ele (lógica de “o que foi construído com o curso?” “qual impacto estamos causando”?). Para isso, verifique se alguma métrica já foi informada no próprio envio e entre em contato com o cursista para a coleta das informações restantes, informando que seu robô já foi corrigido e que a nota será atribuída. Ressalte a finalidade de estarmos fazendo as perguntas (controle e métrica internas, não tendo influência sobre a nota do curso). 
 
 Depois de coletadas as informações, preencha a segunda aba da planilha de controle (se já for possível pela descrição enviada para a atividade, os campos “Nome do robô” e “Descrição” já podem ser preenchidos pelo/a corretor/a de antemão);  
  
