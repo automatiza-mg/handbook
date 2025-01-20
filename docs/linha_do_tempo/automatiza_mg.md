@@ -1,12 +1,8 @@
 ---
 comments: true
-hide:
-  - navigation
-tags:
-  - Automatiza-MG
 ---
 
-# Linha do Tempo Projeto Automatiza-MG
+# Linha do Tempo Lançamento Projeto Automatiza-MG
 
 O projeto [Automatiza-MG](https://automatiza-mg.github.io/automatizacoes/) consiste em uma séria de ações para disseminar a utilização de ferramentas de Automatizações de processos do Estado de Minas Gerais. Principais entregas:
 

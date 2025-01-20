@@ -1,12 +1,8 @@
 ---
 comments: true
-hide:
-  - navigation
-tags:
-  - Mapa de transformação
 ---
 
-# Linha do Tempo Processo Mapa de Transformação
+# Linha do Tempo Mapa de Transformação
 
 Ações de automatização do [Mapa de Transformação](https://app.powerbi.com/view?r=eyJrIjoiNmQzZDMxZGMtNGM0OC00YWJmLWIxMjctMTM0OWJjMTAyZWNmIiwidCI6ImU1ZDNhZTdjLTliMzgtNDhkZS1hMDg3LWY2NzM0YTI4NzU3NCJ9&pageName=ReportSection8b08997a641ffd25674f) realizadas em conjunto entre DCD e DCCD.
 Visa, principalmente:
