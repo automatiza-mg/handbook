@@ -60,3 +60,15 @@ A estruturação do desenvolvimento deste projeto está explicitada nos document
                       : Estabelecimento de método de conferência
                       : Novas rodadas massivas de geração e envio de chaves após conferência   
     ```
+ ??? "Dezembro 2024"
+
+    ```mermaid
+    timeline
+        01/12 a 31/12 : Encontros presenciais para repasse dos robôs 
+    ```
+??? "Janeiro de 2025"
+
+    ```mermaid
+    timeline
+        01/01 a 31/01 : Publicação das orientações dos robôs no site AutomatizaMG 
+    ``
