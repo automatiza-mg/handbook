@@ -7,7 +7,7 @@ categories:
   - DCD
 ---
 
-# Criando nova sessão Mkdos :simple-materialformkdocs:
+# Criando nova sessão Mkdocs :simple-materialformkdocs:
 
 Neste encontro discutimos a utilização da ferramenta [mkdocs-material](https://squidfunk.github.io/mkdocs-material/), mais especificamente como criar novas sessões em um site já existente.
 
