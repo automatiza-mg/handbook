@@ -69,6 +69,8 @@ Não perca essa oportunidade de contribuir para o crescimento de nossa equipe, s
 
 **1.3.** Baixar [Git Bash](https://git-scm.com/downloads)
 
+- Verificar se é possível modificar editor de texto padrão, de Vim para Sublime Text
+
 **1.4.** Configurar Git Bash
 
 ```bash
@@ -143,7 +145,9 @@ Python 3.13.1
 
 1. Editor de texto: [Sublime Text](https://www.sublimetext.com/)
 
-2. Ferramenta GUI para o gihub: [Sublime Merge](https://www.sublimemerge.com/download) 
+2. Ferramenta GUI para o gihub: [Sublime Merge](https://www.sublimemerge.com/download)
+
+3. Verificar se as pastas dos sowtwares acima estão no PATH das variáveis de ambiente 
 
 
 ## 4. Ambiente virtual e gerenciamento de dependências (_requirements_)
