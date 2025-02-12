@@ -1,7 +1,7 @@
 ---
 date: 2025-02-06
 authors: [andrelamor]
-draft: true
+draft: false
 comments: true
 categories:
   - Ferramentas
