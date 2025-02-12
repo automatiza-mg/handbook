@@ -8,7 +8,7 @@ O objetivo deste repositório é documentar em [site estático](https://automati
 O setup windows poderá ser realizado via:
 
 ```Python
-$ git clone https://github.com/automatiza-mg/handbook
+$ git clone https://github.com/automatiza-mg/handbook.git
 $ cd handbook
 $ python -m venv venv
 $ source venv/Scripts/activate
@@ -18,7 +18,7 @@ $ pip install -r requirements.txt
 O setup linux poderá ser realizado via:
 
 ```Python
-$ git clone https://github.com/suges-mg/handbook.git
+$ git clone https://github.com/automatiza-mg/handbook.git
 $ cd handbook
 $ make setup
 $ source venv/bin/activate

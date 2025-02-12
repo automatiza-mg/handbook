@@ -111,8 +111,7 @@ git config --list # lista as configuracoes atuais
 
 - **Pontos importantes**
 
-- 
-- 
+- recorrer às instruções de _Setup_ contidos nos arquivos de **README.md**: [automatizacoes](https://github.com/automatiza-mg/automatizacoes/blob/main/README.md) e [handbook](https://github.com/automatiza-mg/handbook/blob/main/README.md)
 
 - **Referências:** 
 
@@ -176,12 +175,16 @@ $ pip install -r requirements.txt
 
 # veririfcar pacotes instalados
 $ pip list
+
+# desativar o ambiente (venv)
+$ deactivate
 ```
 
 - **Pontos importantes**
 
-- 
-- 
+- conferir a marcação entre parêntesis (venv)
+- navegar pelas pastas e verificar `pip list` com e sem o ambiente virtual
+
 
 **- Referências:** 
 
