@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../webnar-automatizamg-12/">
+        <link rel="prev" href="../passo-a-passo-para-instala%C3%A7%C3%A3o-do-python-no-computador/">
       
-      
-        <link rel="next" href="../configura%C3%A7%C3%B5es-para-criar-posts-e-atualizar-os-sites-do-automatizamg/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>Passo a passo para instalação do Python no computador - Handbook Diretoria Central de Desburocratização</title>
+        <title>Configurações para criar posts e atualizar os sites do AutomatizaMG - Handbook Diretoria Central de Desburocratização</title>
       
     
     
@@ -76,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#passo-a-passo-para-instalacao-do-python-no-computador" class="md-skip">
+        <a href="#configuracoes-para-criar-posts-e-atualizar-os-sites-do-automatizamg" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -117,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Passo a passo para instalação do Python no computador
+              Configurações para criar posts e atualizar os sites do AutomatizaMG
             
           </span>
         </div>
@@ -1225,36 +1223,81 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#o-que-e-python" class="md-nav__link">
+  <a href="#estrutura-geral-dos-repositorios-que-sustentam-os-sites-estaticos" class="md-nav__link">
     <span class="md-ellipsis">
-      O que é Python?
+      Estrutura geral dos repositórios que sustentam os sites estáticos:
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#download-do-instalador-do-python" class="md-nav__link">
+  <a href="#1-github-e-git-bash-cli" class="md-nav__link">
     <span class="md-ellipsis">
-      Download do Instalador do Python
+      1. Github e Git Bash (CLI)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#instalacao-do-python" class="md-nav__link">
+  <a href="#2-instalar-e-configurar-python" class="md-nav__link">
     <span class="md-ellipsis">
-      Instalação do Python
+      2. Instalar e configurar Python
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#confirmacao-da-instalacao" class="md-nav__link">
+  <a href="#3-instalar-e-congigurar-ferramentas-de-interface-grafica-gui" class="md-nav__link">
     <span class="md-ellipsis">
-      Confirmação da Instalação
+      3. Instalar e congigurar ferramentas de interface gráfica (GUI)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-ambiente-virtual-e-gerenciamento-de-dependencias-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Ambiente virtual e gerenciamento de dependências (requirements)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-criar-e-editar-posts-no-blog-e-novas-secoes-nos-sites-mkdocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Criar e editar posts no blog e novas seções nos sites (Mkdocs)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-criar-e-editar-fluxogramas-mermaid" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Criar e editar fluxogramas (Mermaid)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias-gerais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências Gerais
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-documentacao-material-mkdocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      - Documentação Material Mkdocs
     </span>
   </a>
   
@@ -1289,27 +1332,12 @@
                 
                   <div class="md-profile md-post__profile">
                     <span class="md-author md-author--long">
-                      <img src="https://avatars.githubusercontent.com/u/187322738?v=4" alt="Duda Guedes">
+                      <img src="https://avatars.githubusercontent.com/u/52294411?v=4" alt="André Luiz Guimarães Amorim">
                     </span>
                     <span class="md-profile__description">
                       <strong>
                         
-                          Duda Guedes
-                        
-                      </strong>
-                      <br>
-                      Creator
-                    </span>
-                  </div>
-                
-                  <div class="md-profile md-post__profile">
-                    <span class="md-author md-author--long">
-                      <img src="https://avatars.githubusercontent.com/u/29714101?v=4" alt="Kin">
-                    </span>
-                    <span class="md-profile__description">
-                      <strong>
-                        
-                          Kin
+                          André Luiz Guimarães Amorim
                         
                       </strong>
                       <br>
@@ -1331,7 +1359,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5v-5Z"/></svg>
-                        <time datetime="2025-01-06 00:00:00" class="md-ellipsis">6 de janeiro de 2025</time>
+                        <time datetime="2025-02-06 00:00:00" class="md-ellipsis">6 de fevereiro de 2025</time>
                       </div>
                     </li>
                     
@@ -1343,7 +1371,7 @@
                             em
                             
                               <a href="../category/ferramentas/">Ferramentas</a>, 
-                              <a href="../category/dcd/">DCD</a></span>
+                              <a href="../category/git/">Git</a></span>
                         </div>
                       </li>
                     
@@ -1374,7 +1402,7 @@
         
 
   
-    <a href="https://github.com/automatiza-mg/handbook/edit/main/docs/blog/posts/20250120_manual_instalar_python.md" title="Editar esta página" class="md-content__button md-icon">
+    <a href="https://github.com/automatiza-mg/handbook/edit/main/docs/blog/posts/20250206_configuracoes_fluxo_git_site.md" title="Editar esta página" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -1383,61 +1411,268 @@
     
       
     
-    <a href="https://github.com/automatiza-mg/handbook/raw/main/docs/blog/posts/20250120_manual_instalar_python.md" title="Ver fonte desta página" class="md-content__button md-icon">
+    <a href="https://github.com/automatiza-mg/handbook/raw/main/docs/blog/posts/20250206_configuracoes_fluxo_git_site.md" title="Ver fonte desta página" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"/></svg>
     </a>
   
 
 
-<div><h1 id="passo-a-passo-para-instalacao-do-python-no-computador">Passo a passo para instalação do Python no computador<a class="headerlink" href="#passo-a-passo-para-instalacao-do-python-no-computador" title="Permanent link">⚓︎</a></h1>
-<p>Nos projetos desenvolvidos aqui no Automatiza.MG, identificamos a necessidade de utilização do Python em alguns robôs para melhor funcionalidade. Nest post, apresentamos um passo a passo para a instalação dele em seu computador. </p>
+<div><h1 id="configuracoes-para-criar-posts-e-atualizar-os-sites-do-automatizamg">Configurações para criar posts e atualizar os sites do AutomatizaMG<a class="headerlink" href="#configuracoes-para-criar-posts-e-atualizar-os-sites-do-automatizamg" title="Permanent link">⚓︎</a></h1>
+<p>Aqui na equipe Automatiza.MG todo dia é dia de conhecimento!</p>
+<p>Nesse post listaremos todas as configurações necessárias para instalar e configurar o Git, o Python, o MkDocs e outras ferramentas úteis para atualizar os sites do AutomatizaMG, bem como criar novos post nos blogs.</p>
+<p>Não perca essa oportunidade de contribuir para o crescimento de nossa equipe, seja participando como ouvinte ou como tutor! É a nossa chance de se atualizar, compartilhar conhecimento e aprimorar nossas habilidades! <img alt="🚀" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f680.svg" title=":rocket:"><img alt="🚀" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f680.svg" title=":rocket:"></p>
 <!-- more -->
 
-<h3 id="o-que-e-python"><strong>O que é Python?</strong><a class="headerlink" href="#o-que-e-python" title="Permanent link">⚓︎</a></h3>
-<p>Python é uma linguagem de programação de alto nível, conhecida por sua simplicidade e versatilidade. Criada em 1991 por Guido van Rossum, ela é amplamente utilizada em diversas áreas, como desenvolvimento web, ciência de dados, inteligência artificial e automação.</p>
-<p>No contexto do Microsoft Power Automate, Python pode ser utilizado para criar scripts personalizados que ampliam as capacidades dos fluxos de automação. Com Python, é possível desenvolver automações avançadas, como:</p>
+<h2 id="estrutura-geral-dos-repositorios-que-sustentam-os-sites-estaticos">Estrutura geral dos repositórios que sustentam os sites estáticos:<a class="headerlink" href="#estrutura-geral-dos-repositorios-que-sustentam-os-sites-estaticos" title="Permanent link">⚓︎</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>- .github
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a> - workflows
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>- docs
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a> - assets
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a> - blog
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>  - posts
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>   - .authors.yml
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>   - index.md
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>- pasta menu principal
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>- pasta menu principal
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>- overrides
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>- sources
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>- venv
+</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>
+</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a> - .gitignore
+</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>
+</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a> - abbreviations.md
+</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>
+</span><span id="__span-0-31"><a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a> - CHANGELOG.md
+</span><span id="__span-0-32"><a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a>
+</span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a> - mkdocs.yml
+</span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>
+</span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a> - README.md
+</span><span id="__span-0-36"><a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a>
+</span><span id="__span-0-37"><a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a> - requirements.txt
+</span></code></pre></div>
+<h2 id="1-github-e-git-bash-cli">1. Github e Git Bash (CLI)<a class="headerlink" href="#1-github-e-git-bash-cli" title="Permanent link">⚓︎</a></h2>
+<p><strong>1.1.</strong> Fazer conta no <a href="https://github.com/">Github</a> e confirmar conta no email</p>
+<p><strong>1.2.</strong> Definir perfil de acesso nos repositórios</p>
+<p><strong>1.3.</strong> Baixar <a href="https://git-scm.com/downloads">Git Bash</a></p>
+<p><strong>1.4.</strong> Configurar Git Bash</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.name<span class="w"> </span><span class="s2">"andrelamor"</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.email<span class="w"> </span><span class="s2">"andre.amorim@planejamento.mg.gov.br"</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>git<span class="w"> </span>config<span class="w"> </span>--list<span class="w"> </span><span class="c1"># lista as configuracoes atuais</span>
+</span></code></pre></div>
 <ul>
-<li>Manipulação de dados complexos diretamente nos fluxos;</li>
-<li>Integração com APIs externas para acessar ou enviar informações;</li>
-<li>Automatização de tarefas que exigem lógica personalizada ou manipulação de arquivos;</li>
-<li>Criação de scripts que interagem com outras ferramentas ou sistemas que não possuem conectores nativos no Power Automate.</li>
+<li><a href="https://swcarpentry.github.io/git-novice/02-setup.html">Referência</a></li>
 </ul>
-<p>Com sua flexibilidade ele se torna uma excelente opção para quem busca automações mais robustas e/ou personalizadas.</p>
-<h3 id="download-do-instalador-do-python"><strong>Download do Instalador do Python</strong><a class="headerlink" href="#download-do-instalador-do-python" title="Permanent link">⚓︎</a></h3>
-<p>Clique <a href="https://www.python.org/downloads/">aqui</a> para acessar ao site e fazer o download do instalador. Quando a página estiver aberta, clique em Downloads &gt; Python (número da versão), conforme print abaixo: </p>
-<p><img alt="Imagem Download Site Python" src="https://github.com/user-attachments/assets/d45dd156-dba9-4f9c-9736-9a4c500ddff1"></p>
-<p><strong>Observação:</strong> na elaboração deste manual, o número da versão mais recente disponível do Python é a 3.13.1. Sendo assim, pode ser que quando você esteja utilizando este manual de instalação exista outra versão mais recente, divergindo do exemplo da imagem acima.</p>
-<h3 id="instalacao-do-python"><strong>Instalação do Python</strong><a class="headerlink" href="#instalacao-do-python" title="Permanent link">⚓︎</a></h3>
-<p><strong>I.</strong> Finalizado o download do instalador, clique com o botão direito no mesmo e selecione <code>Executar como administrador</code></p>
-<p><img alt="Executar como adm" src="https://github.com/user-attachments/assets/ad8c833c-03d9-470c-812f-aec76b563ebe"></p>
-<p><strong>II.</strong> Logo após, aparecerá a caixa abaixo, onde você deverá clicar <code>Sim</code></p>
-<p><img alt="3" src="https://github.com/user-attachments/assets/45580947-1052-4da2-9ef6-fc32f32250de"></p>
-<p><strong>III.</strong> Selecione as caixas <code>Use admin privileges when installing py.exe</code> e <code>Add python.exe to PATH</code> e em seguida, clique em <code>Customize installation</code> </p>
-<p><img alt="4" src="https://github.com/user-attachments/assets/e926daa8-322d-4228-8fd9-ac2356887810"></p>
-<p><strong>IV.</strong> Selecione todas as caixas desta página e em seguida, clique em <code>Next</code> </p>
-<p><img alt="5" src="https://github.com/user-attachments/assets/266a9769-39ef-4b23-a8ba-952f209ac120"></p>
-<p><strong>V.</strong> Selecione as caixas <code>Associate files with Python (requires the 'py' laucher)</code>, <code>Create shortcuts for installed applications</code> e <code>Add Python to environment variables</code> desta página e em seguida, clique em <code>Browse</code> </p>
-<p><img alt="6" src="https://github.com/user-attachments/assets/c13108bf-aded-4009-bea9-f0e7a96246f6"></p>
-<p><strong>VI.</strong> Em seguida, abrirá a caixa abaixo, onde você deverá clicar em <code>Criar Nova Pasta</code> dentro de <code>C:</code></p>
-<p><img alt="7" src="https://github.com/user-attachments/assets/fd40370d-2561-4317-81e7-23676c609cef"></p>
-<p><strong>VII.</strong> Renomeie a <code>Nova Pasta</code> para <code>Python</code> (diretamente no ícone na pasta, conforme destacado na imagem abaixo) e clique em <code>OK</code></p>
-<p><img alt="8" src="https://github.com/user-attachments/assets/51ebb6e5-6420-4a13-82b5-ab8230a3ca32"></p>
-<p><strong>VIII.</strong> Confira se o local de instalação está conforme nosso exemplo abaixo e clique em <code>Install</code></p>
-<p><img alt="9" src="https://github.com/user-attachments/assets/1cf2d902-4b48-4635-be7a-7c09a213078c"></p>
-<p><strong>IX.</strong> Aguarde a instalação terminar</p>
-<p><img alt="10" src="https://github.com/user-attachments/assets/1abfe485-5a00-4412-8ed5-ac9b8e5c3184"></p>
-<p><strong>X.</strong> Clique em <code>Disable path lenght limit</code></p>
-<p><img alt="11" src="https://github.com/user-attachments/assets/e387bdbb-dfce-4ea8-8205-ad818c1195da"></p>
-<p><strong>XI.</strong> Clique em <code>Close</code></p>
-<p><img alt="12" src="https://github.com/user-attachments/assets/de1b0bbb-af5e-4817-99f9-090dfa3a37e8"></p>
-<h3 id="confirmacao-da-instalacao"><strong>Confirmação da Instalação</strong><a class="headerlink" href="#confirmacao-da-instalacao" title="Permanent link">⚓︎</a></h3>
-<p>Neste tópico, temos o passo a passo para verificar se a instalação foi realizada com sucesso.</p>
-<p><strong>I.</strong> Digite <code>cmd</code> na barra de pesquisa do Windows e abra o <code>Prompt de Comando</code> </p>
-<p><img alt="13" src="https://github.com/user-attachments/assets/d8b23ca1-2df4-47e3-a572-385ba4d2e92a"></p>
-<p><strong>II.</strong> Digite <code>python --version</code> e aperte a tecla enter</p>
-<p><img alt="14" src="https://github.com/user-attachments/assets/90c310e4-72fe-44b6-9e32-50e634d83ed3"></p>
-<p>Caso retorne a mensagem <strong>Python + número da versão instalada</strong> (conforme já informado, no momento da criação deste passo a passo a versão é a 3.13.1), a instalação foi realizada com sucesso! 🚀🚀</p></div>
+<p><strong>1.5.</strong> Arquivos e diretórios</p>
+<ul>
+<li>
+<p>Referências: </p>
+</li>
+<li>
+<p><a href="https://swcarpentry.github.io/shell-novice/02-filedir.html">Navegando por arquivos e diretórios</a></p>
+</li>
+<li>
+<p><a href="https://swcarpentry.github.io/shell-novice/03-create.html">trabalhando com arquivos e diretórios</a></p>
+</li>
+</ul>
+<p><strong>1.6.</strong> Trabalhando com arquivos e repositórios</p>
+<ul>
+<li>Fluxo de trabalho</li>
+</ul>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="w">  </span>git<span class="w"> </span>clone<span class="w"> </span>&lt;url&gt;<span class="w"> </span><span class="c1"># importar repositório</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">  </span>git<span class="w"> </span>pull<span class="w"> </span><span class="c1"># importar últimas mudanças do ORIGIN MAIN </span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">  </span>git<span class="w"> </span>status<span class="w"> </span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">  </span>git<span class="w"> </span>add<span class="w"> </span>&lt;files&gt;<span class="w"> </span><span class="c1"># levar arquivos alterados para STAGING AREA</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">  </span>git<span class="w"> </span>diff<span class="w"> </span><span class="c1"># verificar alterações nos arquivos</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">  </span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"&lt;message&gt;"</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">  </span>git<span class="w"> </span>status<span class="w"> </span><span class="c1"># estado do repositório</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">  </span>git<span class="w"> </span>log
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">  </span>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>main
+</span></code></pre></div>
+<ul>
+<li>Inicializar repositório</li>
+</ul>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="w">  </span>git<span class="w"> </span>init
+</span></code></pre></div>
+<ul>
+<li>
+<p><strong>Pontos importantes</strong></p>
+</li>
+<li>
+<p>recorrer às instruções de <em>Setup</em> contidos nos arquivos de <strong>README.md</strong>: <a href="https://github.com/automatiza-mg/automatizacoes/blob/main/README.md">automatizacoes</a> e <a href="https://github.com/automatiza-mg/handbook/blob/main/README.md">handbook</a></p>
+</li>
+<li>
+<p><strong>Referências:</strong> </p>
+</li>
+<li>
+<p><a href="https://swcarpentry.github.io/git-novice/03-create.html">Software Carpentry</a></p>
+</li>
+<li>
+<p><a href="https://res.cloudinary.com/practicaldev/image/fetch/s--Zib71Fgv--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n082uxea33j6zq3mca7u.png">Principais comandos do Git</a></p>
+</li>
+<li>
+<p><a href="https://automatiza-mg.github.io/handbook/blog/listando-os-principais-comandos-utilizados-na-git-bash/">Listando os principais comandos utilizados na Git Bash</a></p>
+</li>
+<li>
+<p><a href="https://automatiza-mg.github.io/handbook/blog/como-modificar-um-commit-simple-git/">Como modificar um commit</a></p>
+</li>
+<li>
+<p><a href="https://automatiza-mg.github.io/handbook/blog/criando-novos-reposit%C3%B3rios-github/">Criando novos repositórios GitHub</a></p>
+</li>
+</ul>
+<h2 id="2-instalar-e-configurar-python">2. Instalar e configurar <em>Python</em><a class="headerlink" href="#2-instalar-e-configurar-python" title="Permanent link">⚓︎</a></h2>
+<p>Seguir os passos indicados <a href="https://automatiza-mg.github.io/handbook/blog/passo-a-passo-para-instala%C3%A7%C3%A3o-do-python-no-computador/#confirmacao-da-instalacao">neste post</a>.</p>
+<p>Após inserção das pastas do <em>Python</em> no PATH como variável de ambiente (WINDOWS), verificar se o terminal BASH (CLI) também o identifica, como o CMD do Windows:  </p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>$<span class="w"> </span>python<span class="w"> </span>--version
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>Python<span class="w"> </span><span class="m">3</span>.13.1
+</span></code></pre></div>
+<h2 id="3-instalar-e-congigurar-ferramentas-de-interface-grafica-gui">3. Instalar e congigurar ferramentas de interface gráfica (GUI)<a class="headerlink" href="#3-instalar-e-congigurar-ferramentas-de-interface-grafica-gui" title="Permanent link">⚓︎</a></h2>
+<ol>
+<li>
+<p>Editor de texto: <a href="https://www.sublimetext.com/">Sublime Text</a></p>
+</li>
+<li>
+<p>Modificar editor de texto padrão, de Vim para Sublime Text</p>
+</li>
+<li>
+<p><code>$ git config --global core.editor "'c:/program files/sublime text 3/sublime_text.exe' -w"</code></p>
+</li>
+<li>
+<p>Ferramenta GUI para o gihub: <a href="https://www.sublimemerge.com/download">Sublime Merge</a></p>
+</li>
+<li>
+<p>Verificar se as pastas dos sowtwares acima estão no PATH das variáveis de ambiente </p>
+</li>
+</ol>
+<h2 id="4-ambiente-virtual-e-gerenciamento-de-dependencias-requirements">4. Ambiente virtual e gerenciamento de dependências (<em>requirements</em>)<a class="headerlink" href="#4-ambiente-virtual-e-gerenciamento-de-dependencias-requirements" title="Permanent link">⚓︎</a></h2>
+<p>Para utilizar ferramentas de site estático, precisamos simular localmente as alterações, antes de enviá-las para o reositório ORIGIN do Github. Para isso, instalamos pacotes usando ambiente virtual do Python, via linha de comnado (Git bash).</p>
+<p>Os arquivos <code>requirements.txt</code> <a href="https://github.com/automatiza-mg/handbook/blob/main/requirements.txt">exemplo</a> em cada repositório contém essas dependências a serem instaladas.</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1"># grep para filtrar resultado de uma busca</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>$<span class="w"> </span>ls<span class="w"> </span>-la<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>handbook
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="c1"># criação ambiente virtual python - apenas uma vez por repositório</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="c1"># windowns, linux e emac</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>$<span class="w"> </span>python<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>venv
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="c1"># ativação ambiente nowindows</span>
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>$<span class="w"> </span><span class="nb">source</span><span class="w"> </span>venv/Scripts/activate
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="c1"># ativação ambiente nolinux e mac</span>
+</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>$<span class="w"> </span><span class="nb">source</span><span class="w"> </span>venv/bin/activate
+</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>
+</span><span id="__span-5-13"><a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a><span class="c1"># instalação pacotes - apenas uma vez, ou sempre que novo</span>
+</span><span id="__span-5-14"><a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a><span class="c1"># pacote for acrescentado no arquivo requirements.txt</span>
+</span><span id="__span-5-15"><a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</span><span id="__span-5-16"><a id="__codelineno-5-16" name="__codelineno-5-16" href="#__codelineno-5-16"></a>
+</span><span id="__span-5-17"><a id="__codelineno-5-17" name="__codelineno-5-17" href="#__codelineno-5-17"></a><span class="c1"># veririfcar pacotes instalados</span>
+</span><span id="__span-5-18"><a id="__codelineno-5-18" name="__codelineno-5-18" href="#__codelineno-5-18"></a>$<span class="w"> </span>pip<span class="w"> </span>list
+</span><span id="__span-5-19"><a id="__codelineno-5-19" name="__codelineno-5-19" href="#__codelineno-5-19"></a>
+</span><span id="__span-5-20"><a id="__codelineno-5-20" name="__codelineno-5-20" href="#__codelineno-5-20"></a><span class="c1"># desativar o ambiente (venv)</span>
+</span><span id="__span-5-21"><a id="__codelineno-5-21" name="__codelineno-5-21" href="#__codelineno-5-21"></a>$<span class="w"> </span>deactivate
+</span></code></pre></div>
+<ul>
+<li>
+<p><strong>Pontos importantes</strong></p>
+</li>
+<li>
+<p>conferir a marcação entre parêntesis (venv)</p>
+</li>
+<li>navegar pelas pastas e verificar <code>pip list</code> com e sem o ambiente virtual</li>
+</ul>
+<p><strong>- Referências:</strong> </p>
+<ul>
+<li>
+<p><a href="https://automatiza-mg.github.io/handbook/blog/webnar-automatizamg-7/">Webnar Automatiza.MG #7</a> </p>
+</li>
+<li>
+<p><a href="https://automatiza-mg.github.io/handbook/blog/webnar-automatizamg-8/">Webnar Automatiza.MG #8</a></p>
+</li>
+</ul>
+<h2 id="5-criar-e-editar-posts-no-blog-e-novas-secoes-nos-sites-mkdocs">5. Criar e editar posts no blog e novas seções nos sites (<em>Mkdocs</em>)<a class="headerlink" href="#5-criar-e-editar-posts-no-blog-e-novas-secoes-nos-sites-mkdocs" title="Permanent link">⚓︎</a></h2>
+<p>Após instalar os pacotes necessários, o próximo passo, após ativar o servidor local (<em>venv</em>) é projetar o site localmente através do pacote <em>MKDocs</em>:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="c1"># ativação ambiente no windows</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>$<span class="w"> </span><span class="nb">source</span><span class="w"> </span>venv/Scripts/activate
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="c1"># ativação ambiente no linux e mac</span>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>$<span class="w"> </span><span class="nb">source</span><span class="w"> </span>venv/bin/activate
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="c1"># ligar servidor local mkdocs</span>
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>$<span class="w"> </span>mkdocs<span class="w"> </span>serve
+</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>
+</span><span id="__span-6-9"><a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a><span class="c1"># construir documentação (quando arquivo novo for adicionado no mkdocs.yml)</span>
+</span><span id="__span-6-10"><a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>$<span class="w"> </span>mkdocs<span class="w"> </span>build
+</span></code></pre></div>
+<p>Caso haja algum conteúdo novo em aba do site que não seja a do <em>Blog</em>, será necessário adicionar a respectiva referência no arquivo <a href="https://github.com/automatiza-mg/handbook/blob/main/mkdocs.yml"><em>mkdocs.yml</em></a>, e construir a documentação no MKDocs, antes de projetá-la localmente:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="c1"># construir documentação (quando arquivo novo for adicionado no mkdocs.yml)</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>$<span class="w"> </span>mkdocs<span class="w"> </span>build
+</span></code></pre></div>
+<p><strong>- Referências:</strong> </p>
+<ul>
+<li>
+<p><a href="https://automatiza-mg.github.io/handbook/blog/webnar-automatizamg-7/">Webnar Automatiza.MG #7</a> </p>
+</li>
+<li>
+<p><a href="https://automatiza-mg.github.io/handbook/blog/criando-nova-sess%C3%A3o-mkdocs-simple-materialformkdocs/">Criando nova sessão de submenu no site</a></p>
+</li>
+<li>
+<p><a href="https://automatiza-mg.github.io/handbook/blog/como-editar-t%C3%ADtulos-dos-posts-no-mkdocs/">Como editar títulos dos posts no MKDocs</a></p>
+</li>
+</ul>
+<h2 id="6-criar-e-editar-fluxogramas-mermaid">6. Criar e editar fluxogramas (Mermaid)<a class="headerlink" href="#6-criar-e-editar-fluxogramas-mermaid" title="Permanent link">⚓︎</a></h2>
+<ul>
+<li>O fluxo ilustrando a sequência de ações no github: 
+<div class="mermaid">graph TD;
+    1((Início))--&gt;2;
+    2{git iniciado no projeto?}
+    2 --&gt; |não| 3[git init]
+    3 --&gt; 11[Cria repositório Github]
+    11 --&gt; 12[git remote add &lt;nome_remote&gt; &lt;endereço_remote&gt;]
+    12 --&gt; 4
+    2 --&gt; |sim| 4[git status]
+    4 --&gt; 5{Commitar na branch main?}
+    5 --&gt; |sim| 6[git add &lt;file_name&gt;]
+    6 --&gt; 7[git commit -m &lt;commit_message_entre_aspas&gt;]
+    7 --&gt; 5
+    5 --&gt; |não| 8{Criar nova branch?}
+    8 --&gt; |sim| 9[git pull origin main]
+    8 --&gt; |não| 16((Fim))
+    9 --&gt; 10[git checkout -b &lt;nova_branch_nome&gt;]
+    10 --&gt; 13{Commitar?}
+    13 --&gt; |sim| 14[git add &lt;file_name&gt;]
+    14 --&gt; 15[git commit -m &lt;commit_message_entre_aspas&gt;]
+    13 --&gt; |não| 17{Abrir PR Github?}
+    15 --&gt; 13
+    17 --&gt; |sim| 18[git push &lt;nome_remote&gt; &lt;nova_branch_nome&gt;]
+    17 --&gt; |não| 16
+    18 --&gt; 20[Abrir/aprovar PR Github]
+    20 --&gt; 21[git checkout main]
+    21 --&gt; 22[git pull origin main]
+    22 --&gt; 23{Deletar &lt;nova_branch_nome&gt; já mergiada?}
+    23 --&gt; |sim| 24[git branch -d &lt;nova_branch_nome&gt;]
+    23 --&gt; |não| 5
+    24 --&gt; 5</div></li>
+</ul>
+<p><strong>- Referências:</strong> </p>
+<ul>
+<li>
+<p><a href="https://automatiza-mg.github.io/handbook/blog/webnar-automatizamg-8/">Webnar Automatiza.MG #9</a></p>
+</li>
+<li>
+<p><a href="https://mermaid.js.org/syntax/flowchart.html">Documentação Sintaxe Fluxos Mermaid</a></p>
+</li>
+</ul>
+<h2 id="referencias-gerais">Referências Gerais<a class="headerlink" href="#referencias-gerais" title="Permanent link">⚓︎</a></h2>
+<h2 id="-documentacao-material-mkdocs">- <a href="https://squidfunk.github.io/mkdocs-material/">Documentação Material Mkdocs</a><a class="headerlink" href="#-documentacao-material-mkdocs" title="Permanent link">⚓︎</a></h2></div>
 
 
 
@@ -1460,7 +1695,7 @@
     <span class="md-icon" title="Última atualização">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 20, 2025 13:49:09</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">February 12, 2025 15:58:13</span>
   </span>
 
     
@@ -1470,7 +1705,7 @@
     <span class="md-icon" title="Criada">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 20, 2025 13:49:09</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">February 6, 2025 20:02:58</span>
   </span>
 
     
@@ -1557,7 +1792,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
         
           
-          <a href="../webnar-automatizamg-12/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Webnar Automatiza.MG #12">
+          <a href="../passo-a-passo-para-instala%C3%A7%C3%A3o-do-python-no-computador/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Passo a passo para instalação do Python no computador">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1567,27 +1802,11 @@
                 Anterior
               </span>
               <div class="md-ellipsis">
-                Webnar Automatiza.MG #12
+                Passo a passo para instalação do Python no computador
               </div>
             </div>
           </a>
         
-        
-          
-          <a href="../configura%C3%A7%C3%B5es-para-criar-posts-e-atualizar-os-sites-do-automatizamg/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Configurações para criar posts e atualizar os sites do AutomatizaMG">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Próximo
-              </span>
-              <div class="md-ellipsis">
-                Configurações para criar posts e atualizar os sites do AutomatizaMG
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-            </div>
-          </a>
         
       </nav>
     
