@@ -77,7 +77,9 @@ Selecione a opção para criação de um token clássico:
 
 E inclua as configurações necessárias para o novo token:
 
-![image](https://github.com/automatiza-mg/handbook/assets/49699290/364b7be6-d2b6-43e5-aaba-e8afb6de9c8b)
+![image](https://github.com/user-attachments/assets/7a242431-2932-47b8-8274-3c113bf6e489)
+
+
 
 Como padrão:
 
