@@ -6,7 +6,7 @@ categories:
   - Webnar Automatiza.MG
 ---
 
-# Webnar Automatiza.MG #13
+# Webinar Automatiza.MG #13
 
 Aqui na equipe Automatiza.MG Sexta-feira é dia de conhecimento!
 Dia de Webnar Automatiza.MG.
