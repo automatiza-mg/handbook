@@ -19,7 +19,7 @@ Não perca essa oportunidade de contribuir para o crescimento de nossa equipe, s
 
 No encontro do dia 13/06/2025 apresentamos a ferramenta Copilot Studio, bem como aplicações práticas. 
 
-![type:video](https://youtu.be/_c9_imQ0kCQ?si=Rditj1Y3W4-OHe5z)
+![type:video](https://www.youtube.com/embed/_c9_imQ0kCQ)
 
 ## Conteúdo
 
