@@ -7,10 +7,10 @@ categories:
   - Webnar Automatiza.MG
 ---
 
-# Webnar Automatiza.MG #9
+# Webinar Automatiza.MG #9
 
 Aqui na equipe Automatiza.MG Sexta-feira é dia de conhecimento!
-Dia de Webnar Automatiza.MG.
+Dia de Webinar Automatiza.MG.
 Nesses encontros, mergulhamos no universo da tecnologia, desvendando os segredos de ferramentas como Git, GitHub, Python, Power Automate e muito mais.
 É a nossa chance de se atualizar, compartilhar conhecimento e aprimorar nossas habilidades! :rocket::rocket:
 
