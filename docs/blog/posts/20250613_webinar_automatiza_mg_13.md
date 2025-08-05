@@ -3,7 +3,7 @@ date: 2025-06-13
 authors: [brenomarques11]
 comments: true
 categories:
-  - Webnar Automatiza.MG
+  - Webinar Automatiza.MG
 ---
 
 # Webinar Automatiza.MG #13

@@ -3,7 +3,7 @@ date: 2024-06-21
 authors: [gabrielbdornas]
 comments: true
 categories:
-  - Webnar Automatiza.MG
+  - Webinar Automatiza.MG
 ---
 
 # Webinar Automatiza.MG #5
