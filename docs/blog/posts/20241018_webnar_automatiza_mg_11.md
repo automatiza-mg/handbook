@@ -4,7 +4,7 @@ authors: [andrelamor]
 draft: false
 comments: true
 categories:
-  - Webnar Automatiza.MG
+  - Webinar Automatiza.MG
 ---
 
 # Webinar Automatiza.MG #11

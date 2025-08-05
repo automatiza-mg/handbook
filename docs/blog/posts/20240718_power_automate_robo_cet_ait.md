@@ -4,7 +4,7 @@ authors: [felpsop]
 draft: true 
 comments: true
 categories:
-  - Webnar Automatiza.MG
+  - Webinar Automatiza.MG
 ---
 
 # Execução de Robô para inserção dos autos de infração de trânsito

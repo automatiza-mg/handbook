@@ -3,7 +3,7 @@ date: 2024-06-20
 authors: [henriquesiqr]
 comments: true
 categories:
-  - Webnar Automatiza.MG
+  - Webinar Automatiza.MG
 ---
 
 # Webinar Automatiza.MG #4
